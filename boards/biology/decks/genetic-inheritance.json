@@ -1,0 +1,48 @@
+{
+ "topic": "genetic-inheritance",
+ "name": "Genetic inheritance, inherited disorders and sex determination",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Allele",
+   "definition": "A different form of the same gene.",
+   "examiner": "Some characteristics are controlled by one gene; most by several."
+  },
+  {
+   "term": "Dominant",
+   "definition": "An allele that is always expressed, even if only one copy is present.",
+   "examiner": "Shown with a capital letter."
+  },
+  {
+   "term": "Recessive",
+   "definition": "An allele that is only expressed if two copies are present.",
+   "examiner": "Shown with a lower case letter."
+  },
+  {
+   "term": "Homozygous",
+   "definition": "Having two identical alleles of a gene.",
+   "examiner": "Heterozygous: two different alleles."
+  },
+  {
+   "term": "Genotype",
+   "definition": "The alleles an organism has, such as Bb.",
+   "examiner": "Phenotype is the characteristic shown, such as brown eyes."
+  },
+  {
+   "term": "Polydactyly",
+   "definition": "Having extra fingers or toes; caused by a dominant allele.",
+   "examiner": "One parent with the allele can pass it on."
+  },
+  {
+   "term": "Cystic fibrosis",
+   "definition": "A disorder of cell membranes caused by a recessive allele.",
+   "examiner": "Both parents must carry the allele for a child to have it."
+  },
+  {
+   "term": "Sex chromosomes",
+   "definition": "One of the 23 pairs: females are XX, males are XY.",
+   "examiner": "A Punnett square shows a 50% chance of each sex."
+  }
+ ]
+}

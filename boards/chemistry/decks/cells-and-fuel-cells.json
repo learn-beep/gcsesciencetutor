@@ -1,0 +1,33 @@
+{
+ "topic": "cells-and-fuel-cells",
+ "name": "Chemical cells and fuel cells",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Cell",
+   "definition": "Contains chemicals that react to produce electricity; the voltage depends on the electrodes and the electrolyte.",
+   "examiner": "Separate Chemistry. The bigger the difference in reactivity, the bigger the voltage."
+  },
+  {
+   "term": "Battery",
+   "definition": "Two or more cells connected in series to give a greater voltage.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Non-rechargeable cell",
+   "definition": "Stops producing electricity when a reactant is used up, as in an alkaline battery.",
+   "examiner": "Separate Chemistry. Rechargeable cells reverse the reaction when an external current is supplied."
+  },
+  {
+   "term": "Fuel cell",
+   "definition": "A cell supplied with a fuel and oxygen (from air) that oxidises the fuel electrochemically to produce a potential difference.",
+   "examiner": "Separate Chemistry. Hydrogen fuel cells only produce water."
+  },
+  {
+   "term": "Hydrogen fuel cell half equations",
+   "definition": "At the anode H₂ → 2H⁺ + 2e⁻; at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O.",
+   "examiner": "Separate Chemistry, higher tier."
+  }
+ ]
+}

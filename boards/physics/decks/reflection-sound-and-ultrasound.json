@@ -1,0 +1,33 @@
+{
+ "topic": "reflection-sound-and-ultrasound",
+ "name": "Reflection, sound, ultrasound and seismic waves",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Reflection",
+   "definition": "Waves bounce off a boundary; angle of incidence equals angle of reflection.",
+   "examiner": "Separate Physics. Waves may also be absorbed or transmitted."
+  },
+  {
+   "term": "Sound waves",
+   "definition": "Longitudinal waves that travel through solids, liquids and gases; the human range is about 20 Hz to 20 kHz.",
+   "examiner": "Separate Physics. Sound cannot travel through a vacuum."
+  },
+  {
+   "term": "Ultrasound",
+   "definition": "Sound with a frequency higher than humans can hear (above 20 kHz); partially reflected at boundaries between materials.",
+   "examiner": "Separate Physics. Used for medical and industrial imaging."
+  },
+  {
+   "term": "Seismic waves",
+   "definition": "Earthquake waves: P-waves are longitudinal and travel through solids and liquids; S-waves are transverse and cannot pass through liquids.",
+   "examiner": "Separate Physics. They are evidence for the Earth's liquid outer core."
+  },
+  {
+   "term": "Echo sounding",
+   "definition": "Using pulses of high-frequency sound to find the depth of water.",
+   "examiner": "Separate Physics. Halve the time for the one-way distance."
+  }
+ ]
+}

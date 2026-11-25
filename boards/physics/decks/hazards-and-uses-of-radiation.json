@@ -1,0 +1,28 @@
+{
+ "topic": "hazards-and-uses-of-radiation",
+ "name": "Background radiation, hazards and uses",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Background radiation",
+   "definition": "Radiation around us all the time from natural sources (rocks, cosmic rays) and man-made sources (fallout, nuclear accidents).",
+   "examiner": "Separate Physics. Subtract it from count rates."
+  },
+  {
+   "term": "Radiation dose",
+   "definition": "Measured in sieverts (Sv); how much harm the radiation could do.",
+   "examiner": "Separate Physics. 1000 millisieverts = 1 sievert."
+  },
+  {
+   "term": "Medical tracer",
+   "definition": "A short half-life gamma emitter put into the body to show how an organ works.",
+   "examiner": "Separate Physics. Short half-life so it does not stay active in the body."
+  },
+  {
+   "term": "Radiotherapy",
+   "definition": "Using radiation to destroy unwanted tissue such as cancer cells.",
+   "examiner": "Separate Physics. The dose must target the tumour and limit damage to healthy cells."
+  }
+ ]
+}

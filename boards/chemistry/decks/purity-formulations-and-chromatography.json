@@ -1,0 +1,38 @@
+{
+ "topic": "purity-formulations-and-chromatography",
+ "name": "Pure substances, formulations and chromatography",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Pure substance",
+   "definition": "In chemistry, a single element or compound, not mixed with any other substance.",
+   "examiner": "In everyday language \"pure\" means nothing added."
+  },
+  {
+   "term": "Melting point and purity",
+   "definition": "Pure substances melt and boil at specific temperatures; impure ones over a range.",
+   "examiner": "Use melting point data to judge purity."
+  },
+  {
+   "term": "Formulation",
+   "definition": "A mixture designed as a useful product, with components in measured quantities, such as fuels, paints, medicines and fertilisers.",
+   "examiner": "Each component has a purpose."
+  },
+  {
+   "term": "Chromatography",
+   "definition": "Separates substances in a mixture by how they distribute between a stationary phase (paper) and a mobile phase (solvent).",
+   "examiner": "Required practical. Draw the start line in pencil."
+  },
+  {
+   "term": "Rf value",
+   "definition": "Distance moved by the substance ÷ distance moved by the solvent.",
+   "examiner": "Always less than 1. Compare with known substances."
+  },
+  {
+   "term": "Pure in chromatography",
+   "definition": "A pure compound produces a single spot in all solvents.",
+   "examiner": "Different compounds have different Rf values."
+  }
+ ]
+}

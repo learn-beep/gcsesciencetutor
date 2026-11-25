@@ -1,0 +1,28 @@
+{
+ "topic": "monoclonal-antibodies",
+ "name": "Monoclonal antibodies",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Monoclonal antibodies",
+   "definition": "Identical antibodies made from a single clone of cells, specific to one binding site on one protein antigen.",
+   "examiner": "Separate Biology only, higher tier for how they are produced."
+  },
+  {
+   "term": "Hybridoma cell",
+   "definition": "A cell made by fusing a mouse lymphocyte with a tumour cell: it makes one type of antibody and divides rapidly.",
+   "examiner": "The lymphocyte makes the antibody; the tumour cell divides."
+  },
+  {
+   "term": "Antigen",
+   "definition": "A protein on the surface of a cell or pathogen that a specific antibody binds to.",
+   "examiner": "The antibody binds only to its complementary antigen."
+  },
+  {
+   "term": "Uses of monoclonal antibodies",
+   "definition": "Pregnancy tests, measuring hormones and chemicals in blood, research to locate molecules in cells, and treating some cancers by carrying a drug to cancer cells.",
+   "examiner": "They cause more side effects than first expected."
+  }
+ ]
+}

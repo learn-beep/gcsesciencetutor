@@ -1,0 +1,23 @@
+{
+ "topic": "fission-and-fusion",
+ "name": "Nuclear fission and fusion",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Nuclear fission",
+   "definition": "A large unstable nucleus (uranium or plutonium) absorbs a neutron and splits into two smaller nuclei, releasing two or three neutrons, gamma rays and energy.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Chain reaction",
+   "definition": "The neutrons released go on to cause further fissions.",
+   "examiner": "Separate Physics. Control rods absorb neutrons to control it."
+  },
+  {
+   "term": "Nuclear fusion",
+   "definition": "Two light nuclei join to form a heavier nucleus; some mass is converted to energy.",
+   "examiner": "Separate Physics. Fusion powers stars."
+  }
+ ]
+}

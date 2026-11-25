@@ -1,0 +1,23 @@
+{
+ "topic": "series-and-parallel-circuits",
+ "name": "Series and parallel circuits",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Series circuit",
+   "definition": "Components in a single loop: the current is the same through each, the total p.d. is shared, and total resistance is the sum.",
+   "examiner": "R total = R₁ + R₂."
+  },
+  {
+   "term": "Parallel circuit",
+   "definition": "Components on separate branches: the p.d. across each branch is the same, and the total current is the sum of the branch currents.",
+   "examiner": "Adding a resistor in parallel reduces the total resistance."
+  },
+  {
+   "term": "Why parallel lowers resistance",
+   "definition": "Adding another branch gives the charge another path, so more current flows for the same p.d.",
+   "examiner": "Total resistance is less than the smallest resistor."
+  }
+ ]
+}

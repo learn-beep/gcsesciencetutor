@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { decks } from '../../lib/decks';
+import { allTopics } from '../../lib/data';
+import { S } from '../../lib/subject';
+const order = new Map(allTopics.map((t, i) => [t.slug, i]));
+const sorted = [...decks].sort((a, b) => order.get(a.topic) - order.get(b.topic));
+const n = decks.reduce((k, d) => k + d.terms.length, 0);
+---
+<Base title={`AQA GCSE ${S} flashcards: key terms and definitions by topic`} description={`Free flashcards for AQA GCSE ${S} and Combined Science: ${n} key terms and definitions across every topic, with an exam tip on each, spaced repetition saved in your browser, and a define-it drill from real questions.`} context="flashcards" leadLine="Know the definitions but still dropping marks on the longer questions? That's what a tutor fixes.">
+  <h1>Flashcards</h1>
+  <p>{n} key terms and definitions across all {decks.length} topics, as flip cards with spaced repetition saved in your browser. Each card has an exam tip. Definitions are the quickest marks on the paper, and AQA's mark schemes look for the key words. Cards marked <em>Separate only</em> in their tip are not needed for Combined Science. The <a href="/practice/define/">define-it drill</a> uses the real definition questions from the papers.</p>
+  <p class="muted small-text">The cards were written by the site from the specification and are being checked by our tutor; <a href="/report/">tell us</a> if you spot an error.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Topic</th><th>Terms</th><th>Drill</th></tr></thead>
+    <tbody>{sorted.map((d) => <tr><td><a href={`/questions/${d.topic}/`}>{d.name}</a></td><td><a href={`/questions/${d.topic}/terms/`}>{d.terms.length} terms</a></td><td><a href="/practice/define/">Define it</a></td></tr>)}</tbody>
+  </table></div>
+  <h2>How to use them</h2>
+  <ul>
+    <li>Say the answer out loud before you flip. Then be honest with "Knew it" or "Didn't know it": the cards you miss come back every round, the ones you know come back less often.</li>
+    <li>Aim for the definition that would score full marks: the term's meaning in one precise sentence, using the key words on the card.</li>
+    <li>"Print all" on any deck gives you paper cards.</li>
+  </ul>
+</Base>

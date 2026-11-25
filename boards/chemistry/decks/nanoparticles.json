@@ -1,0 +1,28 @@
+{
+ "topic": "nanoparticles",
+ "name": "Nanoparticles",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Nanoparticle",
+   "definition": "A particle 1–100 nm across (a few hundred atoms).",
+   "examiner": "Separate Chemistry. 1 nm = 1 × 10⁻⁹ m."
+  },
+  {
+   "term": "Coarse particles",
+   "definition": "PM10: particles 2.5 × 10⁻⁶ m to 1 × 10⁻⁵ m across, such as dust.",
+   "examiner": "Separate Chemistry. Fine particles (PM2.5) are 100–2500 nm."
+  },
+  {
+   "term": "Surface area to volume ratio",
+   "definition": "As the side of a cube decreases by a factor of 10, its surface area to volume ratio increases by a factor of 10.",
+   "examiner": "Separate Chemistry. Nanoparticles have a high ratio, so smaller quantities are needed."
+  },
+  {
+   "term": "Uses of nanoparticles",
+   "definition": "Medicine (drug delivery), electronics, cosmetics and sun creams, deodorants, and catalysts.",
+   "examiner": "Possible risks: long-term effects on health are not yet known."
+  }
+ ]
+}

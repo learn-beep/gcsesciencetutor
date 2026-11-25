@@ -1,0 +1,38 @@
+{
+ "topic": "forces-and-resultant-forces",
+ "name": "Forces, weight and resultant forces",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Scalar",
+   "definition": "A quantity with magnitude only, such as speed, distance, mass or energy.",
+   "examiner": "Separate it from vectors in questions."
+  },
+  {
+   "term": "Vector",
+   "definition": "A quantity with magnitude and direction, such as velocity, displacement, force or acceleration.",
+   "examiner": "Shown as an arrow; the length represents the size."
+  },
+  {
+   "term": "Contact force",
+   "definition": "A force where the objects are touching, such as friction, air resistance, tension or normal contact force.",
+   "examiner": "Non-contact forces: gravity, electrostatic and magnetic."
+  },
+  {
+   "term": "Weight",
+   "definition": "The force acting on an object due to gravity: W = m g.",
+   "examiner": "Measured with a newtonmeter; mass is in kg, weight in N."
+  },
+  {
+   "term": "Centre of mass",
+   "definition": "The single point at which the weight of an object can be considered to act.",
+   "examiner": "For a symmetrical object it is at the centre."
+  },
+  {
+   "term": "Resultant force",
+   "definition": "A single force that has the same effect as all the forces acting together.",
+   "examiner": "Higher tier: resolve forces with a vector diagram."
+  }
+ ]
+}

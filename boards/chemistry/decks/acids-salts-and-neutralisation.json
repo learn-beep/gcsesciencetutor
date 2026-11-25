@@ -1,0 +1,38 @@
+{
+ "topic": "acids-salts-and-neutralisation",
+ "name": "Acids, bases, salts and neutralisation",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Acid",
+   "definition": "A substance that produces hydrogen ions (H⁺) in aqueous solution.",
+   "examiner": "pH below 7."
+  },
+  {
+   "term": "Alkali",
+   "definition": "A soluble base; produces hydroxide ions (OH⁻) in aqueous solution.",
+   "examiner": "pH above 7."
+  },
+  {
+   "term": "Base",
+   "definition": "A substance that neutralises an acid, such as a metal oxide or hydroxide.",
+   "examiner": "Alkalis are bases that dissolve in water."
+  },
+  {
+   "term": "Neutralisation",
+   "definition": "H⁺ + OH⁻ → H₂O: an acid reacts with a base to make a salt and water.",
+   "examiner": "Carbonates also give carbon dioxide."
+  },
+  {
+   "term": "Salt",
+   "definition": "A compound formed when the hydrogen in an acid is replaced by a metal.",
+   "examiner": "Hydrochloric acid → chlorides; sulfuric acid → sulfates; nitric acid → nitrates."
+  },
+  {
+   "term": "Crystallisation",
+   "definition": "Heating a solution to evaporate some water, then leaving it to cool so crystals form.",
+   "examiner": "Used to make a pure, dry soluble salt (required practical)."
+  }
+ ]
+}

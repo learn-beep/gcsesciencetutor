@@ -1,0 +1,28 @@
+{
+ "topic": "generators-and-transformers",
+ "name": "Induced potential, generators and transformers",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Generator effect",
+   "definition": "A potential difference is induced across a conductor when it moves relative to a magnetic field or when the field around it changes.",
+   "examiner": "Separate Physics, higher tier."
+  },
+  {
+   "term": "Alternator",
+   "definition": "A generator that produces alternating current, with slip rings.",
+   "examiner": "Separate Physics, higher tier. A dynamo uses a split-ring commutator for dc."
+  },
+  {
+   "term": "Microphone",
+   "definition": "Uses the generator effect: sound waves move a coil in a magnetic field, inducing a varying p.d.",
+   "examiner": "Separate Physics, higher tier."
+  },
+  {
+   "term": "Transformer",
+   "definition": "Two coils on an iron core: an ac in the primary coil makes a changing field that induces an ac in the secondary coil.",
+   "examiner": "Separate Physics, higher tier. Vₚ / Vₛ = nₚ / nₛ."
+  }
+ ]
+}

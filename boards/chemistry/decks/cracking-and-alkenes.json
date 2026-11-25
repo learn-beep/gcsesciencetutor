@@ -1,0 +1,28 @@
+{
+ "topic": "cracking-and-alkenes",
+ "name": "Cracking and alkenes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Cracking",
+   "definition": "Breaking large hydrocarbon molecules into smaller, more useful ones.",
+   "examiner": "Catalytic cracking uses a hot catalyst; steam cracking uses high temperature with steam."
+  },
+  {
+   "term": "Why crack",
+   "definition": "There is more demand for small, useful fuel molecules than crude oil supplies; cracking also makes alkenes for polymers.",
+   "examiner": "Supply and demand is the standard explanation."
+  },
+  {
+   "term": "Alkene",
+   "definition": "An unsaturated hydrocarbon with a C=C double bond; general formula CₙH₂ₙ.",
+   "examiner": "More reactive than alkanes."
+  },
+  {
+   "term": "Bromine water test",
+   "definition": "Orange bromine water turns colourless with an alkene but stays orange with an alkane.",
+   "examiner": "Say \"colourless\", not \"clear\"."
+  }
+ ]
+}

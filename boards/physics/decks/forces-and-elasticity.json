@@ -1,0 +1,28 @@
+{
+ "topic": "forces-and-elasticity",
+ "name": "Forces and elasticity",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Elastic deformation",
+   "definition": "The object returns to its original shape and length when the forces are removed.",
+   "examiner": "Inelastic deformation is permanent."
+  },
+  {
+   "term": "Extension",
+   "definition": "The increase in length of a spring from its original length.",
+   "examiner": "Measure extension, not total length."
+  },
+  {
+   "term": "Hooke's law",
+   "definition": "The extension of an elastic object is directly proportional to the force applied, provided the limit of proportionality is not exceeded: F = k e.",
+   "examiner": "k is the spring constant in N/m."
+  },
+  {
+   "term": "Limit of proportionality",
+   "definition": "The point beyond which extension is no longer proportional to force.",
+   "examiner": "The force–extension graph stops being straight."
+  }
+ ]
+}

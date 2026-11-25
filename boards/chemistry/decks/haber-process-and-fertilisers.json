@@ -1,0 +1,33 @@
+{
+ "topic": "haber-process-and-fertilisers",
+ "name": "The Haber process and NPK fertilisers",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Haber process",
+   "definition": "N₂ + 3H₂ ⇌ 2NH₃: makes ammonia from nitrogen (air) and hydrogen (natural gas).",
+   "examiner": "Separate Chemistry. Iron catalyst, about 450 °C, 200 atmospheres."
+  },
+  {
+   "term": "Compromise conditions",
+   "definition": "A lower temperature gives a higher yield but too slow a rate; a higher pressure gives a higher yield but costs more and is less safe.",
+   "examiner": "Separate Chemistry, higher tier."
+  },
+  {
+   "term": "Recycling unreacted gases",
+   "definition": "Unreacted nitrogen and hydrogen are recycled; ammonia is removed by cooling, as it liquefies.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "NPK fertiliser",
+   "definition": "A formulation containing salts of nitrogen, phosphorus and potassium to improve plant growth.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Ammonium nitrate",
+   "definition": "A fertiliser made from ammonia and nitric acid.",
+   "examiner": "Separate Chemistry. Phosphate rock is treated with acids to make phosphate fertilisers."
+  }
+ ]
+}

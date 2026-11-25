@@ -1,0 +1,33 @@
+{
+ "topic": "carbon-structures",
+ "name": "Diamond, graphite, graphene and fullerenes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Diamond",
+   "definition": "Each carbon is joined to four others by covalent bonds: very hard, very high melting point, does not conduct electricity.",
+   "examiner": "No delocalised electrons."
+  },
+  {
+   "term": "Graphite",
+   "definition": "Carbon atoms in layers of hexagonal rings, each joined to three others; weak forces between layers so it is soft and slippery.",
+   "examiner": "Each carbon has one delocalised electron, so graphite conducts."
+  },
+  {
+   "term": "Graphene",
+   "definition": "A single layer of graphite, one atom thick.",
+   "examiner": "Useful in electronics and composites: strong and conducts."
+  },
+  {
+   "term": "Fullerenes",
+   "definition": "Molecules of carbon atoms with hollow shapes, based on hexagonal rings (sometimes with 5 or 7 carbons).",
+   "examiner": "Buckminsterfullerene is C₆₀."
+  },
+  {
+   "term": "Carbon nanotube",
+   "definition": "A cylindrical fullerene with a very high length to diameter ratio.",
+   "examiner": "Used in nanotechnology, electronics and to reinforce materials."
+  }
+ ]
+}

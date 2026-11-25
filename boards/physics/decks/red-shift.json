@@ -1,0 +1,28 @@
+{
+ "topic": "red-shift",
+ "name": "Red-shift and the expanding universe",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Red-shift",
+   "definition": "An increase in the observed wavelength of light from galaxies moving away from us.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Evidence for expansion",
+   "definition": "The further away a galaxy is, the faster it is moving and the bigger the red-shift: the universe is expanding.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Big Bang theory",
+   "definition": "The universe began from a very small, extremely hot and dense region.",
+   "examiner": "Separate Physics. Red-shift supports it."
+  },
+  {
+   "term": "Dark matter and dark energy",
+   "definition": "Observations suggest there is still much about the universe that is not understood.",
+   "examiner": "Separate Physics. Supernovae data suggest the expansion is speeding up."
+  }
+ ]
+}

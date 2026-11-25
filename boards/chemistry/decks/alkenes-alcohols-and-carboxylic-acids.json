@@ -1,0 +1,38 @@
+{
+ "topic": "alkenes-alcohols-and-carboxylic-acids",
+ "name": "Alkenes, alcohols and carboxylic acids",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Addition reaction",
+   "definition": "Atoms add across the C=C double bond, so it becomes a single bond; alkenes react with hydrogen, water and halogens.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Hydration",
+   "definition": "Alkene + steam → alcohol, with a catalyst.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Alcohol",
+   "definition": "Contains the –OH functional group; methanol, ethanol, propanol, butanol.",
+   "examiner": "Separate Chemistry. Ethanol is used as a fuel and solvent."
+  },
+  {
+   "term": "Fermentation",
+   "definition": "Sugar solutions are converted to ethanol by yeast at 30 °C in anaerobic conditions.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Carboxylic acid",
+   "definition": "Contains the –COOH functional group; methanoic, ethanoic, propanoic, butanoic acid.",
+   "examiner": "Separate Chemistry. They are weak acids."
+  },
+  {
+   "term": "Ester",
+   "definition": "Made when a carboxylic acid reacts with an alcohol, using an acid catalyst; ethyl ethanoate is the example.",
+   "examiner": "Separate Chemistry. Esters smell fruity."
+  }
+ ]
+}

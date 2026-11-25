@@ -1,4 +1,11 @@
 {
- "all": [["gcsesci-", "gcsephys-"]],
- "delete": []
+ "all": [
+  [
+   "gcsesci-",
+   "gcsephys-"
+  ]
+ ],
+ "delete": [
+  "src/pages/calculations"
+ ]
 }

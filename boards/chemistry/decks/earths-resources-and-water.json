@@ -1,0 +1,43 @@
+{
+ "topic": "earths-resources-and-water",
+ "name": "Earth's resources, potable water and waste water",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Finite resource",
+   "definition": "A resource that will run out, such as crude oil and metal ores.",
+   "examiner": "Renewable resources can be replaced as fast as they are used."
+  },
+  {
+   "term": "Sustainable development",
+   "definition": "Meeting the needs of current generations without compromising the ability of future generations to meet their own needs.",
+   "examiner": "Chemistry helps by improving processes and products."
+  },
+  {
+   "term": "Potable water",
+   "definition": "Water that is safe to drink, with low levels of dissolved salts and microbes.",
+   "examiner": "It is not pure water in the chemical sense."
+  },
+  {
+   "term": "Fresh water treatment",
+   "definition": "Filter through filter beds, then sterilise with chlorine, ozone or ultraviolet light.",
+   "examiner": "In the UK, rain provides fresh water."
+  },
+  {
+   "term": "Desalination",
+   "definition": "Making potable water from salt water by distillation or reverse osmosis (membranes); both need a lot of energy.",
+   "examiner": "Used where fresh water is scarce."
+  },
+  {
+   "term": "Sewage treatment",
+   "definition": "Screening and grit removal, sedimentation into sludge and effluent, aerobic treatment of effluent, anaerobic digestion of sludge.",
+   "examiner": "Removes organic matter and harmful microbes."
+  },
+  {
+   "term": "Phytomining",
+   "definition": "Plants absorb metal compounds from low-grade ore; they are burned and the ash is processed to get the metal.",
+   "examiner": "Higher tier. Bioleaching uses bacteria to produce leachate solutions."
+  }
+ ]
+}

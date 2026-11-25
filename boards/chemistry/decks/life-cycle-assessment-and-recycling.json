@@ -1,0 +1,28 @@
+{
+ "topic": "life-cycle-assessment-and-recycling",
+ "name": "Life cycle assessment and recycling",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Life cycle assessment",
+   "definition": "An assessment of the environmental impact of a product at each stage: extracting and processing raw materials, manufacturing and packaging, use, and disposal.",
+   "examiner": "Some values (pollutant effects) are hard to measure, so judgements are needed."
+  },
+  {
+   "term": "Reduce, reuse, recycle",
+   "definition": "Reducing use of materials saves raw materials, energy and waste.",
+   "examiner": "Recycling metals uses less energy than extraction."
+  },
+  {
+   "term": "Recycling glass",
+   "definition": "Glass bottles can be reused; other glass is crushed and melted to make new products.",
+   "examiner": "Saves raw materials and energy."
+  },
+  {
+   "term": "Recycling metals",
+   "definition": "Metals are melted and recast or reformed into different products.",
+   "examiner": "Sorting and separation can be expensive."
+  }
+ ]
+}

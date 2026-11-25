@@ -1,0 +1,43 @@
+{
+ "topic": "diffusion-osmosis-active-transport",
+ "name": "Diffusion, osmosis and active transport",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Diffusion",
+   "definition": "The spreading out of particles of a gas or a solute, resulting in a net movement from an area of higher concentration to an area of lower concentration.",
+   "examiner": "Use \"net movement\" and \"down a concentration gradient\"."
+  },
+  {
+   "term": "Osmosis",
+   "definition": "The diffusion of water from a dilute solution to a concentrated solution through a partially permeable membrane.",
+   "examiner": "Talk about water moving, not the solute."
+  },
+  {
+   "term": "Active transport",
+   "definition": "The movement of substances from a more dilute solution to a more concentrated solution (against a concentration gradient), using energy from respiration.",
+   "examiner": "Root hair cells absorb mineral ions this way; there are many mitochondria in cells that do it."
+  },
+  {
+   "term": "Partially permeable membrane",
+   "definition": "A membrane that lets small molecules such as water through but not larger ones such as sugar.",
+   "examiner": "Cell membranes are partially permeable."
+  },
+  {
+   "term": "Surface area to volume ratio",
+   "definition": "Surface area divided by volume. Larger organisms have a smaller ratio, so they need exchange surfaces and transport systems.",
+   "examiner": "Calculate it for a cube: surface area 6 × side², volume side³."
+  },
+  {
+   "term": "Concentration gradient",
+   "definition": "The difference in concentration between two areas. A steeper gradient means faster diffusion.",
+   "examiner": "Ventilation and a good blood supply keep the gradient steep in the lungs."
+  },
+  {
+   "term": "Exchange surface",
+   "definition": "A surface adapted for efficient exchange: large surface area, thin membrane, good blood supply or ventilation.",
+   "examiner": "Alveoli, villi, gills and leaves are the standard examples."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "topic": "ecosystems-and-cycles",
+ "name": "Ecosystems, sampling and cycles",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Producer",
+   "definition": "An organism that makes its own food by photosynthesis; it starts a food chain.",
+   "examiner": "Usually a green plant or alga."
+  },
+  {
+   "term": "Predator-prey cycle",
+   "definition": "In a stable community, prey numbers rise, then predator numbers rise, prey fall, then predators fall; the predator peak lags behind.",
+   "examiner": "Explain each change in terms of food supply."
+  },
+  {
+   "term": "Quadrat",
+   "definition": "A square frame used to sample the number of organisms in an area.",
+   "examiner": "Estimate the population: mean per quadrat × total area ÷ quadrat area."
+  },
+  {
+   "term": "Transect",
+   "definition": "A line along which quadrats are placed to see how organisms change across an area.",
+   "examiner": "Used with a changing abiotic factor such as light."
+  },
+  {
+   "term": "Carbon cycle",
+   "definition": "Carbon is taken in by photosynthesis and returned to the air by respiration of plants, animals and decomposers, and by combustion.",
+   "examiner": "Decomposers return carbon to the atmosphere and mineral ions to the soil."
+  },
+  {
+   "term": "Decomposition",
+   "definition": "The breakdown of dead material by microorganisms.",
+   "examiner": "Separate Biology: rate depends on temperature, water and oxygen."
+  },
+  {
+   "term": "Compost",
+   "definition": "Rotted organic matter used as a natural fertiliser.",
+   "examiner": "Separate Biology. Biogas generators use anaerobic decay to make methane."
+  }
+ ]
+}

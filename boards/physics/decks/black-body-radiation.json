@@ -1,0 +1,28 @@
+{
+ "topic": "black-body-radiation",
+ "name": "Black body radiation",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Perfect black body",
+   "definition": "An object that absorbs all the radiation incident on it; it is also the best possible emitter.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Infrared emission",
+   "definition": "All bodies emit and absorb infrared radiation; the hotter the body, the more it emits per second.",
+   "examiner": "Separate Physics. The intensity and wavelength distribution depends on temperature."
+  },
+  {
+   "term": "Constant temperature",
+   "definition": "A body at constant temperature absorbs radiation at the same rate as it emits it.",
+   "examiner": "Separate Physics, higher tier."
+  },
+  {
+   "term": "Earth's temperature",
+   "definition": "Depends on the balance of radiation absorbed and emitted, including what the atmosphere reflects or absorbs.",
+   "examiner": "Separate Physics, higher tier."
+  }
+ ]
+}

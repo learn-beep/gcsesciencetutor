@@ -1,0 +1,43 @@
+{
+ "topic": "blood-glucose-and-diabetes",
+ "name": "Hormones, blood glucose and diabetes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Hormone",
+   "definition": "A chemical carried in the blood that affects target organs; produced by a gland of the endocrine system.",
+   "examiner": "Hormonal effects are slower but longer lasting than nervous ones."
+  },
+  {
+   "term": "Pituitary gland",
+   "definition": "The \"master gland\" in the brain that secretes several hormones, some of which stimulate other glands.",
+   "examiner": "It releases ADH, FSH, LH and TSH."
+  },
+  {
+   "term": "Insulin",
+   "definition": "A hormone from the pancreas that causes glucose to move from the blood into cells; in liver and muscle, glucose is converted to glycogen for storage.",
+   "examiner": "Released when blood glucose is too high."
+  },
+  {
+   "term": "Glucagon",
+   "definition": "A hormone from the pancreas that causes glycogen to be converted to glucose and released into the blood.",
+   "examiner": "Higher tier. Released when blood glucose is too low."
+  },
+  {
+   "term": "Type 1 diabetes",
+   "definition": "The pancreas does not make enough insulin, so blood glucose can rise uncontrollably; treated with insulin injections.",
+   "examiner": "Usually starts in childhood."
+  },
+  {
+   "term": "Type 2 diabetes",
+   "definition": "Body cells no longer respond to insulin; treated with a carbohydrate-controlled diet and exercise.",
+   "examiner": "Obesity is a risk factor."
+  },
+  {
+   "term": "Negative feedback",
+   "definition": "When a level changes from normal, a response brings it back to normal.",
+   "examiner": "Higher tier: thyroxine and adrenaline (Separate Biology) are examples."
+  }
+ ]
+}

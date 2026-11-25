@@ -1,0 +1,43 @@
+{
+ "topic": "reproductive-hormones-and-contraception",
+ "name": "Hormones in reproduction, contraception and infertility",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Oestrogen",
+   "definition": "The main female reproductive hormone, made in the ovaries; it makes the uterus lining build up after menstruation.",
+   "examiner": "Higher tier: oestrogen inhibits FSH and stimulates LH."
+  },
+  {
+   "term": "Testosterone",
+   "definition": "The main male reproductive hormone, made by the testes; it stimulates sperm production.",
+   "examiner": "Made at puberty."
+  },
+  {
+   "term": "FSH",
+   "definition": "Follicle stimulating hormone from the pituitary gland; it causes an egg to mature in the ovary.",
+   "examiner": "Used in fertility treatment."
+  },
+  {
+   "term": "LH",
+   "definition": "Luteinising hormone from the pituitary gland; it stimulates the release of an egg (ovulation).",
+   "examiner": "Higher tier for the interactions between the hormones."
+  },
+  {
+   "term": "Progesterone",
+   "definition": "A hormone that maintains the uterus lining.",
+   "examiner": "Higher tier: it inhibits FSH and LH."
+  },
+  {
+   "term": "Hormonal contraception",
+   "definition": "Oral pills, implants, injections or patches containing hormones that stop eggs maturing or being released.",
+   "examiner": "Non-hormonal methods include condoms, diaphragms, IUDs, sterilisation and abstinence."
+  },
+  {
+   "term": "IVF",
+   "definition": "In vitro fertilisation: eggs are collected after FSH and LH treatment, fertilised by sperm in a lab, and one or two embryos are inserted into the uterus.",
+   "examiner": "Higher tier. Low success rate, multiple births and stress are drawbacks."
+  }
+ ]
+}

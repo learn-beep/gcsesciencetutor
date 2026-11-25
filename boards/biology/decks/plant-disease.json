@@ -1,0 +1,48 @@
+{
+ "topic": "plant-disease",
+ "name": "Plant disease and defences",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Tobacco mosaic virus",
+   "definition": "A virus that causes a mosaic pattern of discolouration on leaves, reducing photosynthesis and growth.",
+   "examiner": "A plant disease caused by a virus."
+  },
+  {
+   "term": "Rose black spot",
+   "definition": "A fungal disease: purple or black spots on leaves, which turn yellow and drop early, reducing photosynthesis.",
+   "examiner": "Spread in water or by wind; treated with fungicides and removing affected leaves."
+  },
+  {
+   "term": "Aphids",
+   "definition": "Insects that feed on phloem sap; an example of an insect pest.",
+   "examiner": "Pests are controlled by insecticides or by predators such as ladybirds."
+  },
+  {
+   "term": "Nitrate deficiency",
+   "definition": "Lack of nitrate ions causes stunted growth, because nitrates are needed to make proteins.",
+   "examiner": "Nitrates are taken up by active transport."
+  },
+  {
+   "term": "Magnesium deficiency",
+   "definition": "Lack of magnesium causes chlorosis (yellow leaves), because magnesium is needed for chlorophyll.",
+   "examiner": "Fewer chloroplasts means less photosynthesis."
+  },
+  {
+   "term": "Physical defences",
+   "definition": "Cellulose cell walls, a tough waxy cuticle and layers of dead cells (bark) that stop pathogens entering.",
+   "examiner": "Contrast with chemical and mechanical defences."
+  },
+  {
+   "term": "Chemical defences",
+   "definition": "Antibacterial chemicals and poisons that deter herbivores.",
+   "examiner": "Mint and witch hazel make antibacterial chemicals."
+  },
+  {
+   "term": "Mechanical defences",
+   "definition": "Thorns and hairs, leaves that droop or curl when touched, and mimicry to trick animals.",
+   "examiner": "Mechanical adaptations deter animals from touching or eating the plant."
+  }
+ ]
+}

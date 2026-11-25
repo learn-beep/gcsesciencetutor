@@ -1,0 +1,28 @@
+{
+ "topic": "classification",
+ "name": "Classification of living organisms",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Linnaean system",
+   "definition": "Classifying organisms into kingdom, phylum, class, order, family, genus and species, based on structure and characteristics.",
+   "examiner": "New microscopes and biochemistry led to new models."
+  },
+  {
+   "term": "Binomial system",
+   "definition": "Naming each species by its genus and species, such as Homo sapiens.",
+   "examiner": "The genus has a capital letter."
+  },
+  {
+   "term": "Three-domain system",
+   "definition": "Carl Woese's classification into archaea (primitive bacteria), bacteria and eukaryota, based on chemical analysis.",
+   "examiner": "It replaced kingdom as the top level."
+  },
+  {
+   "term": "Evolutionary tree",
+   "definition": "A diagram showing how closely related organisms are, using current classification data and fossils for extinct ones.",
+   "examiner": "Branches closer together mean more recent common ancestors."
+  }
+ ]
+}

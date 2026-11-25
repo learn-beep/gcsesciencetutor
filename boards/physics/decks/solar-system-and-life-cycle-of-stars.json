@@ -1,0 +1,38 @@
+{
+ "topic": "solar-system-and-life-cycle-of-stars",
+ "name": "The solar system, stars and orbits",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Solar system",
+   "definition": "One star (the Sun), eight planets, dwarf planets and natural satellites (moons); part of the Milky Way galaxy.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Protostar",
+   "definition": "A cloud of dust and gas (nebula) pulled together by gravity, which heats up until fusion starts.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Main sequence star",
+   "definition": "A star in a stable state: the outward pressure from fusion energy balances the inward force of gravity.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Life cycle of a Sun-sized star",
+   "definition": "Main sequence → red giant → white dwarf → black dwarf.",
+   "examiner": "Separate Physics. Much larger stars become red super giants, supernovae, then neutron stars or black holes."
+  },
+  {
+   "term": "Fusion in stars",
+   "definition": "Produces all the naturally occurring elements; heavier ones than iron form in supernovae, which spread them through the universe.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Circular orbit",
+   "definition": "Gravity provides the force that keeps a planet or satellite in orbit; its speed is constant but its velocity changes.",
+   "examiner": "Separate Physics, higher tier. A change in speed changes the radius of orbit."
+  }
+ ]
+}

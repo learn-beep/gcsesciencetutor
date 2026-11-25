@@ -1,0 +1,33 @@
+{
+ "topic": "internal-energy-and-specific-latent-heat",
+ "name": "Internal energy and specific latent heat",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Internal energy",
+   "definition": "The total kinetic energy and potential energy of all the particles in a system.",
+   "examiner": "Heating increases internal energy."
+  },
+  {
+   "term": "Specific latent heat",
+   "definition": "The amount of energy needed to change the state of 1 kg of a substance with no change in temperature.",
+   "examiner": "E = m L."
+  },
+  {
+   "term": "Specific latent heat of fusion",
+   "definition": "For a change between solid and liquid.",
+   "examiner": "Melting and freezing."
+  },
+  {
+   "term": "Specific latent heat of vaporisation",
+   "definition": "For a change between liquid and vapour.",
+   "examiner": "Boiling and condensing."
+  },
+  {
+   "term": "Flat part of a heating graph",
+   "definition": "The temperature stays constant during a change of state because energy is used to break bonds, not raise kinetic energy.",
+   "examiner": "Internal energy still increases."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "topic": "nervous-system",
+ "name": "Homeostasis, the nervous system, the brain and the eye",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Homeostasis",
+   "definition": "The regulation of the internal conditions of a cell or organism to maintain optimum conditions for function in response to internal and external changes.",
+   "examiner": "Body temperature, blood glucose and water levels are controlled."
+  },
+  {
+   "term": "Receptor",
+   "definition": "A cell that detects a stimulus (a change in the environment).",
+   "examiner": "Stimulus → receptor → coordinator → effector → response."
+  },
+  {
+   "term": "Effector",
+   "definition": "A muscle or gland that brings about a response.",
+   "examiner": "Muscles contract; glands secrete hormones."
+  },
+  {
+   "term": "Reflex",
+   "definition": "An automatic, rapid response that does not involve the conscious part of the brain.",
+   "examiner": "The reflex arc uses sensory, relay and motor neurones."
+  },
+  {
+   "term": "Synapse",
+   "definition": "The gap between two neurones; a chemical diffuses across it to start an impulse in the next neurone.",
+   "examiner": "Synapses slow the impulse slightly but let it go only one way."
+  },
+  {
+   "term": "Cerebral cortex",
+   "definition": "The part of the brain responsible for memory, language, intelligence and consciousness.",
+   "examiner": "Separate Biology: cerebellum controls muscle coordination; medulla controls unconscious actions such as heart rate."
+  },
+  {
+   "term": "Accommodation",
+   "definition": "Changing the shape of the lens to focus on near or distant objects.",
+   "examiner": "Near object: ciliary muscles contract, suspensory ligaments slacken, lens becomes thicker."
+  },
+  {
+   "term": "Thermoregulatory centre",
+   "definition": "The part of the brain that monitors and controls body temperature, with receptors sensitive to blood temperature.",
+   "examiner": "Separate Biology. Too hot: vasodilation and sweating. Too cold: vasoconstriction and shivering."
+  }
+ ]
+}

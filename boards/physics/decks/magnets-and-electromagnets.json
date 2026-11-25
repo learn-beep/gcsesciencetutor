@@ -1,0 +1,33 @@
+{
+ "topic": "magnets-and-electromagnets",
+ "name": "Magnets and electromagnets",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Magnetic poles",
+   "definition": "The parts of a magnet where the magnetic forces are strongest; like poles repel, unlike poles attract.",
+   "examiner": "Attraction and repulsion between poles are non-contact forces."
+  },
+  {
+   "term": "Permanent magnet",
+   "definition": "Produces its own magnetic field.",
+   "examiner": "An induced magnet only becomes a magnet when placed in a field, and only attracts."
+  },
+  {
+   "term": "Magnetic field",
+   "definition": "The region around a magnet where a force acts on another magnet or magnetic material (iron, steel, cobalt, nickel).",
+   "examiner": "Field lines go from north to south; the field is strongest at the poles."
+  },
+  {
+   "term": "Earth's magnetic field",
+   "definition": "A compass needle points north because the Earth has a magnetic core; it is evidence for the Earth's field.",
+   "examiner": "Use a compass to plot field lines."
+  },
+  {
+   "term": "Solenoid",
+   "definition": "A coil of wire: a current produces a strong, uniform field inside it.",
+   "examiner": "An iron core makes it stronger: an electromagnet."
+  }
+ ]
+}

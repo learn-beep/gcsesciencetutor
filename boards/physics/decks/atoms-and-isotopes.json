@@ -1,0 +1,33 @@
+{
+ "topic": "atoms-and-isotopes",
+ "name": "The atom and the model of the atom",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Atom size",
+   "definition": "About 1 × 10⁻¹⁰ m in radius; the nucleus is less than 1/10 000 of that.",
+   "examiner": "Most of the mass is in the nucleus."
+  },
+  {
+   "term": "Isotopes",
+   "definition": "Atoms of an element with the same number of protons but different numbers of neutrons.",
+   "examiner": "Same atomic number, different mass number."
+  },
+  {
+   "term": "Ion",
+   "definition": "An atom that has lost (or gained) outer electrons and so has a charge.",
+   "examiner": "Electrons move to a higher level if they absorb radiation."
+  },
+  {
+   "term": "Alpha particle scattering",
+   "definition": "Most alpha particles passed straight through the gold foil but a few were deflected, showing the mass and positive charge are concentrated in a tiny nucleus.",
+   "examiner": "This replaced the plum pudding model."
+  },
+  {
+   "term": "Bohr model",
+   "definition": "Electrons orbit the nucleus at specific distances (energy levels).",
+   "examiner": "Chadwick later showed the neutron exists."
+  }
+ ]
+}

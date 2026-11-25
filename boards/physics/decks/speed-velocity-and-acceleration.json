@@ -1,0 +1,43 @@
+{
+ "topic": "speed-velocity-and-acceleration",
+ "name": "Distance, speed, velocity, acceleration and motion graphs",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Distance",
+   "definition": "How far an object moves; a scalar.",
+   "examiner": "Displacement includes direction."
+  },
+  {
+   "term": "Speed",
+   "definition": "Distance travelled ÷ time: s = v t.",
+   "examiner": "Typical speeds: walking 1.5 m/s, running 3 m/s, cycling 6 m/s."
+  },
+  {
+   "term": "Velocity",
+   "definition": "Speed in a given direction.",
+   "examiner": "An object moving in a circle at constant speed has a changing velocity."
+  },
+  {
+   "term": "Acceleration",
+   "definition": "Change in velocity ÷ time taken: a = Δv / t.",
+   "examiner": "Units m/s². Deceleration is negative acceleration."
+  },
+  {
+   "term": "Distance–time graph",
+   "definition": "Gradient gives speed.",
+   "examiner": "Higher tier: draw a tangent for the speed at a point on a curve."
+  },
+  {
+   "term": "Velocity–time graph",
+   "definition": "Gradient gives acceleration; area under the graph gives distance travelled.",
+   "examiner": "Higher tier for the area."
+  },
+  {
+   "term": "Free fall",
+   "definition": "Near the Earth's surface, acceleration due to gravity is about 9.8 m/s².",
+   "examiner": "Terminal velocity is reached when air resistance equals weight."
+  }
+ ]
+}

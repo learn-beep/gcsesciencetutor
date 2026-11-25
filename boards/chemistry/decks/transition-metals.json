@@ -1,0 +1,28 @@
+{
+ "topic": "transition-metals",
+ "name": "Transition metals",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Transition metal",
+   "definition": "A metal in the central block of the periodic table, such as Cr, Mn, Fe, Co, Ni, Cu.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Properties of transition metals",
+   "definition": "Compared with Group 1: higher melting points (except mercury), higher density, stronger, harder and much less reactive.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Coloured compounds",
+   "definition": "Transition metals form ions with different charges and coloured compounds.",
+   "examiner": "Fe²⁺ and Fe³⁺ are both iron ions."
+  },
+  {
+   "term": "Catalyst use",
+   "definition": "Many transition metals and their compounds are useful catalysts, such as iron in the Haber process.",
+   "examiner": "Separate Chemistry."
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "topic": "electrical-power-and-national-grid",
+ "name": "Electrical power, energy transfers and the National Grid",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Electrical power",
+   "definition": "P = V I or P = I² R.",
+   "examiner": "Watch whether you have current, p.d. or resistance."
+  },
+  {
+   "term": "Energy transferred",
+   "definition": "E = P t or E = Q V.",
+   "examiner": "Time in seconds for joules."
+  },
+  {
+   "term": "National Grid",
+   "definition": "The system of cables and transformers linking power stations to consumers.",
+   "examiner": "It transmits electricity across the country."
+  },
+  {
+   "term": "Step-up transformer",
+   "definition": "Increases the p.d. from the power station for transmission, so the current is smaller.",
+   "examiner": "Smaller current means less energy wasted heating the cables, so it is more efficient."
+  },
+  {
+   "term": "Step-down transformer",
+   "definition": "Decreases the p.d. to a safer level for homes.",
+   "examiner": "VₚIₚ = VₛIₛ for a 100% efficient transformer."
+  }
+ ]
+}

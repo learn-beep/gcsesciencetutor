@@ -1,0 +1,38 @@
+{
+ "topic": "kidneys-and-water-balance",
+ "name": "The kidneys and water balance",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Urea",
+   "definition": "A waste product made in the liver from the breakdown of excess amino acids (deamination), removed by the kidneys in urine.",
+   "examiner": "Higher tier: deamination produces ammonia, which is converted to urea."
+  },
+  {
+   "term": "Filtration",
+   "definition": "Blood is filtered in the kidney: water, glucose, ions and urea leave the blood.",
+   "examiner": "Large molecules such as proteins stay in the blood."
+  },
+  {
+   "term": "Selective reabsorption",
+   "definition": "Useful substances such as all the glucose, some ions and as much water as the body needs are taken back into the blood.",
+   "examiner": "The rest leaves as urine."
+  },
+  {
+   "term": "ADH",
+   "definition": "Anti-diuretic hormone, released by the pituitary gland when the blood is too concentrated; it makes the kidney tubules more permeable so more water is reabsorbed.",
+   "examiner": "Higher tier. An example of negative feedback."
+  },
+  {
+   "term": "Dialysis",
+   "definition": "Treatment for kidney failure: blood passes over a partially permeable membrane next to dialysis fluid, so urea and excess ions diffuse out.",
+   "examiner": "The fluid has the same glucose and useful ion concentrations as normal blood, so these are not lost."
+  },
+  {
+   "term": "Kidney transplant",
+   "definition": "A healthy kidney from a donor replaces the failed kidney.",
+   "examiner": "Risk of rejection: the patient takes drugs to suppress the immune system."
+  }
+ ]
+}

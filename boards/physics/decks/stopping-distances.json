@@ -1,0 +1,33 @@
+{
+ "topic": "stopping-distances",
+ "name": "Stopping distances",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Stopping distance",
+   "definition": "Thinking distance + braking distance.",
+   "examiner": "For a given braking force, the greater the speed, the greater the stopping distance."
+  },
+  {
+   "term": "Thinking distance",
+   "definition": "The distance travelled during the driver's reaction time.",
+   "examiner": "Increased by tiredness, drugs, alcohol and distractions."
+  },
+  {
+   "term": "Braking distance",
+   "definition": "The distance travelled under the braking force.",
+   "examiner": "Increased by wet or icy roads and poor brakes or tyres."
+  },
+  {
+   "term": "Reaction time",
+   "definition": "Typically 0.2 s to 0.9 s.",
+   "examiner": "Measured with the ruler-drop test."
+  },
+  {
+   "term": "Braking and energy",
+   "definition": "Work done by the friction force between brakes and wheels reduces the kinetic energy, and the brakes heat up.",
+   "examiner": "Large decelerations can overheat brakes or make the car skid."
+  }
+ ]
+}

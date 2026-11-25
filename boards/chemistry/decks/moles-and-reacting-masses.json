@@ -1,0 +1,33 @@
+{
+ "topic": "moles-and-reacting-masses",
+ "name": "Moles, reacting masses and limiting reactants",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Mole",
+   "definition": "The amount of substance containing 6.02 × 10²³ particles (the Avogadro constant).",
+   "examiner": "Higher tier. One mole of a substance has a mass in grams equal to its Ar or Mr."
+  },
+  {
+   "term": "Avogadro constant",
+   "definition": "6.02 × 10²³ per mole.",
+   "examiner": "Higher tier."
+  },
+  {
+   "term": "Moles from mass",
+   "definition": "moles = mass (g) ÷ Mr.",
+   "examiner": "Higher tier. Rearrange: mass = moles × Mr."
+  },
+  {
+   "term": "Limiting reactant",
+   "definition": "The reactant that is completely used up and so limits the amount of products.",
+   "examiner": "Higher tier. The other reactant is in excess."
+  },
+  {
+   "term": "Balancing from masses",
+   "definition": "Convert each mass to moles, divide by the smallest number of moles to get the ratio, and use it to balance the equation.",
+   "examiner": "Higher tier."
+  }
+ ]
+}

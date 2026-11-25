@@ -1,0 +1,43 @@
+{
+ "topic": "rates-of-reaction",
+ "name": "Rates of reaction, collision theory and catalysts",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Rate of reaction",
+   "definition": "Quantity of reactant used or product formed ÷ time taken.",
+   "examiner": "Units such as g/s or cm³/s; higher tier mol/s."
+  },
+  {
+   "term": "Collision theory",
+   "definition": "Reactions happen only when particles collide with enough energy (at least the activation energy).",
+   "examiner": "Rate depends on the frequency of successful collisions."
+  },
+  {
+   "term": "Effect of concentration or pressure",
+   "definition": "More particles in the same volume, so more frequent collisions.",
+   "examiner": "Say \"more frequent\", not \"more\" collisions."
+  },
+  {
+   "term": "Effect of surface area",
+   "definition": "A larger surface area exposes more particles, so collisions are more frequent.",
+   "examiner": "Smaller pieces or powder react faster."
+  },
+  {
+   "term": "Effect of temperature",
+   "definition": "Particles move faster, so they collide more often, and more collisions have energy greater than the activation energy.",
+   "examiner": "Both reasons are needed for full marks."
+  },
+  {
+   "term": "Catalyst",
+   "definition": "A substance that speeds up a reaction without being used up, by providing a different pathway with a lower activation energy.",
+   "examiner": "Enzymes are biological catalysts. Catalysts do not appear in the equation."
+  },
+  {
+   "term": "Tangent",
+   "definition": "A straight line drawn touching a curve at one point; its gradient gives the rate at that time.",
+   "examiner": "Higher tier."
+  }
+ ]
+}

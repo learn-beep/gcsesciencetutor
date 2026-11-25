@@ -7,6 +7,7 @@ import Hint from '../../components/Hint.astro';
 import { allTopics, questionsForTopic } from '../../lib/data';
 import { badgeClass, badgeText, motifFor, whereExamined } from '../../lib/groups';
 import { S, SUBJ } from '../../lib/subject';
+import { deckFor } from '../../lib/decks';
 export function getStaticPaths() {
   return allTopics.map((t) => ({ params: { slug: t.slug }, props: { topic: t } }));
 }
@@ -18,6 +19,7 @@ const calcs = current.filter((q) => q.format === 'Calculation');
 const years = [...new Set(qs.map((q) => q.year))].sort((a, b) => b - a);
 const papers = [...new Set(qs.map((q) => q.paper))].sort();
 const tri = current.filter((q) => q.level === 'Combined').length;
+const deck = deckFor(topic.slug);
 const motifKind = motifFor(topic);
 const where = whereExamined(topic);
 ---
@@ -33,7 +35,9 @@ const where = whereExamined(topic);
   </div>
   <div class="score-note" id="myscore" hidden></div>
 
-    <h2>Specification statements</h2>
+    {deck && <div class="btn-row"><a class="btn btn-accent" href={`/questions/${topic.slug}/terms/`}><Icon name="layers" />Key terms flashcards ({deck.terms.length})</a><a class="btn" href="/practice/define/"><Icon name="target" />Define-it drill</a></div>}
+
+  <h2>Specification statements</h2>
   <details class="spec-fold"><summary>Show the {topic.statements.length} statements from the specification</summary><ul class="spec-list">{topic.statements.map((id) => <li><strong>{id}</strong> {topic.statementText[id]}</li>)}</ul></details>
 
   {essays.length > 0 && <><h2>Extended response questions on this topic</h2>

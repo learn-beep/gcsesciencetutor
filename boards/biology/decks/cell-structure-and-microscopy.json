@@ -1,0 +1,58 @@
+{
+ "topic": "cell-structure-and-microscopy",
+ "name": "Cell structure and microscopy",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Eukaryotic cell",
+   "definition": "A cell with its genetic material enclosed in a nucleus, such as a plant or animal cell.",
+   "examiner": "Plant, animal and fungal cells are all eukaryotic."
+  },
+  {
+   "term": "Prokaryotic cell",
+   "definition": "A much smaller cell with no nucleus: its genetic material is a single DNA loop in the cytoplasm, and it may also have plasmids.",
+   "examiner": "Bacteria are prokaryotes. They have a cell wall, but it is not made of cellulose."
+  },
+  {
+   "term": "Plasmid",
+   "definition": "A small ring of DNA found in bacterial cells, separate from the main DNA loop.",
+   "examiner": "Plasmids are used as vectors in genetic engineering."
+  },
+  {
+   "term": "Mitochondria",
+   "definition": "Where most of the reactions of aerobic respiration take place, releasing energy for the cell.",
+   "examiner": "Say \"release energy\", never \"make energy\"."
+  },
+  {
+   "term": "Ribosome",
+   "definition": "Where protein synthesis happens.",
+   "examiner": "Found in prokaryotic and eukaryotic cells."
+  },
+  {
+   "term": "Chloroplast",
+   "definition": "Where photosynthesis takes place; contains chlorophyll, which absorbs light.",
+   "examiner": "Root hair cells have no chloroplasts: there is no light underground."
+  },
+  {
+   "term": "Cell wall",
+   "definition": "Made of cellulose in plants and algae; strengthens the cell and supports it.",
+   "examiner": "Do not confuse with the cell membrane, which controls what enters and leaves."
+  },
+  {
+   "term": "Magnification",
+   "definition": "How many times bigger the image is than the real object: magnification = size of image ÷ size of real object.",
+   "examiner": "Convert both sizes to the same unit first. 1 mm = 1000 µm."
+  },
+  {
+   "term": "Resolution",
+   "definition": "The ability to distinguish between two points that are close together.",
+   "examiner": "Electron microscopes have a higher resolution as well as a higher magnification, so they show sub-cellular structures such as ribosomes."
+  },
+  {
+   "term": "Aseptic technique",
+   "definition": "Steps to stop unwanted microorganisms contaminating a culture, such as sterilising the loop in a flame and lifting the lid only slightly.",
+   "examiner": "Plates are incubated at 25 °C in schools so that human pathogens do not grow."
+  }
+ ]
+}

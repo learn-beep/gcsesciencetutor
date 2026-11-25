@@ -1,0 +1,43 @@
+{
+ "topic": "adaptations-and-interdependence",
+ "name": "Communities, adaptations, interdependence and competition",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Ecosystem",
+   "definition": "The interaction of a community of living organisms (biotic) with the non-living (abiotic) parts of their environment.",
+   "examiner": "A community is all the populations in a habitat."
+  },
+  {
+   "term": "Population",
+   "definition": "All the organisms of one species living in a habitat.",
+   "examiner": "A community is many populations."
+  },
+  {
+   "term": "Interdependence",
+   "definition": "Species depend on each other for food, shelter, pollination and seed dispersal; removing one can affect the whole community.",
+   "examiner": "A stable community has species and environmental factors in balance."
+  },
+  {
+   "term": "Abiotic factor",
+   "definition": "A non-living factor such as light intensity, temperature, moisture, soil pH and mineral content, wind, carbon dioxide or oxygen.",
+   "examiner": "Use these in \"suggest why\" questions."
+  },
+  {
+   "term": "Biotic factor",
+   "definition": "A living factor such as food availability, new predators, new pathogens or competition.",
+   "examiner": "One species out-competing another can reduce its numbers."
+  },
+  {
+   "term": "Adaptation",
+   "definition": "A feature that helps an organism survive in its environment: structural, behavioural or functional.",
+   "examiner": "Give the feature and how it helps survival."
+  },
+  {
+   "term": "Extremophile",
+   "definition": "An organism that lives in extreme conditions, such as high temperature, pressure or salt concentration.",
+   "examiner": "Bacteria in deep-sea vents are extremophiles."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "topic": "momentum",
+ "name": "Momentum",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Momentum",
+   "definition": "Mass × velocity: p = m v.",
+   "examiner": "Higher tier. Units kg m/s; it is a vector."
+  },
+  {
+   "term": "Conservation of momentum",
+   "definition": "In a closed system, the total momentum before an event equals the total momentum after.",
+   "examiner": "Higher tier. Use it for collisions and explosions."
+  },
+  {
+   "term": "Force and change in momentum",
+   "definition": "Force = change in momentum ÷ time: F = m Δv / Δt.",
+   "examiner": "Separate Physics, higher tier."
+  },
+  {
+   "term": "Safety features",
+   "definition": "Air bags, seat belts, crumple zones and helmets increase the time of impact, reducing the rate of change of momentum and so the force.",
+   "examiner": "Separate Physics, higher tier."
+  }
+ ]
+}

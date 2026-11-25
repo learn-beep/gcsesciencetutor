@@ -1,0 +1,28 @@
+{
+ "topic": "tests-for-gases",
+ "name": "Tests for common gases",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Hydrogen test",
+   "definition": "A lighted splint ignites hydrogen with a squeaky pop.",
+   "examiner": "Lighted, not glowing."
+  },
+  {
+   "term": "Oxygen test",
+   "definition": "A glowing splint relights in oxygen.",
+   "examiner": "Glowing, not lighted."
+  },
+  {
+   "term": "Carbon dioxide test",
+   "definition": "Bubbling carbon dioxide through limewater turns it milky (cloudy).",
+   "examiner": "Limewater is calcium hydroxide solution."
+  },
+  {
+   "term": "Chlorine test",
+   "definition": "Damp litmus paper is bleached and turns white.",
+   "examiner": "It may turn red briefly first."
+  }
+ ]
+}

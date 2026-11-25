@@ -1,0 +1,48 @@
+{
+ "topic": "plant-tissues-and-transport",
+ "name": "Plant tissues and transport",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Xylem",
+   "definition": "Tissue of dead cells forming hollow tubes strengthened by lignin; it carries water and mineral ions from the roots to the stem and leaves.",
+   "examiner": "Water moves one way only, upwards."
+  },
+  {
+   "term": "Phloem",
+   "definition": "Tissue of elongated living cells with pores in the end walls; it carries dissolved sugars around the plant in both directions.",
+   "examiner": "The movement of sugars is called translocation."
+  },
+  {
+   "term": "Transpiration",
+   "definition": "The loss of water vapour from the leaves, which draws water up the xylem from the roots.",
+   "examiner": "It is faster when warm, dry, windy and bright."
+  },
+  {
+   "term": "Translocation",
+   "definition": "The movement of dissolved sugars through the phloem to where they are used or stored.",
+   "examiner": "Do not confuse with transpiration."
+  },
+  {
+   "term": "Stomata",
+   "definition": "Tiny pores, mostly on the underside of the leaf, that let carbon dioxide in and water vapour out.",
+   "examiner": "Guard cells open and close them."
+  },
+  {
+   "term": "Guard cells",
+   "definition": "A pair of cells around each stoma that control its size.",
+   "examiner": "Stomata close in the dark or when the plant is short of water."
+  },
+  {
+   "term": "Palisade mesophyll",
+   "definition": "The layer of leaf cells packed with chloroplasts where most photosynthesis happens.",
+   "examiner": "They are near the top surface to absorb most light."
+  },
+  {
+   "term": "Potometer",
+   "definition": "Apparatus that measures the rate of water uptake by a shoot, used to estimate the rate of transpiration.",
+   "examiner": "Almost all the water taken up is lost by transpiration."
+  }
+ ]
+}

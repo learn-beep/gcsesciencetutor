@@ -1,0 +1,38 @@
+{
+ "topic": "evolution-evidence-and-fossils",
+ "name": "Theories of evolution, speciation, fossils and resistant bacteria",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Fossil",
+   "definition": "The remains of organisms from millions of years ago, found in rocks: hard parts that do not decay, mineral replacement, or preserved traces.",
+   "examiner": "The record is incomplete because many early forms were soft-bodied and geological activity destroyed some fossils."
+  },
+  {
+   "term": "Extinction",
+   "definition": "When there are no remaining individuals of a species still alive.",
+   "examiner": "Causes include new predators, new diseases, competition and environmental change."
+  },
+  {
+   "term": "Antibiotic-resistant bacteria",
+   "definition": "Bacteria with a mutation that survives antibiotic treatment, so resistant bacteria reproduce and spread, as with MRSA.",
+   "examiner": "To reduce it: don't prescribe for viral infections, complete the course, restrict use in farming."
+  },
+  {
+   "term": "Darwin",
+   "definition": "Proposed the theory of evolution by natural selection, published in On the Origin of Species (1859).",
+   "examiner": "Separate Biology. Initially controversial: little evidence at the time, and it challenged the idea of creation."
+  },
+  {
+   "term": "Lamarck",
+   "definition": "Proposed that changes acquired during an organism's life are inherited; now rejected.",
+   "examiner": "Separate Biology."
+  },
+  {
+   "term": "Speciation",
+   "definition": "The formation of a new species when populations become isolated and their characteristics change until they can no longer interbreed.",
+   "examiner": "Separate Biology. Wallace worked on speciation and warning colouration."
+  }
+ ]
+}

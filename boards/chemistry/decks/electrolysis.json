@@ -1,0 +1,43 @@
+{
+ "topic": "electrolysis",
+ "name": "Electrolysis",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Electrolysis",
+   "definition": "Splitting a compound using electricity: ions in a melt or solution move to the electrodes and are discharged.",
+   "examiner": "The ions must be free to move."
+  },
+  {
+   "term": "Electrolyte",
+   "definition": "The molten or dissolved ionic compound that conducts electricity.",
+   "examiner": "Solid ionic compounds do not conduct."
+  },
+  {
+   "term": "Cathode",
+   "definition": "The negative electrode: positive ions gain electrons (reduction).",
+   "examiner": "Metal or hydrogen forms here."
+  },
+  {
+   "term": "Anode",
+   "definition": "The positive electrode: negative ions lose electrons (oxidation).",
+   "examiner": "Oxygen, or a halogen if halide ions are present, forms here."
+  },
+  {
+   "term": "Aqueous electrolysis",
+   "definition": "Hydrogen is produced at the cathode if the metal is more reactive than hydrogen; oxygen at the anode unless halide ions are present.",
+   "examiner": "Water provides H⁺ and OH⁻ ions."
+  },
+  {
+   "term": "Aluminium extraction",
+   "definition": "Electrolysis of aluminium oxide dissolved in molten cryolite to lower the melting point; the carbon anode burns away and must be replaced.",
+   "examiner": "Used because aluminium is more reactive than carbon."
+  },
+  {
+   "term": "Half equation",
+   "definition": "An equation showing the electrons gained or lost at an electrode, such as 2Cl⁻ → Cl₂ + 2e⁻.",
+   "examiner": "Higher tier."
+  }
+ ]
+}

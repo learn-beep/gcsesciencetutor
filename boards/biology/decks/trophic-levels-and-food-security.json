@@ -1,0 +1,38 @@
+{
+ "topic": "trophic-levels-and-food-security",
+ "name": "Trophic levels, biomass and food security",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Trophic level",
+   "definition": "The position of an organism in a food chain: producers are level 1, primary consumers (herbivores) level 2, and so on.",
+   "examiner": "Apex predators are carnivores with no predators."
+  },
+  {
+   "term": "Pyramid of biomass",
+   "definition": "A diagram of the relative amount of biomass at each trophic level, drawn to scale.",
+   "examiner": "Only about 10% of biomass is transferred to the next level."
+  },
+  {
+   "term": "Efficiency of biomass transfer",
+   "definition": "Biomass transferred to the next level ÷ biomass available at the level × 100.",
+   "examiner": "Losses: not all is eaten, egestion, excretion (urea), and respiration releasing energy."
+  },
+  {
+   "term": "Food security",
+   "definition": "Having enough food to feed a population.",
+   "examiner": "Threats: population growth, changing diets, new pests and pathogens, climate change, conflict."
+  },
+  {
+   "term": "Factory farming",
+   "definition": "Rearing animals indoors with restricted movement and controlled temperature to reduce energy transfer from respiration.",
+   "examiner": "Higher efficiency but ethical objections."
+  },
+  {
+   "term": "Mycoprotein",
+   "definition": "A protein-rich food made from the fungus Fusarium, grown in fermenters on glucose syrup.",
+   "examiner": "Biotechnology to feed a growing population."
+  }
+ ]
+}

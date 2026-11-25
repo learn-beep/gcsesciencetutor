@@ -1,0 +1,23 @@
+{
+ "topic": "yield-and-atom-economy",
+ "name": "Percentage yield and atom economy",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Percentage yield",
+   "definition": "Mass of product actually made ÷ maximum theoretical mass of product × 100.",
+   "examiner": "Separate Chemistry. Yield is below 100% because the reaction may not finish, side reactions happen, or product is lost when separating."
+  },
+  {
+   "term": "Atom economy",
+   "definition": "Relative formula mass of desired product ÷ sum of relative formula masses of all reactants × 100.",
+   "examiner": "Separate Chemistry. Use the balanced equation."
+  },
+  {
+   "term": "Why atom economy matters",
+   "definition": "A high atom economy means less waste, so the process is more sustainable and economic.",
+   "examiner": "Separate Chemistry. Also consider yield, rate, equilibrium and uses of by-products when choosing a route."
+  }
+ ]
+}

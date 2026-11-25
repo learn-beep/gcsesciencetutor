@@ -1,0 +1,38 @@
+{
+ "topic": "reproduction-and-meiosis",
+ "name": "Sexual and asexual reproduction and meiosis",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Sexual reproduction",
+   "definition": "The joining (fusion) of male and female gametes, producing offspring that vary because genetic information from two parents is mixed.",
+   "examiner": "Gametes are sperm and egg in animals; pollen and egg cells in flowering plants."
+  },
+  {
+   "term": "Asexual reproduction",
+   "definition": "One parent and no fusion of gametes; offspring are genetically identical clones; only mitosis is involved.",
+   "examiner": "Separate Biology: malaria parasites, fungi and strawberry runners can reproduce both ways."
+  },
+  {
+   "term": "Gamete",
+   "definition": "A sex cell with half the normal number of chromosomes.",
+   "examiner": "Human gametes have 23 chromosomes."
+  },
+  {
+   "term": "Meiosis",
+   "definition": "Cell division that halves the number of chromosomes to make four genetically different gametes.",
+   "examiner": "Two divisions; happens in the reproductive organs."
+  },
+  {
+   "term": "Fertilisation",
+   "definition": "The fusion of two gametes, restoring the full number of chromosomes.",
+   "examiner": "The new cell divides by mitosis to form an embryo."
+  },
+  {
+   "term": "Advantages of sexual reproduction",
+   "definition": "It produces variation, so if the environment changes some offspring may survive (natural selection); and variation can be used in selective breeding.",
+   "examiner": "Separate Biology compares the advantages of each type."
+  }
+ ]
+}

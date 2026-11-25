@@ -1,0 +1,33 @@
+{
+ "topic": "gas-pressure",
+ "name": "Gas pressure",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Gas pressure",
+   "definition": "The total force of particles colliding with the walls of the container, acting at right angles to the walls.",
+   "examiner": "Pressure = force ÷ area."
+  },
+  {
+   "term": "Temperature and particle speed",
+   "definition": "The temperature of a gas is related to the average kinetic energy of its particles.",
+   "examiner": "Higher temperature, faster particles."
+  },
+  {
+   "term": "Pressure at constant volume",
+   "definition": "Raising the temperature increases pressure, because particles collide with the walls more often and with more force.",
+   "examiner": "Explain both frequency and force."
+  },
+  {
+   "term": "Boyle's law",
+   "definition": "For a fixed mass of gas at constant temperature, pressure × volume = constant.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Work done on a gas",
+   "definition": "Doing work on a gas (such as pumping a tyre) increases its internal energy, so its temperature rises.",
+   "examiner": "Separate Physics, higher tier."
+  }
+ ]
+}

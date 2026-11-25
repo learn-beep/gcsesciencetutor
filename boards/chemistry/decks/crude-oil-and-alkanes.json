@@ -1,0 +1,43 @@
+{
+ "topic": "crude-oil-and-alkanes",
+ "name": "Crude oil, fractional distillation and alkanes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Crude oil",
+   "definition": "A finite resource, a mixture of many hydrocarbons, formed from the remains of plankton buried in mud.",
+   "examiner": "Mostly alkanes."
+  },
+  {
+   "term": "Hydrocarbon",
+   "definition": "A compound made of hydrogen and carbon atoms only.",
+   "examiner": "Water is not a hydrocarbon; methane is."
+  },
+  {
+   "term": "Alkane",
+   "definition": "A saturated hydrocarbon with the general formula CₙH₂ₙ₊₂.",
+   "examiner": "Methane, ethane, propane, butane."
+  },
+  {
+   "term": "Saturated",
+   "definition": "Contains only single carbon–carbon bonds.",
+   "examiner": "Alkanes are saturated."
+  },
+  {
+   "term": "Fractional distillation",
+   "definition": "Separating crude oil into fractions by heating and condensing them at different temperatures in a column.",
+   "examiner": "Fractions have similar numbers of carbon atoms."
+  },
+  {
+   "term": "Viscosity",
+   "definition": "How thick (resistant to flow) a liquid is; it increases with the size of the molecule.",
+   "examiner": "Larger molecules: higher boiling point, more viscous, less flammable."
+  },
+  {
+   "term": "Complete combustion",
+   "definition": "Hydrocarbon + oxygen → carbon dioxide + water, releasing energy.",
+   "examiner": "Balance the equation with oxygen last."
+  }
+ ]
+}

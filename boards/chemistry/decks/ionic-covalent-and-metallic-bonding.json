@@ -1,0 +1,38 @@
+{
+ "topic": "ionic-covalent-and-metallic-bonding",
+ "name": "Ionic, covalent and metallic bonding",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Ion",
+   "definition": "An atom or group of atoms with an electric charge, formed by losing or gaining electrons.",
+   "examiner": "Metals lose electrons to form positive ions."
+  },
+  {
+   "term": "Ionic bond",
+   "definition": "The strong electrostatic attraction between oppositely charged ions in a giant lattice.",
+   "examiner": "Forms between a metal and a non-metal."
+  },
+  {
+   "term": "Covalent bond",
+   "definition": "A shared pair of electrons between two atoms.",
+   "examiner": "Forms between non-metal atoms."
+  },
+  {
+   "term": "Metallic bond",
+   "definition": "The attraction between positive metal ions and a sea of delocalised electrons.",
+   "examiner": "Delocalised electrons explain conduction."
+  },
+  {
+   "term": "Dot and cross diagram",
+   "definition": "A diagram showing the electrons in the outer shells of the atoms or ions, with each atom's electrons drawn as dots or crosses.",
+   "examiner": "Show the charge on each ion in brackets."
+  },
+  {
+   "term": "Giant ionic lattice",
+   "definition": "A regular structure of oppositely charged ions held by strong forces acting in all directions.",
+   "examiner": "Sodium chloride is the standard example."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "topic": "moments-levers-and-gears",
+ "name": "Moments, levers and gears",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Moment",
+   "definition": "The turning effect of a force: moment = force × perpendicular distance from the pivot to the line of action of the force.",
+   "examiner": "Separate Physics. M = F d, units N m."
+  },
+  {
+   "term": "Principle of moments",
+   "definition": "For an object in balance, the total clockwise moment about a pivot equals the total anticlockwise moment.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Lever",
+   "definition": "A simple machine that increases the effect of a force (a force multiplier).",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Gears",
+   "definition": "Transmit the rotational effect of forces; a small gear driving a larger one gives a bigger moment but slower rotation.",
+   "examiner": "Separate Physics."
+  }
+ ]
+}

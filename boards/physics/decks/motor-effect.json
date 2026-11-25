@@ -1,0 +1,28 @@
+{
+ "topic": "motor-effect",
+ "name": "The motor effect",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Motor effect",
+   "definition": "A wire carrying a current in a magnetic field experiences a force.",
+   "examiner": "Higher tier: F = B I l, with B in tesla."
+  },
+  {
+   "term": "Fleming's left-hand rule",
+   "definition": "First finger: field; second finger: current; thumb: motion (force).",
+   "examiner": "Higher tier. The force is at right angles to both."
+  },
+  {
+   "term": "Electric motor",
+   "definition": "A coil carrying a current in a magnetic field experiences forces that make it rotate.",
+   "examiner": "Higher tier. A split-ring commutator reverses the current every half turn."
+  },
+  {
+   "term": "Loudspeaker",
+   "definition": "Uses the motor effect: a varying current in a coil in a magnetic field makes a cone vibrate, producing sound waves.",
+   "examiner": "Separate Physics, higher tier."
+  }
+ ]
+}

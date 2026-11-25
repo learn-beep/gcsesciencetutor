@@ -1,0 +1,43 @@
+{
+ "topic": "non-communicable-diseases",
+ "name": "Coronary heart disease, lifestyle and cancer",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Coronary heart disease",
+   "definition": "A disease in which layers of fatty material build up in the coronary arteries, narrowing them and reducing the flow of blood, so less oxygen reaches the heart muscle.",
+   "examiner": "Treated with stents, statins or, for faulty valves, a valve replacement."
+  },
+  {
+   "term": "Stent",
+   "definition": "A mesh tube inserted into an artery to keep it open.",
+   "examiner": "A drawback is the risk of a blood clot forming."
+  },
+  {
+   "term": "Statin",
+   "definition": "A drug that lowers blood cholesterol, slowing the build-up of fatty material in the arteries.",
+   "examiner": "Must be taken long term and can have side effects."
+  },
+  {
+   "term": "Non-communicable disease",
+   "definition": "A disease that cannot be passed from one person to another, such as heart disease or most cancers.",
+   "examiner": "Risk factors increase the chance, but do not guarantee the disease."
+  },
+  {
+   "term": "Risk factor",
+   "definition": "Something linked to a greater chance of a disease, such as smoking, obesity or alcohol.",
+   "examiner": "A correlation does not prove the factor causes the disease."
+  },
+  {
+   "term": "Benign tumour",
+   "definition": "A growth of abnormal cells contained in one area, usually within a membrane; it does not invade other parts of the body.",
+   "examiner": "Benign tumours can still cause harm by pressing on organs."
+  },
+  {
+   "term": "Malignant tumour",
+   "definition": "A cancer: a tumour that invades neighbouring tissues and spreads in the blood to form secondary tumours.",
+   "examiner": "Cancer is the result of uncontrolled cell division."
+  }
+ ]
+}

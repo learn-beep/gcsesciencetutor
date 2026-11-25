@@ -1,0 +1,38 @@
+{
+ "topic": "transverse-and-longitudinal-waves",
+ "name": "Transverse and longitudinal waves and wave speed",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Transverse wave",
+   "definition": "Oscillations are perpendicular to the direction of energy transfer, such as ripples on water.",
+   "examiner": "Electromagnetic waves are transverse."
+  },
+  {
+   "term": "Longitudinal wave",
+   "definition": "Oscillations are parallel to the direction of energy transfer, with compressions and rarefactions, such as sound.",
+   "examiner": "Waves transfer energy, not the medium."
+  },
+  {
+   "term": "Amplitude",
+   "definition": "The maximum displacement of a point on a wave from its undisturbed position.",
+   "examiner": "Measured from the middle, not peak to trough."
+  },
+  {
+   "term": "Wavelength",
+   "definition": "The distance from a point on one wave to the equivalent point on the next.",
+   "examiner": "Measure across several waves and divide."
+  },
+  {
+   "term": "Frequency",
+   "definition": "The number of waves passing a point each second, in hertz (Hz).",
+   "examiner": "Period T = 1 / f."
+  },
+  {
+   "term": "Wave speed",
+   "definition": "The speed at which energy is transferred through the medium: v = f λ.",
+   "examiner": "Required practical: ripple tank and waves on a string."
+  }
+ ]
+}

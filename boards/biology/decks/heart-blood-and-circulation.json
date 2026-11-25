@@ -1,0 +1,48 @@
+{
+ "topic": "heart-blood-and-circulation",
+ "name": "The heart, blood vessels and blood",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Double circulatory system",
+   "definition": "Blood passes through the heart twice in each circuit: the right side pumps it to the lungs, the left side to the rest of the body.",
+   "examiner": "The left ventricle has a thicker wall because it pumps blood all round the body."
+  },
+  {
+   "term": "Pacemaker",
+   "definition": "A group of cells in the right atrium that controls the natural resting heart rate.",
+   "examiner": "An artificial pacemaker is an electrical device that corrects an irregular heart rate."
+  },
+  {
+   "term": "Artery",
+   "definition": "Carries blood away from the heart at high pressure; thick muscular and elastic walls.",
+   "examiner": "Arteries carry blood away; veins carry it back."
+  },
+  {
+   "term": "Vein",
+   "definition": "Carries blood back to the heart at low pressure; thinner walls, a wide lumen and valves to stop backflow.",
+   "examiner": "The pulmonary vein carries oxygenated blood."
+  },
+  {
+   "term": "Capillary",
+   "definition": "A tiny vessel with walls one cell thick, so substances diffuse quickly between the blood and the tissues.",
+   "examiner": "Link \"one cell thick\" to \"short diffusion distance\"."
+  },
+  {
+   "term": "Plasma",
+   "definition": "The pale yellow liquid part of blood, carrying cells, glucose, carbon dioxide, urea, hormones and proteins.",
+   "examiner": "Red blood cells are not part of the plasma."
+  },
+  {
+   "term": "Red blood cell",
+   "definition": "Carries oxygen: contains haemoglobin, has no nucleus and is a biconcave disc for a large surface area.",
+   "examiner": "Haemoglobin binds oxygen in the lungs to form oxyhaemoglobin."
+  },
+  {
+   "term": "Platelet",
+   "definition": "A fragment of a cell that helps blood to clot at a wound.",
+   "examiner": "Clotting stops blood loss and keeps microorganisms out."
+  }
+ ]
+}

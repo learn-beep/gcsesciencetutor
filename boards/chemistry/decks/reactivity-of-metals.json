@@ -1,0 +1,38 @@
+{
+ "topic": "reactivity-of-metals",
+ "name": "Reactivity series, extraction and redox",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Reactivity series",
+   "definition": "Metals arranged in order of reactivity, based on their reactions with water and acids.",
+   "examiner": "Potassium, sodium, lithium, calcium, magnesium, (carbon), zinc, iron, (hydrogen), copper."
+  },
+  {
+   "term": "Oxidation",
+   "definition": "Gain of oxygen; in terms of electrons, loss of electrons.",
+   "examiner": "OIL RIG: oxidation is loss, reduction is gain (higher tier)."
+  },
+  {
+   "term": "Reduction",
+   "definition": "Loss of oxygen; in terms of electrons, gain of electrons.",
+   "examiner": "Metals below carbon are extracted by reduction with carbon."
+  },
+  {
+   "term": "Ore",
+   "definition": "A rock containing enough of a metal compound to make extraction worthwhile.",
+   "examiner": "Unreactive metals such as gold are found as the metal."
+  },
+  {
+   "term": "Displacement reaction",
+   "definition": "A more reactive metal displaces a less reactive metal from a compound.",
+   "examiner": "Higher tier: write ionic equations and identify what is oxidised."
+  },
+  {
+   "term": "Ionic equation",
+   "definition": "An equation showing only the ions and substances that change in a reaction.",
+   "examiner": "Higher tier. Spectator ions are left out."
+  }
+ ]
+}

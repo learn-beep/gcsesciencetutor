@@ -1,0 +1,33 @@
+{
+ "topic": "pressure-in-fluids",
+ "name": "Pressure in fluids",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Pressure",
+   "definition": "Force normal to a surface ÷ area of that surface: p = F / A.",
+   "examiner": "Separate Physics. Units pascals (Pa)."
+  },
+  {
+   "term": "Fluid",
+   "definition": "A liquid or a gas.",
+   "examiner": "Separate Physics. Fluid pressure acts at right angles to any surface."
+  },
+  {
+   "term": "Pressure in a liquid",
+   "definition": "Increases with depth and density: p = h ρ g.",
+   "examiner": "Separate Physics, higher tier."
+  },
+  {
+   "term": "Upthrust",
+   "definition": "The resultant upward force on an object submerged in a fluid, because pressure is greater at the bottom than at the top.",
+   "examiner": "Separate Physics, higher tier. An object floats if its weight equals the upthrust."
+  },
+  {
+   "term": "Atmospheric pressure",
+   "definition": "Caused by air molecules colliding with surfaces; it decreases with height because there is less air above.",
+   "examiner": "Separate Physics."
+  }
+ ]
+}

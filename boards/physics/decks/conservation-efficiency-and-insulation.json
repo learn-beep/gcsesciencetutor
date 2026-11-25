@@ -1,0 +1,33 @@
+{
+ "topic": "conservation-efficiency-and-insulation",
+ "name": "Conservation, dissipation and efficiency",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Conservation of energy",
+   "definition": "Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed.",
+   "examiner": "The total energy is the same before and after."
+  },
+  {
+   "term": "Dissipated energy",
+   "definition": "Energy transferred to the surroundings in a way that is not useful; often described as wasted.",
+   "examiner": "Usually it heats the surroundings."
+  },
+  {
+   "term": "Efficiency",
+   "definition": "Useful output energy transfer ÷ total input energy transfer; or useful power output ÷ total power input.",
+   "examiner": "No unit, or ×100 for a percentage. Never more than 100%."
+  },
+  {
+   "term": "Reducing unwanted transfers",
+   "definition": "Lubrication reduces friction; thermal insulation reduces heating of the surroundings.",
+   "examiner": "Thicker walls with lower thermal conductivity lose energy more slowly."
+  },
+  {
+   "term": "Thermal conductivity",
+   "definition": "How well a material conducts energy by heating; the higher it is, the faster the energy transfer.",
+   "examiner": "Separate Physics required practical on insulation."
+  }
+ ]
+}

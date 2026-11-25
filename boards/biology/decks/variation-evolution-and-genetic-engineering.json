@@ -1,0 +1,43 @@
+{
+ "topic": "variation-evolution-and-genetic-engineering",
+ "name": "Variation, evolution, selective breeding and genetic engineering",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Variation",
+   "definition": "Differences in the characteristics of individuals in a population, caused by genes, the environment or both.",
+   "examiner": "Most variation has both genetic and environmental causes."
+  },
+  {
+   "term": "Evolution",
+   "definition": "A change in the inherited characteristics of a population over time through natural selection, which may result in the formation of a new species.",
+   "examiner": "Life began more than three billion years ago."
+  },
+  {
+   "term": "Natural selection",
+   "definition": "Individuals best suited to their environment are more likely to survive, breed and pass on their alleles.",
+   "examiner": "Mutation → variation → selection pressure → survival → breeding → alleles passed on."
+  },
+  {
+   "term": "Species",
+   "definition": "Organisms so different that they can no longer interbreed to produce fertile offspring.",
+   "examiner": "Use \"fertile offspring\" in any definition."
+  },
+  {
+   "term": "Selective breeding",
+   "definition": "Humans choosing parents with desired characteristics to breed together, over many generations.",
+   "examiner": "Inbreeding can increase disease and reduce variation."
+  },
+  {
+   "term": "Genetic engineering",
+   "definition": "Modifying the genome of an organism by introducing a gene from another organism to give a desired characteristic.",
+   "examiner": "Example: bacteria making human insulin; GM crops resistant to pests."
+  },
+  {
+   "term": "Vector",
+   "definition": "A plasmid or virus used to insert a gene into the required cells.",
+   "examiner": "Higher tier. The gene is cut out with enzymes."
+  }
+ ]
+}

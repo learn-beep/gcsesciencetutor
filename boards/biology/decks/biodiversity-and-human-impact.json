@@ -1,0 +1,38 @@
+{
+ "topic": "biodiversity-and-human-impact",
+ "name": "Biodiversity and human impact",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Biodiversity",
+   "definition": "The variety of all the different species of organisms on Earth, or within an ecosystem.",
+   "examiner": "High biodiversity makes ecosystems more stable."
+  },
+  {
+   "term": "Pollution",
+   "definition": "Harmful substances released into the land, water or air, such as sewage, fertiliser, toxic chemicals, smoke and acidic gases.",
+   "examiner": "Pollution kills plants and animals, reducing biodiversity."
+  },
+  {
+   "term": "Deforestation",
+   "definition": "Large-scale cutting down of forests, for cattle, rice or biofuel crops.",
+   "examiner": "It increases carbon dioxide and reduces biodiversity."
+  },
+  {
+   "term": "Peat bogs",
+   "definition": "Store carbon; destroying them for compost releases carbon dioxide and reduces habitat.",
+   "examiner": "Peat-free compost conserves them."
+  },
+  {
+   "term": "Global warming",
+   "definition": "The rise in average global temperature caused by increasing levels of carbon dioxide and methane.",
+   "examiner": "Effects: loss of habitat, species migration, changes in distribution."
+  },
+  {
+   "term": "Maintaining biodiversity",
+   "definition": "Breeding programmes, protecting and regenerating rare habitats, field margins and hedgerows, reducing deforestation and carbon emissions, and recycling.",
+   "examiner": "Conflicting pressures make this hard."
+  }
+ ]
+}

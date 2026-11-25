@@ -1,0 +1,38 @@
+{
+ "topic": "radioactive-decay",
+ "name": "Radioactive decay, nuclear equations and half-life",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Radioactive decay",
+   "definition": "An unstable nucleus gives out radiation to become more stable; it is random.",
+   "examiner": "You cannot predict which nucleus decays next."
+  },
+  {
+   "term": "Activity",
+   "definition": "The rate at which a source of unstable nuclei decays, measured in becquerels (Bq).",
+   "examiner": "1 Bq = 1 decay per second."
+  },
+  {
+   "term": "Alpha particle",
+   "definition": "Two protons and two neutrons (a helium nucleus); stopped by paper or a few cm of air; strongly ionising.",
+   "examiner": "Mass number falls by 4, atomic number by 2."
+  },
+  {
+   "term": "Beta particle",
+   "definition": "A high-speed electron ejected from the nucleus as a neutron turns into a proton; stopped by a few mm of aluminium.",
+   "examiner": "Atomic number rises by 1; mass number unchanged."
+  },
+  {
+   "term": "Gamma ray",
+   "definition": "Electromagnetic radiation from the nucleus; very penetrating, weakly ionising.",
+   "examiner": "No change in the nucleus's mass or charge."
+  },
+  {
+   "term": "Half-life",
+   "definition": "The time it takes for the number of nuclei in a sample to halve, or for the count rate to fall to half.",
+   "examiner": "Higher tier: express the net decline as a ratio."
+  }
+ ]
+}

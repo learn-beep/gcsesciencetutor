@@ -1,0 +1,38 @@
+{
+ "topic": "exothermic-and-endothermic-reactions",
+ "name": "Energy changes and bond energies",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Exothermic reaction",
+   "definition": "A reaction that transfers energy to the surroundings, so the temperature of the surroundings rises.",
+   "examiner": "Combustion, oxidation and neutralisation are exothermic."
+  },
+  {
+   "term": "Endothermic reaction",
+   "definition": "A reaction that takes in energy from the surroundings, so the temperature falls.",
+   "examiner": "Thermal decomposition and citric acid with sodium hydrogencarbonate are endothermic."
+  },
+  {
+   "term": "Activation energy",
+   "definition": "The minimum energy that particles must have to react when they collide.",
+   "examiner": "Shown on a reaction profile from reactants up to the peak."
+  },
+  {
+   "term": "Reaction profile",
+   "definition": "A diagram showing the relative energies of reactants and products, the activation energy and the overall energy change.",
+   "examiner": "Exothermic: products lower than reactants."
+  },
+  {
+   "term": "Bond breaking",
+   "definition": "Endothermic: energy must be supplied to break bonds.",
+   "examiner": "Higher tier."
+  },
+  {
+   "term": "Bond making",
+   "definition": "Exothermic: energy is released when bonds form.",
+   "examiner": "Higher tier. Overall change = energy to break bonds − energy released making bonds."
+  }
+ ]
+}

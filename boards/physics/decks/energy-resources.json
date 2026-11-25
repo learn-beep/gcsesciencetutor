@@ -1,0 +1,28 @@
+{
+ "topic": "energy-resources",
+ "name": "Energy resources",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Renewable resource",
+   "definition": "An energy resource that is being (or can be) replenished as it is used, such as solar, wind, hydroelectricity, tides, waves, geothermal and bio-fuel.",
+   "examiner": "Some are unreliable: wind and solar depend on weather."
+  },
+  {
+   "term": "Non-renewable resource",
+   "definition": "A resource that will run out, such as fossil fuels (coal, oil, gas) and nuclear fuel.",
+   "examiner": "Reliable, but fossil fuels release carbon dioxide."
+  },
+  {
+   "term": "Bio-fuel",
+   "definition": "A fuel from plant or animal matter; it is renewable and close to carbon neutral.",
+   "examiner": "Land for crops is a disadvantage."
+  },
+  {
+   "term": "Environmental impact",
+   "definition": "Fossil fuels release carbon dioxide (global warming) and sulfur dioxide (acid rain); nuclear produces radioactive waste.",
+   "examiner": "Questions often ask you to weigh up reliability, cost and impact."
+  }
+ ]
+}

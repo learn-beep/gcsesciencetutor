@@ -1,4 +1,11 @@
 {
- "all": [["gcsesci-", "gcsechem-"]],
- "delete": ["src/pages/equations"]
+ "all": [
+  [
+   "gcsesci-",
+   "gcsechem-"
+  ]
+ ],
+ "delete": [
+  "src/pages/equations"
+ ]
 }

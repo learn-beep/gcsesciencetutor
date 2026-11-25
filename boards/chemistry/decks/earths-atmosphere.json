@@ -1,0 +1,28 @@
+{
+ "topic": "earths-atmosphere",
+ "name": "The Earth's atmosphere",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Composition of the atmosphere",
+   "definition": "About four-fifths nitrogen and one-fifth oxygen, with small proportions of carbon dioxide, water vapour and noble gases.",
+   "examiner": "For the last 200 million years."
+  },
+  {
+   "term": "Early atmosphere",
+   "definition": "Mainly carbon dioxide with little or no oxygen, released by intense volcanic activity, which also released water vapour that condensed to form the oceans.",
+   "examiner": "Evidence is limited because it was so long ago."
+  },
+  {
+   "term": "How carbon dioxide decreased",
+   "definition": "It dissolved in the oceans and formed carbonate precipitates (sediments); algae and plants removed it by photosynthesis.",
+   "examiner": "Also locked into fossil fuels and sedimentary rocks."
+  },
+  {
+   "term": "How oxygen increased",
+   "definition": "Algae and plants produced oxygen by photosynthesis.",
+   "examiner": "About 2.7 billion years ago algae first produced oxygen."
+  }
+ ]
+}

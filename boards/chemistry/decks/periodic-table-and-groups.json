@@ -1,0 +1,43 @@
+{
+ "topic": "periodic-table-and-groups",
+ "name": "The periodic table and groups 0, 1 and 7",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Group",
+   "definition": "A column in the periodic table; elements in a group have the same number of electrons in their outer shell and similar reactions.",
+   "examiner": "The group number equals the number of outer electrons (except Group 0)."
+  },
+  {
+   "term": "Mendeleev",
+   "definition": "Ordered elements by atomic weight but left gaps for undiscovered elements and swapped some pairs to fit patterns.",
+   "examiner": "The discovery of isotopes later explained why some pairs were out of order."
+  },
+  {
+   "term": "Metal",
+   "definition": "An element that forms positive ions when it reacts.",
+   "examiner": "Metals are to the left of and below the zig-zag line."
+  },
+  {
+   "term": "Noble gases",
+   "definition": "Group 0 elements: unreactive because their outer shell is full (stable arrangement of electrons).",
+   "examiner": "Boiling point increases down the group."
+  },
+  {
+   "term": "Alkali metals",
+   "definition": "Group 1 elements: react with water to give hydrogen and a metal hydroxide; reactivity increases down the group.",
+   "examiner": "The outer electron is further from the nucleus, so it is lost more easily."
+  },
+  {
+   "term": "Halogens",
+   "definition": "Group 7 elements: diatomic non-metals whose reactivity decreases down the group.",
+   "examiner": "Melting and boiling points increase down the group."
+  },
+  {
+   "term": "Displacement",
+   "definition": "A more reactive halogen displaces a less reactive one from a solution of its salt.",
+   "examiner": "Chlorine displaces bromine and iodine."
+  }
+ ]
+}

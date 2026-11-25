@@ -1,0 +1,33 @@
+{
+ "topic": "photosynthesis",
+ "name": "Photosynthesis",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Photosynthesis",
+   "definition": "carbon dioxide + water → glucose + oxygen, using light energy absorbed by chlorophyll in chloroplasts.",
+   "examiner": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂."
+  },
+  {
+   "term": "Endothermic reaction",
+   "definition": "A reaction that takes in energy from the surroundings; photosynthesis takes in energy as light.",
+   "examiner": "Respiration, by contrast, is exothermic."
+  },
+  {
+   "term": "Limiting factor",
+   "definition": "The factor in shortest supply that stops the rate of photosynthesis increasing: temperature, light intensity, carbon dioxide concentration or amount of chlorophyll.",
+   "examiner": "On a graph, the factor is limiting where the line is still rising."
+  },
+  {
+   "term": "Inverse square law",
+   "definition": "Light intensity is inversely proportional to the square of the distance from the source: light intensity ∝ 1/d².",
+   "examiner": "Higher tier: halving the distance makes the light four times as intense."
+  },
+  {
+   "term": "Uses of glucose",
+   "definition": "Respiration; converted to starch for storage; cellulose for cell walls; fats and oils; amino acids (with nitrate ions) for proteins.",
+   "examiner": "Starch is insoluble, so it does not affect osmosis."
+  }
+ ]
+}

@@ -49,6 +49,8 @@ for (const sub of SUBJECTS) {
   const data = path.join(work, 'src', 'data');
   for (const f of fs.readdirSync(path.join(B, 'data'))) fs.copyFileSync(path.join(B, 'data', f), path.join(data, f));
   for (const f of ['exams.json', 'boundaries.json']) fs.copyFileSync(path.join(B, f), path.join(data, f));
+  const dk = path.join(B, 'decks');
+  if (fs.existsSync(dk)) for (const f of fs.readdirSync(dk)) fs.copyFileSync(path.join(dk, f), path.join(data, 'decks', f));
   const cfg = JSON.parse(fs.readFileSync(path.join(B, 'site.config.json'), 'utf8'));
   fs.writeFileSync(path.join(data, 'site.json'), JSON.stringify(cfg.site, null, 2));
   const rep = JSON.parse(fs.readFileSync(path.join(B, 'replace.json'), 'utf8'));

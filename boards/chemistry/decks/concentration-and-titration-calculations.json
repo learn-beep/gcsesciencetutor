@@ -1,0 +1,33 @@
+{
+ "topic": "concentration-and-titration-calculations",
+ "name": "Concentration and titration calculations",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Concentration in g/dm³",
+   "definition": "Mass of solute (g) ÷ volume of solution (dm³).",
+   "examiner": "1 dm³ = 1000 cm³."
+  },
+  {
+   "term": "Concentration in mol/dm³",
+   "definition": "Moles of solute ÷ volume of solution (dm³).",
+   "examiner": "Separate Chemistry, higher tier."
+  },
+  {
+   "term": "Titration",
+   "definition": "Using a burette to find the volume of one solution that exactly reacts with a known volume of another, with an indicator.",
+   "examiner": "Separate Chemistry. Repeat until concordant results within 0.10 cm³."
+  },
+  {
+   "term": "End point",
+   "definition": "The point at which the indicator changes colour, showing the reaction is complete.",
+   "examiner": "Add drop by drop near the end point and swirl."
+  },
+  {
+   "term": "Titration calculation",
+   "definition": "Moles of the known solution = concentration × volume (dm³); use the equation ratio to find moles of the other; concentration = moles ÷ volume.",
+   "examiner": "Separate Chemistry, higher tier."
+  }
+ ]
+}

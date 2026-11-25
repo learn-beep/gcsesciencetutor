@@ -1,0 +1,28 @@
+{
+ "topic": "specific-heat-capacity-and-power",
+ "name": "Specific heat capacity and power",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Specific heat capacity",
+   "definition": "The amount of energy needed to raise the temperature of 1 kg of a substance by 1 °C.",
+   "examiner": "ΔE = m c Δθ. Units J/kg °C."
+  },
+  {
+   "term": "Power",
+   "definition": "The rate at which energy is transferred or the rate at which work is done.",
+   "examiner": "P = E/t or P = W/t. 1 watt = 1 joule per second."
+  },
+  {
+   "term": "Watt",
+   "definition": "A power of one joule per second.",
+   "examiner": "A 100 W motor transfers 100 J every second."
+  },
+  {
+   "term": "Comparing powers",
+   "definition": "Two motors lifting the same load: the more powerful one does it faster.",
+   "examiner": "Same energy, less time."
+  }
+ ]
+}

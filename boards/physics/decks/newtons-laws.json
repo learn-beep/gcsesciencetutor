@@ -1,0 +1,28 @@
+{
+ "topic": "newtons-laws",
+ "name": "Newton's laws",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Newton's first law",
+   "definition": "If the resultant force on an object is zero, a stationary object stays still and a moving object keeps moving at the same speed in the same direction.",
+   "examiner": "Constant velocity means balanced forces."
+  },
+  {
+   "term": "Newton's second law",
+   "definition": "The acceleration of an object is proportional to the resultant force and inversely proportional to its mass: F = m a.",
+   "examiner": "Resultant force, not just any force."
+  },
+  {
+   "term": "Inertia",
+   "definition": "The tendency of an object to continue in its state of rest or uniform motion.",
+   "examiner": "Higher tier: inertial mass = force ÷ acceleration."
+  },
+  {
+   "term": "Newton's third law",
+   "definition": "Whenever two objects interact, the forces they exert on each other are equal and opposite.",
+   "examiner": "The two forces act on different objects."
+  }
+ ]
+}

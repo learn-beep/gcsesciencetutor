@@ -338,7 +338,8 @@ blockquote.review footer { color: var(--ink-2); font-size: .9rem; }
 .board-switch a[aria-current="page"] { background: var(--accent); color: var(--accent-ink); }
 .board-note { border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: .5rem; padding: .6rem .9rem; margin: 1rem 0; background: var(--paper); }
 @media (max-width: 480px) {
-  .brand { white-space: nowrap; font-size: .95rem; min-width: 0; }
+  .brand { white-space: nowrap; font-size: .95rem; min-width: 0; overflow: hidden; }
+  .brand span { overflow: hidden; text-overflow: ellipsis; }
   .site-header .wrap { gap: .5rem; }
   .board-switch { margin-left: 0; font-size: .75rem; }
   .board-switch a { padding: .2rem .5rem; }

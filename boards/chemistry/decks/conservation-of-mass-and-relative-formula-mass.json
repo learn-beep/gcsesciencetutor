@@ -1,0 +1,28 @@
+{
+ "topic": "conservation-of-mass-and-relative-formula-mass",
+ "name": "Conservation of mass and relative formula mass",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Law of conservation of mass",
+   "definition": "No atoms are lost or made in a chemical reaction, so the mass of the products equals the mass of the reactants.",
+   "examiner": "Balanced equations have the same number of each atom on each side."
+  },
+  {
+   "term": "Relative formula mass (Mr)",
+   "definition": "The sum of the relative atomic masses of the atoms in the formula.",
+   "examiner": "In a balanced equation, the sum of Mr of the reactants equals the sum of Mr of the products."
+  },
+  {
+   "term": "Apparent change in mass",
+   "definition": "When a gas is given off and escapes, mass seems to go down; when a reactant is a gas from the air, mass seems to go up.",
+   "examiner": "Explain using the gas and the open container."
+  },
+  {
+   "term": "Uncertainty",
+   "definition": "The range of a set of measurements about the mean; a measure of how far the true value may be from the mean.",
+   "examiner": "Use ± half the range."
+  }
+ ]
+}

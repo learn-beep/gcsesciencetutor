@@ -1,0 +1,33 @@
+{
+ "topic": "ph-titrations-and-strong-acids",
+ "name": "pH, titrations and strong and weak acids",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "pH scale",
+   "definition": "A scale from 0 to 14 measuring how acidic or alkaline a solution is.",
+   "examiner": "Measure with universal indicator or a pH probe."
+  },
+  {
+   "term": "Strong acid",
+   "definition": "An acid that is completely ionised in aqueous solution, such as hydrochloric, nitric or sulfuric acid.",
+   "examiner": "Higher tier. Strong is not the same as concentrated."
+  },
+  {
+   "term": "Weak acid",
+   "definition": "An acid only partially ionised in aqueous solution, such as ethanoic, citric or carbonic acid.",
+   "examiner": "Higher tier."
+  },
+  {
+   "term": "Concentrated",
+   "definition": "Having a large amount of solute in a given volume of solution.",
+   "examiner": "Higher tier: dilute and concentrated describe amount; weak and strong describe ionisation."
+  },
+  {
+   "term": "pH and H⁺ concentration",
+   "definition": "As the pH decreases by one unit, the hydrogen ion concentration increases by a factor of 10.",
+   "examiner": "Higher tier."
+  }
+ ]
+}

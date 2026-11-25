@@ -1,0 +1,33 @@
+{
+ "topic": "electromagnetic-spectrum",
+ "name": "The electromagnetic spectrum",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Electromagnetic waves",
+   "definition": "Transverse waves that transfer energy from source to absorber and all travel at the same speed in a vacuum.",
+   "examiner": "Radio, microwave, infrared, visible, ultraviolet, X-ray, gamma, in order of decreasing wavelength."
+  },
+  {
+   "term": "Refraction",
+   "definition": "A change in direction when a wave crosses a boundary at an angle, because its speed changes.",
+   "examiner": "Higher tier: explain with a wave front diagram."
+  },
+  {
+   "term": "Radio waves",
+   "definition": "Produced by oscillations in electrical circuits; when absorbed they can create an alternating current in a circuit.",
+   "examiner": "Higher tier. Used for television and radio."
+  },
+  {
+   "term": "Hazards of ultraviolet",
+   "definition": "Causes skin to age prematurely and increases the risk of skin cancer.",
+   "examiner": "X-rays and gamma rays are ionising and can cause mutations and cancer."
+  },
+  {
+   "term": "Uses of EM waves",
+   "definition": "Microwaves for satellites and cooking; infrared for heaters, cooking and cameras; visible for fibre optics; UV for energy-efficient lamps and tanning; X and gamma for medical imaging and treatment.",
+   "examiner": "Higher tier: explain why each type suits its use."
+  }
+ ]
+}

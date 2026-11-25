@@ -1,0 +1,33 @@
+{
+ "topic": "polymers",
+ "name": "Addition and condensation polymers",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Addition polymerisation",
+   "definition": "Many small alkene monomers join to form a very large molecule; the double bond opens up.",
+   "examiner": "Separate Chemistry. The repeating unit has the same atoms as the monomer."
+  },
+  {
+   "term": "Monomer",
+   "definition": "A small molecule that joins with others to form a polymer.",
+   "examiner": "Ethene is the monomer of poly(ethene)."
+  },
+  {
+   "term": "Condensation polymerisation",
+   "definition": "Monomers with two functional groups join, losing a small molecule such as water each time.",
+   "examiner": "Separate Chemistry, higher tier."
+  },
+  {
+   "term": "Amino acids",
+   "definition": "Contain an amino group and a carboxylic acid group; they polymerise to form polypeptides and proteins.",
+   "examiner": "Separate Chemistry, higher tier for the reaction."
+  },
+  {
+   "term": "Naturally occurring polymers",
+   "definition": "DNA (made of nucleotides), proteins (amino acids), starch and cellulose (sugars).",
+   "examiner": "Separate Chemistry."
+  }
+ ]
+}

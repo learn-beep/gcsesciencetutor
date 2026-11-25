@@ -1,0 +1,28 @@
+{
+ "topic": "greenhouse-gases-and-climate-change",
+ "name": "Greenhouse gases and climate change",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Greenhouse gases",
+   "definition": "Carbon dioxide, water vapour and methane: they absorb long-wavelength (infrared) radiation re-emitted by the Earth and keep it warm.",
+   "examiner": "Short-wavelength radiation from the Sun passes through."
+  },
+  {
+   "term": "Human activities and carbon dioxide",
+   "definition": "Burning fossil fuels and deforestation increase carbon dioxide.",
+   "examiner": "Methane increases from cattle farming and rice fields."
+  },
+  {
+   "term": "Climate change",
+   "definition": "Changes to the climate caused by rising global temperature: sea level rise, extreme weather, changes in food production and species distribution.",
+   "examiner": "Peer-reviewed evidence supports the link to human activity."
+  },
+  {
+   "term": "Carbon footprint",
+   "definition": "The total amount of carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event.",
+   "examiner": "Reduced by renewables, energy efficiency, carbon capture and taxes."
+  }
+ ]
+}

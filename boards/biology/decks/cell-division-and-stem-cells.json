@@ -1,0 +1,43 @@
+{
+ "topic": "cell-division-and-stem-cells",
+ "name": "Cell division and stem cells",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Chromosome",
+   "definition": "A long DNA molecule carrying many genes, found in the nucleus. Body cells have 23 pairs.",
+   "examiner": "Chromosomes come in pairs: one from each parent."
+  },
+  {
+   "term": "Cell cycle",
+   "definition": "The series of stages in which a cell grows, copies its DNA and sub-cellular structures, then divides by mitosis into two identical cells.",
+   "examiner": "Mitosis produces two genetically identical daughter cells."
+  },
+  {
+   "term": "Mitosis",
+   "definition": "Cell division that produces two genetically identical cells; used for growth, repair and asexual reproduction.",
+   "examiner": "One set of chromosomes is pulled to each end of the cell, then the cytoplasm and membrane divide."
+  },
+  {
+   "term": "Differentiation",
+   "definition": "The process by which a cell becomes specialised for a particular job.",
+   "examiner": "Most animal cells differentiate early on; many plant cells can differentiate throughout life."
+  },
+  {
+   "term": "Stem cell",
+   "definition": "An undifferentiated cell that can divide to make more stem cells and differentiate into some or many types of cell.",
+   "examiner": "Embryonic stem cells can become most cell types; adult bone marrow stem cells only some."
+  },
+  {
+   "term": "Meristem",
+   "definition": "Plant tissue at the tips of roots and shoots where cells divide; it can differentiate into any type of plant cell throughout the plant's life.",
+   "examiner": "Used to make clones of rare plants or crops quickly and cheaply."
+  },
+  {
+   "term": "Therapeutic cloning",
+   "definition": "Making an embryo with the same genes as the patient so that its stem cells are not rejected by the patient's immune system.",
+   "examiner": "Ethical objections and the risk of transferring a viral infection are common evaluation points."
+  }
+ ]
+}

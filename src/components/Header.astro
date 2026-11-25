@@ -18,7 +18,7 @@ import { SUBJECTS, SUB, IS_HOME } from '../lib/subject';
         <a href="/questions/"><Icon name="book" />Questions</a>
         <a href="/past-papers/"><Icon name="file" />Past papers</a>
         <a href="/practice/"><Icon name="target" />Practice</a>
-        {SUB === 'physics' && <a href="/equations/"><Icon name="book" />Equations</a>}
+        {SUB === 'physics' ? <a href="/equations/"><Icon name="book" />Equations</a> : <a href="/calculations/"><Icon name="calculator" />Calculations</a>}
         <a href="/required-practicals/"><Icon name="checklist" />Practicals</a>
       </>}
       <a href="/tutors/"><Icon name="users" />Tutor</a>

@@ -1,0 +1,48 @@
+{
+ "topic": "immune-system-and-vaccination",
+ "name": "Defences, vaccination, antibiotics and drugs",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Phagocytosis",
+   "definition": "The way some white blood cells engulf and digest pathogens.",
+   "examiner": "One of three white blood cell responses, with antibodies and antitoxins."
+  },
+  {
+   "term": "Antibody",
+   "definition": "A protein made by white blood cells (lymphocytes) that binds to a specific antigen on a pathogen.",
+   "examiner": "Antibodies are specific: each fits one antigen."
+  },
+  {
+   "term": "Antitoxin",
+   "definition": "A substance made by white blood cells that neutralises a toxin made by bacteria.",
+   "examiner": "Do not confuse with antibodies."
+  },
+  {
+   "term": "Vaccination",
+   "definition": "Injecting a small quantity of dead or inactive pathogen, so white blood cells make antibodies; if the real pathogen enters later, antibodies are made quickly.",
+   "examiner": "Herd immunity: when most of a population is vaccinated, the pathogen cannot spread easily."
+  },
+  {
+   "term": "Antibiotic",
+   "definition": "A medicine, such as penicillin, that kills bacteria inside the body.",
+   "examiner": "Antibiotics cannot kill viruses, because viruses live inside cells."
+  },
+  {
+   "term": "Painkiller",
+   "definition": "A drug that treats the symptoms of a disease but does not kill the pathogen.",
+   "examiner": "Aspirin is a painkiller from willow; digitalis comes from foxgloves."
+  },
+  {
+   "term": "Double-blind trial",
+   "definition": "A trial in which neither the patients nor the doctors know who has the drug and who has the placebo.",
+   "examiner": "It removes bias."
+  },
+  {
+   "term": "Placebo",
+   "definition": "A substance that looks like the drug but contains no drug, used as a control in a trial.",
+   "examiner": "Placebos are not always given to very ill patients for ethical reasons."
+  }
+ ]
+}

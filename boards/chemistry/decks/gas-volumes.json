@@ -1,0 +1,23 @@
+{
+ "topic": "gas-volumes",
+ "name": "Volumes of gases",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Molar volume",
+   "definition": "One mole of any gas occupies 24 dm³ at room temperature and pressure (20 °C and 1 atmosphere).",
+   "examiner": "Separate Chemistry, higher tier."
+  },
+  {
+   "term": "Volume from moles",
+   "definition": "volume of gas (dm³) = moles × 24.",
+   "examiner": "Separate Chemistry, higher tier."
+  },
+  {
+   "term": "Gas volume ratios",
+   "definition": "Volumes of gaseous reactants and products are in the same ratio as the numbers in the balanced equation.",
+   "examiner": "Separate Chemistry, higher tier."
+  }
+ ]
+}

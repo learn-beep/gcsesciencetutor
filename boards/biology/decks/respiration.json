@@ -1,0 +1,38 @@
+{
+ "topic": "respiration",
+ "name": "Respiration and metabolism",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Aerobic respiration",
+   "definition": "glucose + oxygen → carbon dioxide + water; releases energy and takes place mainly in the mitochondria.",
+   "examiner": "Respiration is exothermic and happens all the time in living cells."
+  },
+  {
+   "term": "Anaerobic respiration in muscles",
+   "definition": "glucose → lactic acid, when there is not enough oxygen; releases much less energy than aerobic respiration.",
+   "examiner": "The glucose is only partly oxidised."
+  },
+  {
+   "term": "Anaerobic respiration in yeast",
+   "definition": "glucose → ethanol + carbon dioxide; called fermentation.",
+   "examiner": "Used to make bread and alcoholic drinks."
+  },
+  {
+   "term": "Oxygen debt",
+   "definition": "The amount of extra oxygen the body needs after exercise to react with the lactic acid and remove it from cells.",
+   "examiner": "Higher tier: lactic acid is taken to the liver and converted back to glucose."
+  },
+  {
+   "term": "Muscle fatigue",
+   "definition": "Muscles stop contracting efficiently during long periods of vigorous activity.",
+   "examiner": "Lactic acid build-up and lack of oxygen are the causes."
+  },
+  {
+   "term": "Metabolism",
+   "definition": "The sum of all the reactions in a cell or the body.",
+   "examiner": "Includes making starch, cellulose, lipids and proteins, respiration, and breaking down excess proteins into urea."
+  }
+ ]
+}

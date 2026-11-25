@@ -1,0 +1,53 @@
+{
+ "topic": "digestive-system-and-enzymes",
+ "name": "The digestive system and enzymes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Tissue",
+   "definition": "A group of cells with a similar structure and function.",
+   "examiner": "Cells, tissues, organs, organ systems, organism: know the order."
+  },
+  {
+   "term": "Organ",
+   "definition": "A group of tissues that perform a specific function, such as the stomach.",
+   "examiner": "The stomach contains muscular, glandular and epithelial tissue."
+  },
+  {
+   "term": "Enzyme",
+   "definition": "A biological catalyst: a protein that speeds up a reaction without being used up.",
+   "examiner": "Enzymes have an active site with a specific shape."
+  },
+  {
+   "term": "Active site",
+   "definition": "The part of an enzyme where the substrate fits and the reaction happens.",
+   "examiner": "Lock and key model: only a substrate with the complementary shape fits."
+  },
+  {
+   "term": "Denatured",
+   "definition": "The active site has changed shape, so the substrate no longer fits and the enzyme cannot work. Caused by high temperature or extreme pH.",
+   "examiner": "Do not say the enzyme is \"killed\": it is not alive."
+  },
+  {
+   "term": "Carbohydrase",
+   "definition": "An enzyme that breaks carbohydrates into simple sugars; amylase breaks starch into sugars.",
+   "examiner": "Amylase is made in the salivary glands, pancreas and small intestine."
+  },
+  {
+   "term": "Protease",
+   "definition": "An enzyme that breaks proteins into amino acids.",
+   "examiner": "Made in the stomach (pepsin), pancreas and small intestine."
+  },
+  {
+   "term": "Lipase",
+   "definition": "An enzyme that breaks lipids into fatty acids and glycerol.",
+   "examiner": "Made in the pancreas and small intestine."
+  },
+  {
+   "term": "Bile",
+   "definition": "Made in the liver and stored in the gall bladder; it is alkaline, neutralising stomach acid, and it emulsifies fats into small droplets, increasing their surface area.",
+   "examiner": "Bile is not an enzyme."
+  }
+ ]
+}

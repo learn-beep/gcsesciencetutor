@@ -1,0 +1,48 @@
+{
+ "topic": "current-potential-difference-and-resistance",
+ "name": "Current, potential difference and resistance",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Electric current",
+   "definition": "The rate of flow of electrical charge.",
+   "examiner": "Q = I t. Current is the same at every point in a single closed loop."
+  },
+  {
+   "term": "Potential difference",
+   "definition": "The energy transferred per unit charge passed between two points.",
+   "examiner": "Measured with a voltmeter in parallel. V = I R."
+  },
+  {
+   "term": "Resistance",
+   "definition": "How much a component opposes the current: R = V / I.",
+   "examiner": "Measured in ohms (Ω)."
+  },
+  {
+   "term": "Ohmic conductor",
+   "definition": "A conductor for which current is directly proportional to potential difference at constant temperature.",
+   "examiner": "A straight line through the origin on an I–V graph."
+  },
+  {
+   "term": "Filament lamp",
+   "definition": "Its resistance increases as the temperature of the filament increases.",
+   "examiner": "The I–V graph curves."
+  },
+  {
+   "term": "Diode",
+   "definition": "Lets current flow in one direction only; very high resistance in the reverse direction.",
+   "examiner": "LEDs emit light when current flows."
+  },
+  {
+   "term": "Thermistor",
+   "definition": "A resistor whose resistance decreases as the temperature increases.",
+   "examiner": "Used in thermostats."
+  },
+  {
+   "term": "Light dependent resistor",
+   "definition": "A resistor whose resistance decreases as light intensity increases.",
+   "examiner": "Used in automatic night lights."
+  }
+ ]
+}

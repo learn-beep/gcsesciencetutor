@@ -1,0 +1,53 @@
+{
+ "topic": "atoms-isotopes-and-electrons",
+ "name": "Atoms, isotopes, mixtures and electronic structure",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Atom",
+   "definition": "The smallest part of an element that can exist; a nucleus of protons and neutrons surrounded by electrons.",
+   "examiner": "Atoms have no overall charge: protons equal electrons."
+  },
+  {
+   "term": "Element",
+   "definition": "A substance made of only one type of atom.",
+   "examiner": "About 100 elements are shown in the periodic table."
+  },
+  {
+   "term": "Compound",
+   "definition": "Two or more elements chemically combined in fixed proportions.",
+   "examiner": "Compounds can only be separated into elements by chemical reactions."
+  },
+  {
+   "term": "Mixture",
+   "definition": "Two or more elements or compounds not chemically combined; each keeps its own properties.",
+   "examiner": "Separated by filtration, crystallisation, distillation or chromatography."
+  },
+  {
+   "term": "Atomic number",
+   "definition": "The number of protons in the nucleus of an atom.",
+   "examiner": "All atoms of an element have the same number of protons."
+  },
+  {
+   "term": "Mass number",
+   "definition": "The total number of protons and neutrons in an atom.",
+   "examiner": "Neutrons = mass number − atomic number."
+  },
+  {
+   "term": "Isotopes",
+   "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons.",
+   "examiner": "Relative atomic mass is the mean mass of an element's isotopes, weighted by abundance."
+  },
+  {
+   "term": "Electronic structure",
+   "definition": "The arrangement of electrons in shells, such as 2,8,1 for sodium.",
+   "examiner": "Shells hold 2, 8, 8 for the first 20 elements."
+  },
+  {
+   "term": "Plum pudding model",
+   "definition": "A ball of positive charge with negative electrons embedded in it; replaced after the alpha particle scattering experiment.",
+   "examiner": "Scattering showed the mass is concentrated in a small positive nucleus."
+  }
+ ]
+}

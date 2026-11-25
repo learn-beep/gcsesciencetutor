@@ -1,0 +1,23 @@
+{
+ "topic": "density-and-changes-of-state",
+ "name": "Density and changes of state",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Density",
+   "definition": "Mass per unit volume: ρ = m / V.",
+   "examiner": "Units kg/m³. Gases have low density because particles are far apart."
+  },
+  {
+   "term": "Changes of state",
+   "definition": "Melting, freezing, boiling, evaporating, condensing and sublimating; mass is conserved.",
+   "examiner": "Changes of state are physical: the material recovers its original properties."
+  },
+  {
+   "term": "Particle model",
+   "definition": "Solids: particles close, regular, vibrate. Liquids: close, random, move past each other. Gases: far apart, random, fast.",
+   "examiner": "Explain density differences using it."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "topic": "using-materials",
+ "name": "Corrosion, alloys, ceramics, polymers and composites",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Corrosion",
+   "definition": "The destruction of materials by chemical reactions with substances in the environment.",
+   "examiner": "Separate Chemistry. Rusting needs both air and water."
+  },
+  {
+   "term": "Sacrificial protection",
+   "definition": "Coating or attaching a more reactive metal, which corrodes instead of the iron.",
+   "examiner": "Separate Chemistry. Galvanising uses zinc."
+  },
+  {
+   "term": "Bronze",
+   "definition": "An alloy of copper and tin.",
+   "examiner": "Separate Chemistry. Brass is copper and zinc."
+  },
+  {
+   "term": "Steel",
+   "definition": "An alloy of iron with carbon and other elements: high carbon steel is strong but brittle, low carbon is softer and easily shaped, stainless steel resists corrosion.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Thermosetting polymer",
+   "definition": "Does not melt when heated, because of cross-links between the chains.",
+   "examiner": "Separate Chemistry. Thermosoftening polymers melt."
+  },
+  {
+   "term": "Composite",
+   "definition": "A material of two materials, a matrix and a reinforcement, such as fibreglass or concrete.",
+   "examiner": "Separate Chemistry."
+  }
+ ]
+}

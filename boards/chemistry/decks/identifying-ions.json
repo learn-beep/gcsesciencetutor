@@ -1,0 +1,38 @@
+{
+ "topic": "identifying-ions",
+ "name": "Flame tests, hydroxides, anion tests and instrumental analysis",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Flame test",
+   "definition": "Lithium crimson, sodium yellow, potassium lilac, calcium orange-red, copper green.",
+   "examiner": "Separate Chemistry. A mixture can mask colours."
+  },
+  {
+   "term": "Metal hydroxide precipitates",
+   "definition": "Sodium hydroxide gives: Al³⁺, Ca²⁺, Mg²⁺ white; Cu²⁺ blue; Fe²⁺ green; Fe³⁺ brown.",
+   "examiner": "Separate Chemistry. Aluminium hydroxide dissolves in excess."
+  },
+  {
+   "term": "Carbonate test",
+   "definition": "Dilute acid gives carbon dioxide, which turns limewater milky.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Halide test",
+   "definition": "Dilute nitric acid then silver nitrate: chloride white, bromide cream, iodide yellow precipitate.",
+   "examiner": "Separate Chemistry. Nitric acid removes carbonate ions first."
+  },
+  {
+   "term": "Sulfate test",
+   "definition": "Dilute hydrochloric acid then barium chloride: white precipitate.",
+   "examiner": "Separate Chemistry."
+  },
+  {
+   "term": "Instrumental methods",
+   "definition": "Accurate, sensitive and rapid, and work with very small samples.",
+   "examiner": "Separate Chemistry. Flame emission spectroscopy identifies ions and their concentrations."
+  }
+ ]
+}

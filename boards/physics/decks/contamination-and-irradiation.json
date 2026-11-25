@@ -1,0 +1,28 @@
+{
+ "topic": "contamination-and-irradiation",
+ "name": "Contamination and irradiation",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Irradiation",
+   "definition": "Exposing an object to nuclear radiation; the object does not become radioactive.",
+   "examiner": "Shielding reduces irradiation."
+  },
+  {
+   "term": "Radioactive contamination",
+   "definition": "Unwanted presence of radioactive atoms on or in materials.",
+   "examiner": "Contamination continues until the source is removed or decays."
+  },
+  {
+   "term": "Peer review",
+   "definition": "Publishing findings so that other scientists can check them; important for data on the effects of radiation.",
+   "examiner": "Peer review makes findings more reliable."
+  },
+  {
+   "term": "Precautions",
+   "definition": "Use tongs, keep a distance, minimise time of exposure, wear gloves, store sources in lead-lined boxes.",
+   "examiner": "Explain how each reduces the dose."
+  }
+ ]
+}

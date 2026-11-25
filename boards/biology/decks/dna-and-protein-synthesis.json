@@ -1,0 +1,48 @@
+{
+ "topic": "dna-and-protein-synthesis",
+ "name": "DNA, the genome and protein synthesis",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "DNA",
+   "definition": "A polymer of two strands forming a double helix, contained in chromosomes.",
+   "examiner": "DNA is made of repeating nucleotides."
+  },
+  {
+   "term": "Gene",
+   "definition": "A small section of DNA on a chromosome that codes for a particular sequence of amino acids, to make a specific protein.",
+   "examiner": "Each gene codes for one protein."
+  },
+  {
+   "term": "Genome",
+   "definition": "The entire genetic material of an organism.",
+   "examiner": "The human genome has been studied to find genes linked to diseases and to trace migration."
+  },
+  {
+   "term": "Nucleotide",
+   "definition": "The repeating unit of DNA: a sugar, a phosphate group and one of four bases.",
+   "examiner": "Separate Biology. The bases are A, C, G and T."
+  },
+  {
+   "term": "Complementary base pairs",
+   "definition": "A always pairs with T, and C always pairs with G.",
+   "examiner": "Separate Biology."
+  },
+  {
+   "term": "Triplet",
+   "definition": "A sequence of three bases that codes for one amino acid.",
+   "examiner": "Separate Biology. The order of bases controls the order of amino acids."
+  },
+  {
+   "term": "Mutation",
+   "definition": "A change in the DNA. Most have no effect, but some change the protein's shape, for example an enzyme's active site.",
+   "examiner": "Separate Biology."
+  },
+  {
+   "term": "Protein synthesis",
+   "definition": "A template of the gene is carried to the ribosome, where carrier molecules bring the amino acids in the right order to make the protein.",
+   "examiner": "Separate Biology, higher tier."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "topic": "energy-stores-and-calculations",
+ "name": "Energy stores and calculations",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Energy store",
+   "definition": "A way energy is held: kinetic, gravitational potential, elastic potential, thermal, chemical, magnetic, electrostatic or nuclear.",
+   "examiner": "Energy is transferred between stores by heating, work done by forces or electrical work."
+  },
+  {
+   "term": "System",
+   "definition": "An object or group of objects.",
+   "examiner": "When a system changes, energy is transferred between its stores."
+  },
+  {
+   "term": "Kinetic energy",
+   "definition": "Energy a moving object has: Eₖ = ½ m v².",
+   "examiner": "Square the speed before multiplying."
+  },
+  {
+   "term": "Gravitational potential energy",
+   "definition": "Energy gained by raising an object: Eₚ = m g h.",
+   "examiner": "g = 9.8 N/kg on Earth."
+  },
+  {
+   "term": "Elastic potential energy",
+   "definition": "Energy stored in a stretched spring: Eₑ = ½ k e².",
+   "examiner": "Given on the equation sheet; valid only up to the limit of proportionality."
+  },
+  {
+   "term": "Closed system",
+   "definition": "A system where no energy enters or leaves, so the total energy stays the same.",
+   "examiner": "Energy is conserved."
+  }
+ ]
+}

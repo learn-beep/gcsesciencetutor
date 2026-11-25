@@ -1,0 +1,28 @@
+{
+ "topic": "static-electricity",
+ "name": "Static electricity and electric fields",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Static charge",
+   "definition": "Insulating materials become charged when rubbed together: electrons are transferred from one to the other.",
+   "examiner": "Separate Physics. Only electrons move, never positive charges."
+  },
+  {
+   "term": "Charged objects",
+   "definition": "Like charges repel; unlike charges attract.",
+   "examiner": "Separate Physics. This is a non-contact force."
+  },
+  {
+   "term": "Sparking",
+   "definition": "When the p.d. between a charged object and earth is large enough, electrons jump across the gap.",
+   "examiner": "Separate Physics."
+  },
+  {
+   "term": "Electric field",
+   "definition": "A region around a charged object where another charged object experiences a force; the field is stronger closer to the object.",
+   "examiner": "Separate Physics. Field lines point from positive to negative."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "topic": "communicable-diseases",
+ "name": "Communicable diseases",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Pathogen",
+   "definition": "A microorganism that causes infectious disease: a virus, bacterium, protist or fungus.",
+   "examiner": "Pathogens infect plants as well as animals."
+  },
+  {
+   "term": "Communicable disease",
+   "definition": "A disease that can spread from one person or organism to another.",
+   "examiner": "Spread by air, water or direct contact."
+  },
+  {
+   "term": "Virus",
+   "definition": "A pathogen that lives and reproduces inside cells, causing cell damage.",
+   "examiner": "Antibiotics do not kill viruses."
+  },
+  {
+   "term": "Toxin",
+   "definition": "A poison made by bacteria that damages tissues and makes us feel ill.",
+   "examiner": "Salmonella and gonorrhoea are bacterial diseases."
+  },
+  {
+   "term": "Vector",
+   "definition": "An organism that carries a pathogen from one host to another, such as the mosquito for malaria.",
+   "examiner": "Controlling vectors is a way to reduce the spread of disease."
+  },
+  {
+   "term": "Measles",
+   "definition": "A viral disease spread by droplets from sneezes and coughs; fever and a red skin rash.",
+   "examiner": "Prevented by vaccinating young children."
+  },
+  {
+   "term": "HIV",
+   "definition": "A virus spread by sexual contact or exchange of body fluids; it attacks the immune system, and untreated can lead to AIDS.",
+   "examiner": "Controlled with antiretroviral drugs."
+  },
+  {
+   "term": "Malaria",
+   "definition": "A disease caused by a protist and spread by mosquitoes; recurrent fever.",
+   "examiner": "Prevented by stopping mosquitoes breeding and using mosquito nets."
+  }
+ ]
+}

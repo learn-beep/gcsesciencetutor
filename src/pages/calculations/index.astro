@@ -1,0 +1,92 @@
+---
+import Base from '../../layouts/Base.astro';
+import { S, SUB } from '../../lib/subject';
+// [what, how, example, separate only, higher tier]. Written by the site from the specification and the mark schemes; being checked by our tutor.
+type Row = [string, string, string, boolean, boolean];
+const CHEM: [string, Row[]][] = [
+  ['Formula mass and moles', [
+    ['Relative formula mass (Mr)', 'Add up the relative atomic masses (Ar) of every atom in the formula. Take the Ar values from the periodic table.', 'CO₂: 12 + (2 × 16) = 44', false, false],
+    ['Conservation of mass', 'Total mass of reactants = total mass of products. In a balanced equation, the total Mr on each side is equal.', '2Mg + O₂ → 2MgO: 48 + 32 = 80', false, false],
+    ['Moles from mass', 'moles = mass (g) ÷ Mr', '22 g of CO₂ = 22 ÷ 44 = 0.5 mol', false, true],
+    ['Number of particles', 'particles = moles × 6.02 × 10²³ (the Avogadro constant)', '0.5 mol of CO₂ contains 3.01 × 10²³ molecules', false, true],
+    ['Reacting masses', 'Mass → moles of the known substance; use the ratio in the balanced equation to find moles of the other; moles → mass.', 'How much MgO from 12 g Mg? 12 ÷ 24 = 0.5 mol Mg → 0.5 mol MgO → 0.5 × 40 = 20 g', false, true],
+    ['Balancing from masses', 'Convert each mass to moles, divide by the smallest number of moles, and use the whole-number ratio as the balancing numbers.', '', false, true],
+    ['Limiting reactant', 'Work out the moles of each reactant and compare with the ratio in the equation. The one that runs out first limits the mass of product.', '', false, true],
+  ]],
+  ['Solutions and gases', [
+    ['Concentration in g/dm³', 'concentration = mass of solute (g) ÷ volume of solution (dm³)', '5 g in 250 cm³ = 5 ÷ 0.25 = 20 g/dm³', false, false],
+    ['cm³ to dm³', 'Divide by 1000.', '25.0 cm³ = 0.0250 dm³', false, false],
+    ['Concentration in mol/dm³', 'concentration = moles ÷ volume (dm³); moles = concentration × volume (dm³)', '0.10 mol/dm³ × 0.0250 dm³ = 0.00250 mol', true, true],
+    ['Titration', '(1) moles of the solution you know both values for; (2) use the equation ratio for moles of the other; (3) concentration = moles ÷ volume in dm³. Use the mean of the concordant titres.', 'NaOH + HCl → NaCl + H₂O is a 1 : 1 ratio', true, true],
+    ['Gas volume', 'volume (dm³) = moles × 24, at room temperature and pressure. Gas volumes react in the same ratio as the numbers in the equation.', '0.25 mol of any gas = 6 dm³', true, true],
+  ]],
+  ['Yield and atom economy', [
+    ['Percentage yield', 'mass of product actually made ÷ maximum theoretical mass × 100', '8 g made, 10 g possible: 80%', true, false],
+    ['Atom economy', 'Mr of the desired product ÷ total Mr of all reactants × 100, from the balanced equation', '', true, false],
+  ]],
+  ['Rates and energy', [
+    ['Mean rate of reaction', 'quantity of reactant used or product formed ÷ time taken (g/s, cm³/s; higher tier also mol/s)', '60 cm³ of gas in 30 s = 2 cm³/s', false, false],
+    ['Rate from a graph', 'Draw a tangent to the curve at the time asked; the rate is its gradient (change in y ÷ change in x). Use a large triangle.', '', false, true],
+    ['Energy change from bond energies', 'energy change = energy needed to break bonds in reactants − energy released making bonds in products. A negative answer means exothermic.', '', false, true],
+    ['Temperature change', 'Highest (or lowest) temperature − starting temperature. Used in the energy changes required practical.', '', false, false],
+  ]],
+  ['Analysis and data', [
+    ['Rf value', 'distance moved by the spot ÷ distance moved by the solvent, both measured from the start line. Always less than 1.', 'Spot 3.0 cm, solvent 6.0 cm: Rf = 0.50', false, false],
+    ['Mean and uncertainty', 'Mean of repeat readings (leaving out anomalies); uncertainty = ± half the range.', 'Readings 24.0, 24.4, 24.2: mean 24.2 ± 0.2', false, false],
+    ['Surface area to volume ratio', 'For a cube: surface area 6 × side², volume side³. Dividing the side by 10 multiplies the ratio by 10.', 'Nanoparticles have a very high ratio', true, false],
+  ]],
+];
+const BIO: [string, Row[]][] = [
+  ['Cells and microscopy', [
+    ['Magnification', 'magnification = size of image ÷ size of real object. Rearrange for real size = image size ÷ magnification.', 'Image 4 mm, cell 0.04 mm: × 100', false, false],
+    ['Units', '1 mm = 1000 µm; 1 µm = 1000 nm. Convert both measurements to the same unit before dividing.', '25 µm = 0.025 mm', false, false],
+    ['Standard form', 'Write very large or small numbers as a × 10ⁿ, with a between 1 and 10.', '0.000 02 m = 2 × 10⁻⁵ m', false, false],
+    ['Bacterial growth', 'Bacteria divide by binary fission: number after n divisions = starting number × 2ⁿ. Number of divisions = time ÷ mean division time.', '1 bacterium dividing every 20 minutes for 2 hours: 2⁶ = 64', true, false],
+    ['Area of a clear zone', 'area = π r². Measure the diameter and halve it for the radius.', 'Diameter 12 mm: π × 6² = 113 mm²', true, false],
+  ]],
+  ['Transport and exchange', [
+    ['Surface area to volume ratio', 'For a cube: surface area = 6 × side², volume = side³. Give the ratio as surface area : volume, or as surface area ÷ volume.', '2 cm cube: 24 : 8 = 3 : 1', false, false],
+    ['Percentage change in mass', '(final mass − starting mass) ÷ starting mass × 100. A negative answer means mass was lost.', '2.00 g → 1.80 g: −10%', false, false],
+    ['Rate of water uptake', 'With a potometer: distance the bubble moves ÷ time; for a volume, multiply the distance by the cross-sectional area of the tube (π r²).', '', false, false],
+  ]],
+  ['Enzymes, photosynthesis and respiration', [
+    ['Rate of reaction', 'rate = 1000 ÷ time (or 1 ÷ time), or amount of product ÷ time.', 'Starch gone in 50 s: 1000 ÷ 50 = 20', false, false],
+    ['Inverse square law', 'light intensity ∝ 1 ÷ distance². Doubling the distance quarters the light intensity.', 'Lamp moved from 10 cm to 20 cm: a quarter of the light', false, true],
+    ['Rate of photosynthesis', 'Volume of oxygen collected (or bubbles counted) ÷ time.', '', false, false],
+  ]],
+  ['Ecology', [
+    ['Population size from quadrats', 'mean number per quadrat × (total area ÷ area of one quadrat).', 'Mean 4 per 0.25 m² quadrat in a 100 m² field: 4 × 400 = 1600', false, false],
+    ['Efficiency of biomass transfer', 'biomass transferred to the next level ÷ biomass at the level below × 100.', '1000 kg → 100 kg: 10%', true, false],
+    ['Mean, median and mode', 'Mean: add up and divide by the number of values. Median: the middle value in order. Mode: the most common value.', '', false, false],
+  ]],
+  ['Genetics', [
+    ['Punnett square ratios', 'Draw the square, then give the result as a ratio, a fraction, a percentage or a probability, as the question asks.', 'Bb × Bb: 3 : 1, or 75% show the dominant characteristic', false, false],
+    ['Percentage and probability', 'Probability = number of outcomes wanted ÷ total number of outcomes.', 'Chance of a boy: 1 in 2, 0.5 or 50%', false, false],
+  ]],
+];
+const GROUPS = SUB === 'chemistry' ? CHEM : BIO;
+const given = SUB === 'chemistry' ? 'You are given a periodic table (with relative atomic masses) in the exam, but no equations: learn every equation on this page.' : 'You are not given any equations in the Biology papers: learn every one on this page.';
+const tag = (r: Row) => [r[3] ? 'Separate only' : '', r[4] ? 'Higher tier' : ''].filter(Boolean).join(', ');
+---
+<Base title={`GCSE ${S} calculations: every equation and method you need (AQA)`} description={`Every calculation in AQA GCSE ${S} and Combined Science ${S}, with the equation, how to set it out and a worked example, and the separate-only and higher-tier ones marked.`} context="calculations" leadLine={`Losing marks on the calculations? A tutor can show you how to set them out so the method marks are safe.`}>
+  <h1>{S} calculations</h1>
+  <p>Every calculation in AQA GCSE {S}, with the equation, how to set it out, and a short example. {given} Ones marked <em>separate only</em> are not in Combined Science; <em>higher tier</em> ones are only on the higher-tier papers.</p>
+  {GROUPS.map(([h, rows]) => <>
+    <h2>{h}</h2>
+    <ul class="calc-list">{rows.map((r) => <li><strong>{r[0]}</strong>{tag(r) && <span class="pill">{tag(r)}</span>}<br />{r[1]}{r[2] && <><br /><span class="muted">Example: {r[2]}</span></>}</li>)}</ul>
+  </>)}
+  <p class="muted">Written by the site from AQA's specification and mark schemes; being checked by our tutor. If something looks wrong, please <a href="/report/">tell us</a>.</p>
+  <h2>Setting out calculations in the exam</h2>
+  <ul>
+    <li>Write the equation, then the numbers, then the answer with its unit. Correct working often earns marks even when the final answer is wrong.</li>
+    <li>Convert units first: cm³ to dm³, µm to mm, minutes to seconds.</li>
+    <li>Give the answer to the number of significant figures asked for; if none is asked, use the same as the data.</li>
+    <li>If a later part uses your earlier answer, use it even if you think it was wrong: an error carried forward still scores.</li>
+  </ul>
+  <p><a href="/maths-skills/">Maths skills, with every question by skill</a> · <a href="/questions/type/calculations/">Every calculation question</a></p>
+</Base>
+<style>
+  .calc-list { list-style: none; padding: 0; }
+  .calc-list li { border-top: 1px solid var(--rule); padding: .7rem 0; }
+  .calc-list .pill { margin-left: .5rem; font-size: .75rem; }
+</style>

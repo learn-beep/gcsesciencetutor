@@ -1,0 +1,33 @@
+{
+ "topic": "mains-electricity",
+ "name": "Mains electricity and safety",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Direct current (dc)",
+   "definition": "Current that flows in one direction only, such as from a cell or battery.",
+   "examiner": "dc p.d. is constant."
+  },
+  {
+   "term": "Alternating current (ac)",
+   "definition": "Current that repeatedly reverses direction.",
+   "examiner": "UK mains is 230 V at 50 Hz."
+  },
+  {
+   "term": "Live wire",
+   "definition": "Brown; carries the alternating potential difference from the supply (about 230 V).",
+   "examiner": "Touching it can cause a fatal shock, even if the switch is off."
+  },
+  {
+   "term": "Neutral wire",
+   "definition": "Blue; completes the circuit, at or close to 0 V.",
+   "examiner": "Current returns through it."
+  },
+  {
+   "term": "Earth wire",
+   "definition": "Green and yellow; a safety wire to stop the appliance becoming live, at 0 V.",
+   "examiner": "It only carries current if there is a fault."
+  }
+ ]
+}

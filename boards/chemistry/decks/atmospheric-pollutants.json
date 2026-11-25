@@ -1,0 +1,28 @@
+{
+ "topic": "atmospheric-pollutants",
+ "name": "Atmospheric pollutants from fuels",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Incomplete combustion",
+   "definition": "Burning with insufficient oxygen, producing carbon monoxide and soot (carbon particulates).",
+   "examiner": "Carbon monoxide is toxic: it reduces the blood's capacity to carry oxygen, and is colourless and odourless."
+  },
+  {
+   "term": "Sulfur dioxide",
+   "definition": "Formed when sulfur impurities in fuels burn; causes respiratory problems and acid rain.",
+   "examiner": "Acid rain damages buildings and kills plants."
+  },
+  {
+   "term": "Oxides of nitrogen",
+   "definition": "Formed when nitrogen and oxygen from the air react at the high temperatures in engines; cause respiratory problems and acid rain.",
+   "examiner": "The nitrogen comes from the air, not the fuel."
+  },
+  {
+   "term": "Particulates",
+   "definition": "Solid particles such as soot; cause global dimming and health problems.",
+   "examiner": "Global dimming: particles reflect sunlight."
+  }
+ ]
+}

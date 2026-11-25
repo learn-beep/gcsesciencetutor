@@ -1,0 +1,38 @@
+{
+ "topic": "reversible-reactions-and-equilibrium",
+ "name": "Reversible reactions and equilibrium",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Reversible reaction",
+   "definition": "A reaction in which the products can react to form the reactants again, shown by ⇌.",
+   "examiner": "Ammonium chloride ⇌ ammonia + hydrogen chloride."
+  },
+  {
+   "term": "Energy in reversible reactions",
+   "definition": "If the forward reaction is exothermic, the reverse is endothermic by the same amount.",
+   "examiner": "Hydrated copper sulfate (blue) ⇌ anhydrous copper sulfate (white) + water."
+  },
+  {
+   "term": "Dynamic equilibrium",
+   "definition": "In a closed system, the forward and reverse reactions happen at exactly the same rate, so the amounts stay constant.",
+   "examiner": "A closed system means nothing can escape."
+  },
+  {
+   "term": "Le Chatelier's principle",
+   "definition": "If a system at equilibrium is subjected to a change, the equilibrium shifts to counteract the change.",
+   "examiner": "Higher tier."
+  },
+  {
+   "term": "Effect of temperature",
+   "definition": "Raising the temperature shifts the equilibrium in the endothermic direction.",
+   "examiner": "Higher tier."
+  },
+  {
+   "term": "Effect of pressure",
+   "definition": "Raising the pressure shifts the equilibrium towards the side with fewer molecules of gas.",
+   "examiner": "Higher tier. Count the moles of gas in the equation."
+  }
+ ]
+}

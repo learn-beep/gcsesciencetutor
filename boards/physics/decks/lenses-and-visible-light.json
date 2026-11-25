@@ -1,0 +1,38 @@
+{
+ "topic": "lenses-and-visible-light",
+ "name": "Lenses and visible light",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Convex lens",
+   "definition": "A converging lens: parallel rays are refracted to meet at the principal focus.",
+   "examiner": "Separate Physics. Forms real or virtual images."
+  },
+  {
+   "term": "Concave lens",
+   "definition": "A diverging lens: parallel rays spread out as if from the principal focus.",
+   "examiner": "Separate Physics. Always forms a virtual image."
+  },
+  {
+   "term": "Real image",
+   "definition": "An image that can be projected on a screen, where rays actually meet.",
+   "examiner": "Separate Physics. A virtual image is where rays appear to come from."
+  },
+  {
+   "term": "Magnification",
+   "definition": "Image height ÷ object height.",
+   "examiner": "Separate Physics. No units."
+  },
+  {
+   "term": "Colour of an object",
+   "definition": "Opaque objects reflect some wavelengths and absorb others; the colour seen is the wavelength most reflected.",
+   "examiner": "Separate Physics. Filters transmit only some wavelengths."
+  },
+  {
+   "term": "Specular reflection",
+   "definition": "Reflection from a smooth surface in a single direction.",
+   "examiner": "Separate Physics. Diffuse reflection from a rough surface scatters light."
+  }
+ ]
+}

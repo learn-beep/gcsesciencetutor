@@ -1,0 +1,38 @@
+{
+ "topic": "plant-hormones",
+ "name": "Plant hormones",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Auxin",
+   "definition": "A plant hormone that controls growth near the tips of shoots and roots, causing phototropism and gravitropism.",
+   "examiner": "Unequal distribution of auxin causes unequal growth."
+  },
+  {
+   "term": "Phototropism",
+   "definition": "Growth of a plant in response to light.",
+   "examiner": "In a shoot, auxin builds up on the shaded side, which grows faster, so the shoot bends towards the light."
+  },
+  {
+   "term": "Gravitropism",
+   "definition": "Growth of a plant in response to gravity (also called geotropism).",
+   "examiner": "In roots, more auxin on the lower side slows growth there, so the root bends downwards."
+  },
+  {
+   "term": "Gibberellins",
+   "definition": "Plant hormones that start seed germination.",
+   "examiner": "Higher tier. Used to end seed dormancy, promote flowering and make fruit bigger."
+  },
+  {
+   "term": "Ethene",
+   "definition": "A plant hormone that controls cell division and ripening of fruits.",
+   "examiner": "Higher tier. Used to ripen fruit during distribution."
+  },
+  {
+   "term": "Rooting powder",
+   "definition": "Contains auxins; used to make cuttings grow roots.",
+   "examiner": "Auxins are also used as weed killers."
+  }
+ ]
+}

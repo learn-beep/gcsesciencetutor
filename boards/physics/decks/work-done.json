@@ -1,0 +1,23 @@
+{
+ "topic": "work-done",
+ "name": "Work done and energy transfer",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Work done",
+   "definition": "Energy transferred when a force moves an object through a distance: W = F s.",
+   "examiner": "Distance must be along the line of action of the force."
+  },
+  {
+   "term": "Joule",
+   "definition": "One joule of work is done when a force of one newton causes a displacement of one metre.",
+   "examiner": "1 J = 1 N m."
+  },
+  {
+   "term": "Work against friction",
+   "definition": "Causes a rise in the temperature of the object.",
+   "examiner": "The energy is dissipated by heating."
+  }
+ ]
+}
