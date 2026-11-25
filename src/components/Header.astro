@@ -1,0 +1,29 @@
+---
+import site from '../data/site.json';
+import Icon from './Icon.astro';
+import Search from './Search.astro';
+import { SUBJECTS, SUB, IS_HOME } from '../lib/subject';
+---
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><span>{site.name}</span></a>
+    <span class="board-switch" aria-label="Subject">{SUBJECTS.map((x) => <a href={`/${x.sub}/`} aria-current={SUB === x.sub ? 'page' : undefined}>{x.name}</a>)}</span>
+    <nav class="site-nav" aria-label="Main">
+      {IS_HOME ? <>
+        <a href="/biology/"><Icon name="book" />Biology</a>
+        <a href="/chemistry/"><Icon name="book" />Chemistry</a>
+        <a href="/physics/"><Icon name="book" />Physics</a>
+      </> : <>
+        <a href="/" data-home-board><Icon name="book" />{site.subject} home</a>
+        <a href="/questions/"><Icon name="book" />Questions</a>
+        <a href="/past-papers/"><Icon name="file" />Past papers</a>
+        <a href="/practice/"><Icon name="target" />Practice</a>
+        {SUB === 'physics' && <a href="/equations/"><Icon name="book" />Equations</a>}
+        <a href="/required-practicals/"><Icon name="checklist" />Practicals</a>
+      </>}
+      <a href="/tutors/"><Icon name="users" />Tutor</a>
+    </nav>
+    {!IS_HOME && <button class="search-toggle" type="button" id="search-toggle" aria-expanded="false" aria-controls="search-panel"><Icon name="target" />Search</button>}
+  </div>
+  {!IS_HOME && <Search />}
+</header>

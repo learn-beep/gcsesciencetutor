@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allQuestions, topicByslug } from '../../lib/data';
+import { S, SUBJ } from '../../lib/subject';
+const tagged = allQuestions.filter((q) => (q.skills || []).some((s) => s.code.startsWith('MS ')) && !q.notCurrentSpec);
+const codes = {};
+for (const q of tagged) for (const s of q.skills) { if (!s.code.startsWith('MS ')) continue; if (!codes[s.code]) codes[s.code] = { text: s.text, qs: [] }; codes[s.code].qs.push(q); }
+const order = Object.keys(codes).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+const calcs = allQuestions.filter((q) => q.format === 'Calculation' && !q.notCurrentSpec);
+// How each skill is examined, in the site's words. To be checked by a tutor.
+const how = {
+  'MS 1a': 'Working with decimals: reading scales and meters, and giving answers to a sensible number of decimal places.',
+  'MS 1b': 'Standard form: very large and very small numbers (cell sizes, Avogadro constant, wavelengths, energies). Use the EXP or ×10ˣ key and keep the powers of ten straight.',
+  'MS 1c': 'Ratios, fractions and percentages: percentage change, percentage yield, efficiency, magnification ratios and simple whole-number ratios.',
+  'MS 1d': 'Estimates: rounding the numbers to check an answer is the right size before trusting the calculator.',
+  'MS 2a': 'Significant figures: give the answer to the same number as the least precise data, usually 2 or 3. The question often says how many.',
+  'MS 2b': 'Means from repeat readings: leave out anomalies first, and give the mean to the same precision as the readings.',
+  'MS 2c': 'Tables, bar charts and histograms: completing a table, reading values off a chart and choosing the right kind of chart.',
+  'MS 2d': 'Sampling: why samples are taken at random and why a larger sample gives a better estimate.',
+  'MS 2e': 'Probability: genetic crosses and Punnett squares, giving a probability as a fraction, ratio or percentage.',
+  'MS 2f': 'Mean, mode and median: which to use and how to work each out.',
+  'MS 2g': 'Scatter diagrams and correlation: describing a correlation and saying why it does not prove cause.',
+  'MS 2h': 'Orders of magnitude: comparing sizes as powers of ten, such as a cell and an atom.',
+  'MS 3a': 'Symbols such as ∝, < and >: reading "is proportional to" from a statement or a graph.',
+  'MS 3b': 'Changing the subject: rearranging the equation before or after substituting. Write the rearranged form so the working is clear.',
+  'MS 3c': 'Substituting with consistent units: convert g to kg, minutes to seconds, cm³ to dm³ first. Write the equation, then the numbers, then the answer with its unit.',
+  'MS 3d': 'Solving simple equations: finding an unknown once the numbers are in.',
+  'MS 4a': 'Reading graphs and moving between a graph and a table: values, trends and patterns, often with a "use data from the graph" instruction that needs numbers in the answer.',
+  'MS 4b': 'y = mx + c: recognising a straight-line relationship and what the gradient and intercept mean.',
+  'MS 4c': 'Plotting: sensible scales using over half the grid, labelled axes with units, points within half a small square, and a line or curve of best fit.',
+  'MS 4d': 'Gradient and intercept of a straight line: use a large triangle and show the values you read off.',
+  'MS 4e': 'Tangent to a curve (higher tier): the gradient of the tangent gives the rate at that moment, such as the rate of a reaction or the acceleration.',
+  'MS 4f': 'Area under a graph: distance from a velocity–time graph, by counting squares where the line is curved.',
+  'MS 5a': 'Angles in degrees: angles of incidence and refraction measured from the normal.',
+  'MS 5b': 'Representing 3D shapes in 2D: molecules, giant structures and their models.',
+  'MS 5c': 'Areas and volumes: surface area to volume ratio, area of a clear zone (πr²), volume of a cube or block for density.',
+};
+const ref = (q) => `${q.series.replace('June ', 'Jun ').replace('November ', 'Nov ')} ${q.paper.replace('Trilogy Paper ', 'Trilogy P').replace('Paper ', 'P')} Q${q.question}`;
+---
+<Base title={`AQA GCSE ${S} maths skills: every question by skill`} description={`Every AQA GCSE ${S} and Combined Science question that tests one of the maths skills in the specification (MS 1a to 5c): standard form, percentages, significant figures, rearranging equations, graphs and gradients, with how each is examined.`} context="maths-skills" leadLine="Losing marks on the calculations? A tutor can show you how to set them out so the method marks are safe.">
+  <h1>{S} maths skills</h1>
+  <p>At least {SUBJ.sub === 'biology' ? 10 : SUBJ.sub === 'chemistry' ? 20 : 30}% of the marks in GCSE {S} are for maths skills at the level of GCSE Maths. The specification lists them as MS 1a to MS 5c; below is how each one is examined, and every past-paper question tagged to it ({tagged.length} question parts, {calcs.length} of them straight calculations). Set out the working: AQA's mark schemes give marks for correct working even when the answer is wrong, and a bare wrong answer earns nothing.</p>
+  <p><a class="btn" href="/questions/type/calculations/">All calculation questions with mark schemes</a> {SUBJ.sub === 'physics' && <a class="btn" href="/equations/">The physics equations</a>}</p>
+  <h2>The skills</h2>
+  <div class="table-wrap"><table><thead><tr><th>Skill</th><th>In the specification</th><th>How it is examined</th><th>Questions</th></tr></thead>
+  <tbody>{order.map((c) => <tr><td><a href={`#${c.replace(' ', '')}`}>{c}</a></td><td>{codes[c].text}</td><td>{how[c] || ''}</td><td>{codes[c].qs.length}</td></tr>)}</tbody></table></div>
+  <p class="muted">Explanations written by the site from the specification's mathematical requirements and the mark schemes; being checked by our tutor.</p>
+  {order.map((c) => <section id={c.replace(' ', '')}><h2>{c}: {codes[c].text}</h2><p class="muted">{how[c]}</p>
+    <details class="spec-fold"><summary>{codes[c].qs.length} questions</summary><ul class="qlinks">{codes[c].qs.sort((a, b) => b.year - a.year).map((q) => <li><a href={`/questions/${q.topics[0]}/#${q.id}`}>{ref(q)}</a> <span class="muted">{q.marks} mark{q.marks === 1 ? '' : 's'} · {topicByslug.get(q.topics[0])?.name}</span></li>)}</ul></details></section>)}
+</Base>

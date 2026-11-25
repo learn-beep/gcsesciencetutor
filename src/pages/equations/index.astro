@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { RECALL, GIVEN, AQA_SEP } from '../../lib/subject';
+const row = ([eq, words, sep, ht]) => ({ eq, words, tags: [sep ? 'Separate only' : '', ht ? 'Higher tier' : ''].filter(Boolean).join(', ') });
+---
+<Base title="GCSE Physics equations: the ones to learn and the AQA equation sheet" description="Every equation in AQA GCSE Physics and Combined Science physics: the ones you must recall and the ones given on the equation sheet, with the separate-only and higher-tier equations marked." context="equations" leadLine="Losing marks on the equations? A tutor can drill the recall equations and show you how to set out the calculations.">
+  <h1>GCSE Physics equations</h1>
+  <p>AQA splits the physics equations into two lists. The ones in the first table you must <strong>recall and apply</strong>: they are not given in the exam. The ones in the second are on the <strong>Physics equation sheet</strong> that comes with every GCSE Physics and Combined Science physics paper, so you need to be able to select and apply them. Equations marked <em>separate only</em> are not in Combined Science; <em>higher tier</em> ones are only on the higher-tier papers.</p>
+  <h2>Equations to learn</h2>
+  <div class="table-wrap"><table><thead><tr><th>Equation</th><th>In words</th><th></th></tr></thead><tbody>{RECALL.map(row).map((r) => <tr><td><strong>{r.eq}</strong></td><td>{r.words}</td><td class="muted">{r.tags}</td></tr>)}</tbody></table></div>
+  <h2>On the equation sheet</h2>
+  <div class="table-wrap"><table><thead><tr><th>Equation</th><th>In words</th><th></th></tr></thead><tbody>{GIVEN.map(row).map((r) => <tr><td><strong>{r.eq}</strong></td><td>{r.words}</td><td class="muted">{r.tags}</td></tr>)}</tbody></table></div>
+  <p class="muted">Both lists were written out by the site from AQA's specification and equation sheet and are being checked by our tutor. If something differs from the sheet in your exam, the sheet is right: please <a href="/report/">tell us</a>. <a href={AQA_SEP} rel="noopener">AQA's Physics resources</a>.</p>
+  <h2>Using them in the exam</h2>
+  <ul>
+    <li>Write the equation down first, then substitute, then the answer with its unit. The working often earns marks even when the final answer goes wrong.</li>
+    <li>Convert to the units in the equation before substituting: g to kg, kJ to J, minutes to seconds, cm to m.</li>
+    <li>If a question says "write down the equation that links", give the symbols or the words exactly; a rearranged form also scores.</li>
+    <li>Give the answer to the number of significant figures the question asks for, or the same as the data.</li>
+  </ul>
+  <p><a href="/maths-skills/">Maths skills</a> · <a href="/questions/type/calculations/">Every calculation question</a> · <a href="/questions/type/equations/">Every "write down the equation" question</a></p>
+</Base>

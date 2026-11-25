@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuestionCard from '../../../components/QuestionCard.astro';
+import { allQuestions } from '../../../lib/data';
+import { S } from '../../../lib/subject';
+export function getStaticPaths() {
+  // [slug, matcher, title, intro]. A matcher is a format name, or "feature:<name>" for a feature flag from the bank.
+  const T = [
+    ['multiple-choice', 'Multiple choice', 'Multiple-choice questions', 'Every "tick one box" question. There is no section of multiple choice on AQA GCSE science papers: they are scattered through the paper, usually as the first part of a question. Check your choice against the mark scheme.'],
+    ['calculations', 'Calculation', 'Calculation questions', 'Calculate and determine questions on every topic. Show the equation, the substitution and the answer with its unit: AQA gives marks for correct working even when the final answer is wrong, and carries an error forward to later parts.'],
+    ['explanations', 'Explanation', 'Explain and describe questions', 'Explain, describe, suggest and compare questions worth two to four marks. Each mark is a separate scientific point, so plan one point per mark and use the key words from the specification.'],
+    ['graphs-and-diagrams', 'Diagram or graph', 'Graph and diagram questions', 'Plot, draw, sketch, complete or label: graphs with a line of best fit, circuit and ray diagrams, dot-and-cross diagrams and labelled apparatus.'],
+    ['six-mark-questions', 'Extended response', 'Extended response (six-mark) questions', 'The four- to six-mark questions marked by level. The top level needs a full, logically ordered answer using the right scientific terms.'],
+    ['practical-questions', 'Practical and data analysis', 'Practical and data questions', 'Questions on the required practicals, planning, variables, measurements, tables, graphs and evaluation. At least 15% of the marks in AQA GCSE science papers are on practical work.'],
+    ['equations', 'Equation', 'Equation questions', 'Write or balance a word or symbol equation, a half equation, or (in physics) recall and write down the equation that links quantities.'],
+    ['short-answer', 'Short answer', 'Short-answer questions', 'State, give, name and identify questions worth one or two marks.'],
+  ];
+
+  return T.filter(([, m]) => allQuestions.some((q) => q.format === m)).map(([slug, matcher, title, intro]) => ({ params: { type: slug }, props: { slug, matcher, title, intro, others: T.filter((t) => t[0] !== slug) } }));
+}
+const { slug, matcher, title, intro, others } = Astro.props;
+const match = (q) => matcher.startsWith('feature:') ? (q.features || []).includes(matcher.slice(8)) && q.format !== 'Multiple choice' : q.format === matcher;
+const qs = allQuestions.filter((q) => match(q) && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const papers = [...new Set(qs.map((q) => q.paper))].sort();
+---
+<Base title={`${title}: AQA GCSE ${S} past-paper questions`} description={`${qs.length} ${title.toLowerCase()} from AQA GCSE ${S} and Combined Science papers since 2018, with mark schemes and examiners' comments.`} context={`type:${slug}`}>
+  <h1>{title}</h1>
+  <p>{intro} {qs.length} questions.</p>
+  <p class="muted">Other types: {others.map((t, i) => <>{i ? ' · ' : ''}<a href={`/questions/type/${t[0]}/`}>{t[2]}</a></>)}</p>
+  <div class="filterbar"><div class="chips" role="group" aria-label="Filter">
+    <button class="chip" type="button" aria-pressed="true" data-filter="">All</button>
+    {papers.map((p) => <button class="chip" type="button" aria-pressed="false" data-filter={`paper:${p}`}>{p}</button>)}
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:Combined">Combined</button>
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:Separate">Separate</button>
+  </div><div class="count" id="count"></div></div>
+  {qs.map((q) => <div data-paper={q.paper}><QuestionCard q={q} showTopics={true} /></div>)}
+  <script>
+    const chips = document.querySelectorAll('.chip[data-filter]');
+    const wraps = document.querySelectorAll('[data-paper]');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false')); c.setAttribute('aria-pressed', 'true');
+      const [key, val] = (c.getAttribute('data-filter') || '').split(':');
+      wraps.forEach((w) => { const card = w.querySelector('.qcard'); const v = key === 'paper' ? w.dataset.paper : card.getAttribute('data-' + key); w.hidden = !!key && v !== val; });
+      document.getElementById('count').textContent = `Showing ${[...wraps].filter((w) => !w.hidden).length} of ${wraps.length}`;
+    }));
+  </script>
+</Base>

@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPapers } from '../../lib/data';
+import { S, SUBJ, AQA_SEP, AQA_TRI } from '../../lib/subject';
+const seriesList = [...new Set(allPapers.map((p) => p.series))];
+const cell = (series, qual, n) => allPapers.find((p) => p.series === series && p.qual === qual && Number(p.paperNo) === n);
+---
+<Base title={`AQA GCSE ${S} past papers (${SUBJ.code} and Combined Science 8464), higher tier, question by question`} description={`Every higher-tier AQA GCSE ${S} (${SUBJ.code}) and Combined Science: Trilogy ${S} paper since 2018, question by question with topics, mark schemes and examiners' comments.`} context="past-papers">
+  <h1>AQA GCSE {S} past papers</h1>
+  <p>Every higher-tier series since the first exams in 2018, plus AQA's specimen papers. Each paper page lists every question with its topic, marks and type, and shows the questions with their mark schemes and examiner's comments.</p>
+  <p><a class="btn" href={AQA_SEP} rel="noopener">AQA {S} resources</a> <a class="btn" href={AQA_TRI} rel="noopener">AQA Combined Science resources</a></p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Series</th><th>{S} Paper 1</th><th>{S} Paper 2</th><th>Combined Science {S} 1</th><th>Combined Science {S} 2</th></tr></thead>
+    <tbody>{seriesList.map((s) => <tr><td>{s}</td>{[['Separate', 1], ['Separate', 2], ['Trilogy', 1], ['Trilogy', 2]].map(([q, n]) => { const p = cell(s, q, n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>{q === 'Trilogy' ? `Trilogy ${n}` : `Paper ${n}`}</a> : '—'}</td>; })}</tr>)}</tbody>
+  </table></div>
+  <p class="muted">Separate {S} papers ({SUBJ.code}/1H and /2H) are 1 hour 45 minutes and 100 marks; the Combined Science: Trilogy {S} papers (8464/{SUBJ.letter}/1H and /2H) are 1 hour 15 minutes and 70 marks. There were no summer exams in 2020 or 2021; the November 2020 and November 2021 papers are the autumn series AQA ran instead. The specimen papers are AQA's sample set. The June 2026 papers will be added when AQA makes them public.</p>
+</Base>

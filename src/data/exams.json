@@ -1,0 +1,40 @@
+{
+ "series": "Summer 2027",
+ "source": "AQA GCSE exam timetable May/June 2027 (version 1.2)",
+ "sep": [
+  {
+   "code": "8461/1H",
+   "name": "GCSE Biology Paper 1",
+   "date": "2027-05-11",
+   "session": "Morning",
+   "length": "1 hour 45 minutes",
+   "marks": 100
+  },
+  {
+   "code": "8461/2H",
+   "name": "GCSE Biology Paper 2",
+   "date": "2027-06-10",
+   "session": "Morning",
+   "length": "1 hour 45 minutes",
+   "marks": 100
+  }
+ ],
+ "tri": [
+  {
+   "code": "8464/B/1H",
+   "name": "Combined Science: Trilogy, Biology Paper 1",
+   "date": "2027-05-11",
+   "session": "Morning",
+   "length": "1 hour 15 minutes",
+   "marks": 70
+  },
+  {
+   "code": "8464/B/2H",
+   "name": "Combined Science: Trilogy, Biology Paper 2",
+   "date": "2027-06-10",
+   "session": "Morning",
+   "length": "1 hour 15 minutes",
+   "marks": 70
+  }
+ ]
+}

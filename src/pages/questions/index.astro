@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allTopics } from '../../lib/data';
+import { GROUPS, badgeClass, badgeText } from '../../lib/groups';
+import { S, SUBJ } from '../../lib/subject';
+---
+<Base title={`AQA GCSE ${S} questions by topic (every higher-tier paper since 2018)`} description={`Every AQA GCSE ${S} and Combined Science ${S} past-paper question since 2018 sorted into ${allTopics.length} topics, each with mark schemes and examiners' comments.`} context="questions-index">
+  <h1>Questions by topic</h1>
+  <p>Every AQA GCSE {S} ({SUBJ.code}) and Combined Science: Trilogy {S} question from the higher-tier papers since June 2018, sorted into {allTopics.length} topics in the order of the specification. Each topic page shows every question with its mark scheme and the examiner's comment, with filters for Combined or Separate, paper, year and question type. Topics marked <em>separate only</em> are not in Combined Science.</p>
+  {GROUPS.map((g) => (
+    <>
+      <h2 class="strand-head">{g.heading}</h2>
+      <ul class="topic-list">
+        {allTopics.filter((t) => t.group === g.key).map((t) => <li><a href={`/questions/${t.slug}/`}><span>{t.name}</span><span class="strand"><span class={badgeClass(t.group)}>{badgeText(t.group)}</span> {!(t.asStatements || []).length && 'separate only · '}{t.parts} parts</span></a></li>)}
+      </ul>
+    </>
+  ))}
+  <h2>By question type</h2>
+  <p>Or work on a kind of question across every topic: <a href="/questions/type/multiple-choice/">multiple choice</a>, <a href="/questions/type/calculations/">calculations</a>, <a href="/questions/type/explanations/">explain and describe</a>, <a href="/questions/type/graphs-and-diagrams/">graphs and diagrams</a>, <a href="/questions/type/six-mark-questions/">six-mark extended responses</a>, <a href="/questions/type/practical-questions/">practical and data questions</a>, <a href="/questions/type/short-answer/">short answers</a>.</p>
+</Base>

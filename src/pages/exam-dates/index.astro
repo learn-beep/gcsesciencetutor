@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import exams from '../../data/exams.json';
+import { S, SUBJ } from '../../lib/subject';
+const fmt = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+const year = exams.series.split(' ')[1];
+---
+<Base title={`AQA GCSE ${S} exam dates ${year} with countdown (${SUBJ.code} and Combined Science)`} description={`Paper 1 and Paper 2 dates for AQA GCSE ${S} and the Combined Science: Trilogy ${S} papers in ${exams.series}, from AQA's timetable, with a countdown.`} context="exam-dates" leadLine="Weeks to go and a topic you still can't do? Message us.">
+  <h1>{S} exam dates: {exams.series}</h1>
+  <p class="muted">Days until {S} Paper 1</p>
+  <p class="countdown" id="countdown" data-date={exams.sep[0].date}>—</p>
+  {[['Separate ' + S + ' (' + SUBJ.code + ')', exams.sep], ['Combined Science: Trilogy (8464), ' + S + ' papers', exams.tri]].map(([h, rows]) => <>
+  <h2>{h}</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Paper</th><th>Date</th><th>Session</th><th>Length</th></tr></thead>
+    <tbody>{rows.map((e) => <tr><td>{e.name}<br /><span class="muted">{e.code}</span></td><td>{fmt(e.date)}</td><td>{e.session}</td><td>{e.length}, {e.marks} marks</td></tr>)}</tbody>
+  </table></div></>)}
+  <p class="muted">{exams.source}. The separate and Combined Science papers in {S} are on the same mornings. Higher and foundation tier are sat at the same time. Confirm times with your school: AQA sets the session, your centre sets the start time.</p>
+  <p><a href="/grade-boundaries/">Grade boundaries and calculators</a> · <a href="/planner/">Build a revision plan to Paper 1</a></p>
+  <script>
+    const el = document.getElementById('countdown');
+    const target = new Date(el.dataset.date + 'T09:00:00+01:00');
+    const days = Math.ceil((target - new Date()) / 86400000);
+    el.textContent = days > 0 ? `${days} days` : days === 0 ? 'Today' : 'Done';
+  </script>
+</Base>

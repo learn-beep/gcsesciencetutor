@@ -1,0 +1,125 @@
+{
+ "biology": {
+  "parts": 1356,
+  "papers": 36,
+  "topics": 28,
+  "sepOnly": 5,
+  "latest": 2025,
+  "exams": [
+   {
+    "code": "8461/1H",
+    "name": "GCSE Biology Paper 1",
+    "date": "2027-05-11",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8461/2H",
+    "name": "GCSE Biology Paper 2",
+    "date": "2027-06-10",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8464/B/1H",
+    "name": "Combined Science: Trilogy, Biology Paper 1",
+    "date": "2027-05-11",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   },
+   {
+    "code": "8464/B/2H",
+    "name": "Combined Science: Trilogy, Biology Paper 2",
+    "date": "2027-06-10",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   }
+  ]
+ },
+ "chemistry": {
+  "parts": 1404,
+  "papers": 36,
+  "topics": 34,
+  "sepOnly": 11,
+  "latest": 2025,
+  "exams": [
+   {
+    "code": "8462/1H",
+    "name": "GCSE Chemistry Paper 1",
+    "date": "2027-05-17",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8462/2H",
+    "name": "GCSE Chemistry Paper 2",
+    "date": "2027-06-15",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8464/C/1H",
+    "name": "Combined Science: Trilogy, Chemistry Paper 1",
+    "date": "2027-05-17",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   },
+   {
+    "code": "8464/C/2H",
+    "name": "Combined Science: Trilogy, Chemistry Paper 2",
+    "date": "2027-06-15",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   }
+  ]
+ },
+ "physics": {
+  "parts": 1284,
+  "papers": 36,
+  "topics": 36,
+  "sepOnly": 11,
+  "latest": 2025,
+  "exams": [
+   {
+    "code": "8463/1H",
+    "name": "GCSE Physics Paper 1",
+    "date": "2027-05-25",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8463/2H",
+    "name": "GCSE Physics Paper 2",
+    "date": "2027-06-18",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8464/P/1H",
+    "name": "Combined Science: Trilogy, Physics Paper 1",
+    "date": "2027-05-25",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   },
+   {
+    "code": "8464/P/2H",
+    "name": "Combined Science: Trilogy, Physics Paper 2",
+    "date": "2027-06-18",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   }
+  ]
+ }
+}

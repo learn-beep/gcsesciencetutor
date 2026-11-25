@@ -1,0 +1,16 @@
+---
+import Icon from './Icon.astro';
+import { IS_HOME } from '../lib/subject';
+---
+<nav class="bottom-bar" aria-label="Quick links">
+  {IS_HOME ? <>
+    <a href="/biology/"><Icon name="book" />Biology</a>
+    <a href="/chemistry/"><Icon name="book" />Chemistry</a>
+    <a href="/physics/"><Icon name="book" />Physics</a>
+  </> : <>
+    <a href="/questions/"><Icon name="book" />Topics</a>
+    <a href="/past-papers/"><Icon name="file" />Papers</a>
+    <a href="/practice/"><Icon name="target" />Practice</a>
+  </>}
+  <a class="tutor" href="/tutors/"><Icon name="users" />Tutor</a>
+</nav>

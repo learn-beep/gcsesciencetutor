@@ -1,0 +1,219 @@
+{
+ "site": {
+  "name": "GCSE Science Tutor",
+  "domain": "https://www.sciencegcsetutor.com",
+  "whatsapp": "447888786687",
+  "email": "enquiries@sciencegcsetutor.com",
+  "company": "aleveltutors.online Limited",
+  "companyNumber": "14401016",
+  "registeredOffice": "5 Northbrook Court, Northbrook Avenue, Winchester SO23 0JP",
+  "spec": "AQA GCSE Physics (8463) and Combined Science: Trilogy (8464), higher tier.",
+  "examYear": 2027,
+  "board": "physics",
+  "boardName": "AQA",
+  "subject": "Physics",
+  "sub": "physics",
+  "sep": "8463",
+  "tri": "8464",
+  "triLetter": "P",
+  "base": "/physics/"
+ },
+ "levelNames": {
+  "Separate": "Separate",
+  "Trilogy": "Combined"
+ },
+ "asLevel": "Combined",
+ "bothLabel": "GCSE Physics and Combined Science",
+ "onlyLabel": "GCSE Physics only (not in Combined Science)",
+ "noMcqLetters": true,
+ "paperNames": {
+  "8463-1": "Paper 1",
+  "8463-2": "Paper 2",
+  "8464-1": "Trilogy Paper 1",
+  "8464-2": "Trilogy Paper 2"
+ },
+ "oldSpecFlag": "not_current_spec",
+ "moduleFrom": "section",
+ "exams": {
+  "series": "Summer 2027",
+  "source": "AQA GCSE exam timetable May/June 2027 (version 1.2)",
+  "sep": [
+   {
+    "code": "8463/1H",
+    "name": "GCSE Physics Paper 1",
+    "date": "2027-05-25",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   },
+   {
+    "code": "8463/2H",
+    "name": "GCSE Physics Paper 2",
+    "date": "2027-06-18",
+    "session": "Morning",
+    "length": "1 hour 45 minutes",
+    "marks": 100
+   }
+  ],
+  "tri": [
+   {
+    "code": "8464/P/1H",
+    "name": "Combined Science: Trilogy, Physics Paper 1",
+    "date": "2027-05-25",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   },
+   {
+    "code": "8464/P/2H",
+    "name": "Combined Science: Trilogy, Physics Paper 2",
+    "date": "2027-06-18",
+    "session": "Morning",
+    "length": "1 hour 15 minutes",
+    "marks": 70
+   }
+  ]
+ },
+ "boundaries": {
+  "source": "AQA's published subject grade boundaries for the higher tier (June series). Grade 3 is the allowed grade on the higher tier for a mark just below grade 4.",
+  "sep": [
+   {
+    "series": "June 2026",
+    "max": 200,
+    "9": 157,
+    "8": 142,
+    "7": 128,
+    "6": 107,
+    "5": 87,
+    "4": 67,
+    "3": 57
+   },
+   {
+    "series": "June 2025",
+    "max": 200,
+    "9": 152,
+    "8": 139,
+    "7": 126,
+    "6": 107,
+    "5": 88,
+    "4": 70,
+    "3": 61
+   },
+   {
+    "series": "June 2024",
+    "max": 200,
+    "9": 151,
+    "8": 136,
+    "7": 122,
+    "6": 103,
+    "5": 85,
+    "4": 67,
+    "3": 58
+   },
+   {
+    "series": "June 2023",
+    "max": 200,
+    "9": 147,
+    "8": 133,
+    "7": 120,
+    "6": 102,
+    "5": 84,
+    "4": 67,
+    "3": 58
+   },
+   {
+    "series": "June 2022",
+    "max": 200,
+    "9": 150,
+    "8": 134,
+    "7": 119,
+    "6": 98,
+    "5": 77,
+    "4": 56,
+    "3": 45
+   }
+  ],
+  "tri": [
+   {
+    "series": "June 2026",
+    "max": 420,
+    "9-9": 298,
+    "9-8": 280,
+    "8-8": 262,
+    "8-7": 245,
+    "7-7": 228,
+    "7-6": 208,
+    "6-6": 188,
+    "6-5": 168,
+    "5-5": 149,
+    "5-4": 130,
+    "4-4": 111,
+    "4-3": 101
+   },
+   {
+    "series": "June 2025",
+    "max": 420,
+    "9-9": 299,
+    "9-8": 281,
+    "8-8": 263,
+    "8-7": 245,
+    "7-7": 228,
+    "7-6": 206,
+    "6-6": 184,
+    "6-5": 162,
+    "5-5": 140,
+    "5-4": 118,
+    "4-4": 96,
+    "4-3": 85
+   },
+   {
+    "series": "June 2024",
+    "max": 420,
+    "9-9": 289,
+    "9-8": 270,
+    "8-8": 251,
+    "8-7": 233,
+    "7-7": 215,
+    "7-6": 194,
+    "6-6": 173,
+    "6-5": 153,
+    "5-5": 133,
+    "5-4": 113,
+    "4-4": 93,
+    "4-3": 83
+   },
+   {
+    "series": "June 2023",
+    "max": 420,
+    "9-9": 291,
+    "9-8": 273,
+    "8-8": 255,
+    "8-7": 237,
+    "7-7": 220,
+    "7-6": 199,
+    "6-6": 179,
+    "6-5": 159,
+    "5-5": 139,
+    "5-4": 119,
+    "4-4": 99,
+    "4-3": 89
+   },
+   {
+    "series": "June 2022",
+    "max": 420,
+    "9-9": 276,
+    "9-8": 257,
+    "8-8": 238,
+    "8-7": 220,
+    "7-7": 202,
+    "7-6": 183,
+    "6-6": 164,
+    "6-5": 145,
+    "5-5": 126,
+    "5-4": 107,
+    "4-4": 89,
+    "4-3": 80
+   }
+  ]
+ }
+}

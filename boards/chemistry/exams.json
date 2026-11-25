@@ -1,0 +1,40 @@
+{
+ "series": "Summer 2027",
+ "source": "AQA GCSE exam timetable May/June 2027 (version 1.2)",
+ "sep": [
+  {
+   "code": "8462/1H",
+   "name": "GCSE Chemistry Paper 1",
+   "date": "2027-05-17",
+   "session": "Morning",
+   "length": "1 hour 45 minutes",
+   "marks": 100
+  },
+  {
+   "code": "8462/2H",
+   "name": "GCSE Chemistry Paper 2",
+   "date": "2027-06-15",
+   "session": "Morning",
+   "length": "1 hour 45 minutes",
+   "marks": 100
+  }
+ ],
+ "tri": [
+  {
+   "code": "8464/C/1H",
+   "name": "Combined Science: Trilogy, Chemistry Paper 1",
+   "date": "2027-05-17",
+   "session": "Morning",
+   "length": "1 hour 15 minutes",
+   "marks": 70
+  },
+  {
+   "code": "8464/C/2H",
+   "name": "Combined Science: Trilogy, Chemistry Paper 2",
+   "date": "2027-06-15",
+   "session": "Morning",
+   "length": "1 hour 15 minutes",
+   "marks": 70
+  }
+ ]
+}

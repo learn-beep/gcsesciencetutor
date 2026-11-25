@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import { allQuestions, allTopics } from '../../lib/data';
+import { S, s as sl } from '../../lib/subject';
+const lor = allQuestions.filter((q) => q.format === 'Extended response' && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const title = (q) => { const lines = q.text.split('\n').map((l) => l.trim()).filter((l) => l && !/^\.{3,}|^Extra answer space|^Additional answer space|^\[\d+\]$|^\d+$|^SECTION|^Answer all|^©|^Turn over/i.test(l)); const i = lines.findIndex((l) => /\*/.test(l)); const pick = (i >= 0 ? lines.slice(i, i + 3) : lines.slice(-3)).join(' '); return pick.replace(/^\d*\s*\(?[a-z]?\)?\s*(\([ivx]+\))?\*?\s*/i, '').replace(/\s*\[\d+\]\s*$/, '').replace(/\.{4,}.*/, '').slice(0, 230); };
+const byTopic = allTopics.map((t) => [t, lor.filter((q) => q.topics.includes(t.slug))]).filter(([, qs]) => qs.length);
+---
+<Base title={`Every AQA GCSE ${S} six-mark question, by topic, with a timed tool`} description={`All the levels-marked extended response questions (four and six marks) on AQA GCSE ${S} and Combined Science papers since 2018, grouped by topic, with a timed practice tool.`} context="six-mark-questions" leadLine="Stuck at Level 2 on the six-markers? That is one of the quickest things to fix with a tutor.">
+  <h1>Six-mark extended response questions</h1>
+  <p>{lor.length} extended response questions marked by level, grouped by topic: {lor.filter((q) => q.marks === 6).length} worth six marks and {lor.filter((q) => q.marks === 4).length} worth four. Most papers have one or two. Pick one to answer under timed conditions (about a minute a mark, so six minutes), then open the mark scheme with its levels and indicative content and decide your level.</p>
+  <h2>How they are marked</h2>
+  <div class="table-wrap"><table><thead><tr><th>Level</th><th>Marks</th><th>What it takes</th></tr></thead><tbody>
+    <tr><td>Level 3</td><td>5–6</td><td>A detailed, coherent answer covering every part of the question, with the steps in a logical order and correct scientific terms.</td></tr>
+    <tr><td>Level 2</td><td>3–4</td><td>Most of the question is covered with some correct science, but one part is missing or thin, or the order or linking is weak.</td></tr>
+    <tr><td>Level 1</td><td>1–2</td><td>Some relevant points, with little structure or linking.</td></tr>
+  </tbody></table></div>
+  <p class="muted">Four-mark questions have two levels: 1–2 and 3–4. The examiner decides the level from the indicative content and how well it is linked, then the higher or lower mark in that level. Many six-markers have two strands (for example: describe a method and say how to make it valid, or compare two things): cover both. A list of correct facts with no linking usually stays in Level 2. Summary written by the site from AQA's mark schemes; being checked by our tutor.</p>
+  <h2>Timed practice</h2>
+  <div class="panel">
+    <div class="chips" id="topic-chips">{byTopic.map(([t]) => <button class="chip" type="button" data-topic={t.slug} aria-pressed="false">{t.name.split(':')[0]}</button>)}</div>
+    <div class="chips" data-group="level"><button class="chip" type="button" data-v="" aria-pressed="true">Either</button><button class="chip" type="button" data-v="Combined">Combined Science papers</button><button class="chip" type="button" data-v="Separate">Separate {S} papers</button></div>
+    <div><button class="btn btn-accent" type="button" id="draw">Give me a question</button> <span class="muted">(random from the selected topics, or from all)</span></div>
+  </div>
+  <div id="play" hidden>
+    <div class="playbar"><span id="which"></span><span class="timer" id="timer">6:00</span><button class="btn" type="button" id="starttimer"><Icon name="timer" />Start the clock</button></div>
+    <div id="card"></div>
+  </div>
+  <h2>All the questions by topic</h2>
+  {byTopic.map(([t, qs]) => <><h3><a href={`/questions/${t.slug}/`}>{t.name}</a> <span class="muted">({qs.length})</span></h3>
+    <div class="table-wrap"><table><thead><tr><th>Series</th><th>Paper</th><th>What it asks</th></tr></thead>
+    <tbody>{qs.map((q) => <tr><td>{q.series}</td><td>{q.paper} Q{q.question}</td><td><a href={`/questions/${t.slug}/#${q.id}`}>{title(q)}</a></td></tr>)}</tbody></table></div></>)}
+  <script>
+    import { loadBank, card, saveScore, shuffle, fmtTime } from '../../scripts/player.js';
+    const $ = (s) => document.querySelector(s);
+    const sel = new Set(); let level = '', bank = null, timer = null, secs = 360, current = null;
+    document.querySelectorAll('[data-topic]').forEach((b) => b.addEventListener('click', () => { const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', String(on)); on ? sel.add(b.dataset.topic) : sel.delete(b.dataset.topic); }));
+    document.querySelectorAll('[data-group="level"] .chip').forEach((b) => b.addEventListener('click', () => { document.querySelectorAll('[data-group="level"] .chip').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true'); level = b.dataset.v; }));
+    loadBank().then((b) => { bank = b; });
+    $('#draw').addEventListener('click', () => {
+      if (!bank) return;
+      const pool = bank.q.filter((q) => q.f === 'Extended response' && !q.old && q.c && (!level || q.l === level) && (!sel.size || q.t.some((t) => sel.has(t))));
+      if (!pool.length) return;
+      current = shuffle(pool)[0];
+      secs = Math.round(current.m * 60);
+      $('#play').hidden = false; $('#which').textContent = `${current.s} ${current.p} Q${current.q} (${current.m} marks)`; $('#timer').textContent = fmtTime(secs); if (timer) clearInterval(timer);
+      const holder = $('#card'); holder.innerHTML = ''; holder.appendChild(card(current, { mark: true, onMark: (m) => saveScore(current.t, m, current.m, current.id) }));
+      window.scrollTo({ top: $('#play').offsetTop - 80, behavior: 'smooth' });
+    });
+    $('#starttimer').addEventListener('click', () => { if (timer) clearInterval(timer); timer = setInterval(() => { secs--; $('#timer').textContent = fmtTime(Math.max(secs, 0)); if (secs <= 0) { clearInterval(timer); $('#timer').textContent = "Time's up"; } }, 1000); });
+  </script>
+</Base>

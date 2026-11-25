@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import b from '../../data/boundaries.json';
+import { S, SUBJ } from '../../lib/subject';
+const G = ['9', '8', '7', '6', '5', '4', '3'];
+const T = ['9-9', '9-8', '8-8', '8-7', '7-7', '7-6', '6-6', '6-5', '5-5', '5-4', '4-4', '4-3'];
+---
+<Base title={`AQA GCSE ${S} grade boundaries 2022–2026 and grade calculator (higher tier)`} description={`AQA GCSE ${S} (${SUBJ.code}) and Combined Science: Trilogy (8464) higher-tier grade boundaries since 2022, with calculators that turn your paper marks into a grade.`} context="grade-boundaries" leadLine="Short of the grade you need? A tutor can work out exactly where the marks are.">
+  <h1>Grade boundaries and grade calculator</h1>
+  <p>AQA adds the raw marks from the papers and sets boundaries on the total. Boundaries move every year with the difficulty of the papers, so use the last few series as a range, not a target. All figures are for the higher tier, where grade 3 is the "allowed" grade for a total just below grade 4.</p>
+
+  <h2>Separate {S} ({SUBJ.code}), out of 200</h2>
+  <div class="calc" id="calc-sep">
+    <label>Paper 1 mark (out of 100) <input type="number" min="0" max="100" data-sep inputmode="numeric" /></label>
+    <label>Paper 2 mark (out of 100) <input type="number" min="0" max="100" data-sep inputmode="numeric" /></label>
+    <label>Compare with <select id="series-sep">{b.sep.map((r) => <option value={r.series}>{r.series} boundaries</option>)}</select></label>
+    <div class="result" id="result-sep">Enter your marks</div>
+    <div class="muted" id="next-sep"></div>
+  </div>
+  <div class="table-wrap"><table><thead><tr><th>Series</th>{G.map((g) => <th>{g}</th>)}</tr></thead>
+    <tbody>{b.sep.map((r) => <tr><td>{r.series}</td>{G.map((g) => <td>{r[g]}</td>)}</tr>)}</tbody></table></div>
+
+  <h2>Combined Science: Trilogy (8464), out of 420</h2>
+  <p>Combined Science is graded on all six papers together, biology, chemistry and physics, each out of 70. The grade is a double grade from 9-9 to 1-1, so you need your marks from the other two sciences too.</p>
+  <div class="calc" id="calc-tri">
+    {['Biology 1', 'Biology 2', 'Chemistry 1', 'Chemistry 2', 'Physics 1', 'Physics 2'].map((n) => <label>{n} (out of 70) <input type="number" min="0" max="70" data-tri inputmode="numeric" /></label>)}
+    <label>Compare with <select id="series-tri">{b.tri.map((r) => <option value={r.series}>{r.series} boundaries</option>)}</select></label>
+    <div class="result" id="result-tri">Enter your marks</div>
+    <div class="muted" id="next-tri"></div>
+  </div>
+  <div class="table-wrap"><table><thead><tr><th>Series</th>{T.map((g) => <th>{g}</th>)}</tr></thead>
+    <tbody>{b.tri.map((r) => <tr><td>{r.series}</td>{T.map((g) => <td>{r[g]}</td>)}</tr>)}</tbody></table></div>
+  <p class="muted">{b.source}</p>
+  <script define:vars={{ sep: b.sep, tri: b.tri, G, T }}>
+    function setup(key, rows, grades, max) {
+      const inputs = [...document.querySelectorAll(`[data-${key}]`)], sel = document.getElementById(`series-${key}`);
+      const out = document.getElementById(`result-${key}`), next = document.getElementById(`next-${key}`);
+      function update() {
+        const vals = inputs.map((i) => i.value.trim());
+        if (vals.some((v) => v === '')) { out.textContent = vals.every((v) => v === '') ? 'Enter your marks' : `Enter all ${inputs.length} marks`; next.textContent = ''; return; }
+        const total = vals.reduce((a, v) => a + Number(v), 0);
+        const row = rows.find((r) => r.series === sel.value);
+        const idx = grades.findIndex((g) => total >= row[g]);
+        const grade = idx === -1 ? 'below ' + grades[grades.length - 1] : grades[idx];
+        out.textContent = `${total}/${max}: grade ${grade} on ${row.series} boundaries`;
+        if (idx === 0) next.textContent = `${total - row[grades[0]]} marks above the top boundary.`;
+        else { const ng = idx === -1 ? grades[grades.length - 1] : grades[idx - 1]; const need = row[ng] - total; next.textContent = `${need} more mark${need === 1 ? '' : 's'} for ${ng.startsWith("8") ? "an" : "a"} ${ng}.`; }
+      }
+      [...inputs, sel].forEach((el) => el.addEventListener('input', update));
+    }
+    setup('sep', sep, G, 200); setup('tri', tri, T, 420);
+  </script>
+</Base>

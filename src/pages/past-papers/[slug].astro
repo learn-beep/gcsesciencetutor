@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allPapers, byId, topicByslug } from '../../lib/data';
+import { S, SUBJ, AQA_SEP, AQA_TRI, isWithdrawn } from '../../lib/subject';
+export function getStaticPaths() {
+  return allPapers.map((p) => ({ params: { slug: p.slug }, props: { paper: p } }));
+}
+const { paper } = Astro.props;
+const qs = paper.questions.map((id) => byId.get(id)).filter(Boolean);
+const old = qs.filter((q) => q.notCurrentSpec).length;
+const n = Number(paper.paperNo);
+const tri = paper.qual === 'Trilogy';
+const code = tri ? `8464/${SUBJ.letter}/${n}H` : `${SUBJ.code}/${n}H`;
+const name = tri ? `Combined Science: Trilogy ${S} Paper ${n}` : `GCSE ${S} Paper ${n}`;
+const title = `${paper.series} ${name} (${code})`;
+const withdrawn = isWithdrawn(paper.slug);
+---
+<Base title={`AQA ${title}: questions, mark scheme and examiner's report`} description={`Every question in AQA ${title}, higher tier, with its topic, marks and AO split, the mark scheme and the examiner's comments.`} context={`paper:${paper.slug}`} leadLine="Want a paper marked and gone through with you? Message us.">
+  <h1>{paper.series}: {name}</h1>
+  <p class="muted">{code}, higher tier · {tri ? '1 hour 15 minutes, 70 marks' : '1 hour 45 minutes, 100 marks'} · {qs.length} question parts · {withdrawn ? 'AQA has since taken this paper off its website; the questions here are from copies of AQA\'s own PDFs' : <a href={tri ? AQA_TRI : AQA_SEP} rel="noopener">Paper, mark scheme and report on AQA's site</a>}{paper.series.startsWith('November') ? ' · An autumn series held instead of the cancelled summer exams' : ''}{SUBJ.sub === 'physics' ? <> · Have the <a href="/equations/">equation sheet</a> beside you</> : ''}{SUBJ.sub === 'chemistry' ? ' · You are given a periodic table' : ''}</p>
+  {paper.total < (tri ? 70 : 100) && <p class="muted">AQA withdrew some questions from the published version of this paper ({paper.total} of {tri ? 70 : 100} marks are here).</p>}
+  <h2>Question by question</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Q</th><th>Topic</th><th>Marks</th><th>AO</th><th>Type</th></tr></thead>
+    <tbody>{qs.map((q) => <tr>
+      <td><a href={`#${q.id}`}>{q.question}</a></td>
+      <td>{q.topics.map((t, i) => <>{i ? ', ' : ''}<a href={`/questions/${t}/`}>{topicByslug.get(t)?.name ?? t}</a></>)}</td>
+      <td>{q.marks}</td><td>{q.aoText}</td><td>{q.format}</td>
+    </tr>)}</tbody>
+  </table></div>
+  <h2>The questions</h2>
+  <div class="jump">{qs.map((q) => <a href={`#${q.id}`}>{q.question}</a>)}</div>
+  {qs.map((q) => <QuestionCard q={q} showTopics={true} />)}
+</Base>

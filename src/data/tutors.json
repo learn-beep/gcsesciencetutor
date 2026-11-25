@@ -1,0 +1,21 @@
+[
+ {
+  "name": "Sam",
+  "slug": "sam",
+  "title": "Currently teaching A-level Biology at an outstanding sixth-form college · qualified teacher · GCSE and IGCSE, any exam board",
+  "photo": "/tutors/sam.webp",
+  "fee": "£100 per hour",
+  "bio": [
+   "Sam is a qualified teacher who works full time at an outstanding sixth-form college, where he teaches A-level Biology and is very popular with his students.",
+   "Before that he taught GCSE Science and GCSE Biology for many years at an excellent grammar school, where his classes achieved outstanding results. He is happy to teach GCSE Biology, Chemistry, Physics and Combined Science for any GCSE or IGCSE exam board."
+  ],
+  "offers": [
+   "One-to-one online lessons for Year 10 and Year 11, at a regular weekly slot",
+   "Separate sciences (Biology, Chemistry, Physics) and Combined Science, higher or foundation tier, AQA or any other GCSE or IGCSE board",
+   "Topic-by-topic teaching of anything that hasn't clicked in class, with past-paper questions marked against the mark scheme",
+   "The required practicals, the calculations and the six-mark questions, which is where most marks are lost",
+   "Mock-paper walk-throughs before the May and June exams"
+  ],
+  "reviews": []
+ }
+]
