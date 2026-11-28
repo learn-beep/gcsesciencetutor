@@ -1,22 +1,25 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { RECALL, GIVEN, AQA_SEP } from '../../lib/subject';
-const row = ([eq, words, sep, ht]) => ({ eq, words, tags: [sep ? 'Separate only' : '', ht ? 'Higher tier' : ''].filter(Boolean).join(', ') });
+import { EQUATIONS, AQA_SEP } from '../../lib/subject';
+const n = EQUATIONS.reduce((k, [, rows]) => k + rows.length, 0);
+const tag = (r) => [r[2] ? 'Separate only' : '', r[3] ? 'Higher tier' : ''].filter(Boolean).join(', ');
 ---
-<Base title="GCSE Physics equations: the ones to learn and the AQA equation sheet" description="Every equation in AQA GCSE Physics and Combined Science physics: the ones you must recall and the ones given on the equation sheet, with the separate-only and higher-tier equations marked." context="equations" leadLine="Losing marks on the equations? A tutor can drill the recall equations and show you how to set out the calculations.">
+<Base title="GCSE Physics equation sheet (AQA): every equation you are given in the exam" description="Every equation on AQA's Physics Equations Sheet, given with each GCSE Physics and Combined Science physics paper, with the separate-only and higher-tier equations marked and how to use them." context="equations" leadLine="Losing marks on the equations? A tutor can show you how to choose the right one and set out the calculation.">
   <h1>GCSE Physics equations</h1>
-  <p>AQA splits the physics equations into two lists. The ones in the first table you must <strong>recall and apply</strong>: they are not given in the exam. The ones in the second are on the <strong>Physics equation sheet</strong> that comes with every GCSE Physics and Combined Science physics paper, so you need to be able to select and apply them. Equations marked <em>separate only</em> are not in Combined Science; <em>higher tier</em> ones are only on the higher-tier papers.</p>
-  <h2>Equations to learn</h2>
-  <div class="table-wrap"><table><thead><tr><th>Equation</th><th>In words</th><th></th></tr></thead><tbody>{RECALL.map(row).map((r) => <tr><td><strong>{r.eq}</strong></td><td>{r.words}</td><td class="muted">{r.tags}</td></tr>)}</tbody></table></div>
-  <h2>On the equation sheet</h2>
-  <div class="table-wrap"><table><thead><tr><th>Equation</th><th>In words</th><th></th></tr></thead><tbody>{GIVEN.map(row).map((r) => <tr><td><strong>{r.eq}</strong></td><td>{r.words}</td><td class="muted">{r.tags}</td></tr>)}</tbody></table></div>
-  <p class="muted">Both lists were written out by the site from AQA's specification and equation sheet and are being checked by our tutor. If something differs from the sheet in your exam, the sheet is right: please <a href="/report/">tell us</a>. <a href={AQA_SEP} rel="noopener">AQA's Physics resources</a>.</p>
-  <h2>Using them in the exam</h2>
+  <p><strong>You do not need to memorise the physics equations.</strong> AQA gives the full Physics Equations Sheet as an insert with every GCSE Physics and Combined Science physics paper. That is confirmed for the 2027 exams, and Ofqual has decided the sheets will continue from 2028 for as long as the current specification runs. The marks are for choosing the right equation, rearranging it and using it correctly, and the sheet gives no units, so those you do need to know.</p>
+  <p>These are the equations on the sheet, in the same order. Ones marked <em>separate only</em> are not in Combined Science; <em>higher tier</em> ones are only needed on the higher-tier papers.</p>
+  {EQUATIONS.map(([h, rows]) => <>
+    <h2>{h}</h2>
+    <div class="table-wrap"><table><thead><tr><th>Equation</th><th>In words</th><th></th></tr></thead><tbody>{rows.map((r) => <tr><td><strong>{r[0]}</strong></td><td>{r[1]}</td><td class="muted">{tag(r)}</td></tr>)}</tbody></table></div>
+  </>)}
+  <p class="muted">Checked against AQA's Physics Equations Sheet for June 2027 (GCSE Physics, 8463). The separate-only labels are the site's, from the specification, and are being checked by our tutor. If anything differs from the sheet in your exam, the sheet is right: please <a href="/report/">tell us</a>. <a href={AQA_SEP} rel="noopener">AQA's Physics resources</a>.</p>
+  <h2>Using the sheet in the exam</h2>
   <ul>
+    <li>Get to know the sheet before the exam, so you can find an equation quickly. It is in topic order, as on this page.</li>
     <li>Write the equation down first, then substitute, then the answer with its unit. The working often earns marks even when the final answer goes wrong.</li>
-    <li>Convert to the units in the equation before substituting: g to kg, kJ to J, minutes to seconds, cm to m.</li>
-    <li>If a question says "write down the equation that links", give the symbols or the words exactly; a rearranged form also scores.</li>
+    <li>Convert to standard units before substituting: g to kg, kJ to J, minutes to seconds, cm to m.</li>
+    <li>Past papers from 2018 and 2019 expected some equations to be recalled, so their "write down the equation that links" questions are easier now.</li>
     <li>Give the answer to the number of significant figures the question asks for, or the same as the data.</li>
   </ul>
-  <p><a href="/maths-skills/">Maths skills</a> · <a href="/questions/type/calculations/">Every calculation question</a> · <a href="/questions/type/equations/">Every "write down the equation" question</a></p>
+  <p><a href="/maths-skills/">Maths skills</a> · <a href="/questions/type/calculations/">Every calculation question</a></p>
 </Base>

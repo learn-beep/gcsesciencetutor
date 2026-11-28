@@ -67,45 +67,56 @@ export const PRACTICALS: Record<Sub, RP[]> = {
   ],
 };
 
-// Physics: the equations students must recall, and those given on AQA's equation sheet in the exam.
-// Written by the site from the specification; being checked by our tutor. [equation, words, separate physics only, higher tier only]
-export const RECALL: [string, string, boolean, boolean][] = [
-  ['W = m g', 'weight = mass × gravitational field strength', false, false],
-  ['W = F s', 'work done = force × distance (along the line of action of the force)', false, false],
-  ['F = k e', 'force applied to a spring = spring constant × extension', false, false],
-  ['M = F d', 'moment of a force = force × distance (normal to direction of force)', true, false],
-  ['p = F / A', 'pressure = force normal to a surface ÷ area of that surface', true, false],
-  ['s = v t', 'distance travelled = speed × time', false, false],
-  ['a = Δv / t', 'acceleration = change in velocity ÷ time taken', false, false],
-  ['F = m a', 'resultant force = mass × acceleration', false, false],
-  ['p = m v', 'momentum = mass × velocity', false, true],
-  ['Eₖ = ½ m v²', 'kinetic energy = 0.5 × mass × speed²', false, false],
-  ['Eₚ = m g h', 'gravitational potential energy = mass × gravitational field strength × height', false, false],
-  ['P = E / t', 'power = energy transferred ÷ time', false, false],
-  ['P = W / t', 'power = work done ÷ time', false, false],
-  ['efficiency = useful output energy ÷ total input energy', 'or useful power output ÷ total power input', false, false],
-  ['Q = I t', 'charge flow = current × time', false, false],
-  ['V = I R', 'potential difference = current × resistance', false, false],
-  ['P = V I', 'power = potential difference × current', false, false],
-  ['P = I² R', 'power = current² × resistance', false, false],
-  ['E = P t', 'energy transferred = power × time', false, false],
-  ['E = Q V', 'energy transferred = charge flow × potential difference', false, false],
-  ['ρ = m / V', 'density = mass ÷ volume', false, false],
-  ['v = f λ', 'wave speed = frequency × wavelength', false, false],
-];
-export const GIVEN: [string, string, boolean, boolean][] = [
-  ['v² − u² = 2 a s', '(final velocity)² − (initial velocity)² = 2 × acceleration × distance', false, false],
-  ['F = m Δv / Δt', 'force = mass × change in velocity ÷ time taken', true, true],
-  ['Eₑ = ½ k e²', 'elastic potential energy = 0.5 × spring constant × extension²', false, false],
-  ['ΔE = m c Δθ', 'change in thermal energy = mass × specific heat capacity × temperature change', false, false],
-  ['T = 1 / f', 'period = 1 ÷ frequency', false, false],
-  ['magnification = image height ÷ object height', '', true, false],
-  ['F = B I l', 'force on a conductor in a magnetic field = magnetic flux density × current × length', false, true],
-  ['E = m L', 'thermal energy for a change of state = mass × specific latent heat', false, false],
-  ['Vₚ Iₚ = Vₛ Iₛ', 'potential difference × current across the primary coil = across the secondary coil (100% efficient transformer)', false, true],
-  ['Vₚ / Vₛ = nₚ / nₛ', 'ratio of potential differences = ratio of turns (transformer)', true, false],
-  ['p = h ρ g', 'pressure due to a column of liquid = height × density × gravitational field strength', true, true],
-  ['p V = constant', 'pressure × volume, for a fixed mass of gas at constant temperature', true, false],
+// Physics: every equation on AQA's Physics Equations Sheet, in the order of the sheet. The full sheet is an insert with every
+// GCSE Physics and Combined Science physics paper (2027 exams, and from 2028 for the life of the specification), so none need memorising.
+// Checked against AQA's "Physics Equations Sheet, GCSE Physics (8463), for use in June 2027". [equation, words, separate physics only, higher tier only]
+export const EQUATIONS: [string, [string, string, boolean, boolean][]][] = [
+  ['Energy', [
+    ['Eₖ = ½ m v²', 'kinetic energy = 0.5 × mass × (speed)²', false, false],
+    ['Eₑ = ½ k e²', 'elastic potential energy = 0.5 × spring constant × (extension)²', false, false],
+    ['Eₚ = m g h', 'gravitational potential energy = mass × gravitational field strength × height', false, false],
+    ['ΔE = m c Δθ', 'change in thermal energy = mass × specific heat capacity × temperature change', false, false],
+    ['P = E / t', 'power = energy transferred ÷ time', false, false],
+    ['P = W / t', 'power = work done ÷ time', false, false],
+    ['efficiency', 'useful output energy transfer ÷ total input energy transfer, or useful power output ÷ total power input', false, false],
+  ]],
+  ['Electricity', [
+    ['Q = I t', 'charge flow = current × time', false, false],
+    ['V = I R', 'potential difference = current × resistance', false, false],
+    ['P = V I', 'power = potential difference × current', false, false],
+    ['P = I² R', 'power = (current)² × resistance', false, false],
+    ['E = P t', 'energy transferred = power × time', false, false],
+    ['E = Q V', 'energy transferred = charge flow × potential difference', false, false],
+  ]],
+  ['Particle model of matter', [
+    ['ρ = m / V', 'density = mass ÷ volume', false, false],
+    ['E = m L', 'thermal energy for a change of state = mass × specific latent heat', false, false],
+    ['p V = constant', 'for gases: pressure × volume = constant', true, false],
+  ]],
+  ['Forces', [
+    ['W = m g', 'weight = mass × gravitational field strength', false, false],
+    ['W = F s', 'work done = force × distance (along the line of action of the force)', false, false],
+    ['F = k e', 'force = spring constant × extension', false, false],
+    ['M = F d', 'moment of a force = force × distance (normal to direction of force)', true, false],
+    ['p = F / A', 'pressure = force normal to a surface ÷ area of that surface', true, false],
+    ['p = h ρ g', 'pressure due to a column of liquid = height of column × density of liquid × gravitational field strength', true, true],
+    ['s = v t', 'distance travelled = speed × time', false, false],
+    ['a = Δv / t', 'acceleration = change in velocity ÷ time taken', false, false],
+    ['v² − u² = 2 a s', '(final velocity)² − (initial velocity)² = 2 × acceleration × distance', false, false],
+    ['F = m a', 'resultant force = mass × acceleration', false, false],
+    ['p = m v', 'momentum = mass × velocity', false, true],
+    ['F = m Δv / Δt', 'force = change in momentum ÷ time taken', true, true],
+  ]],
+  ['Waves', [
+    ['T = 1 / f', 'period = 1 ÷ frequency', false, false],
+    ['v = f λ', 'wave speed = frequency × wavelength', false, false],
+    ['magnification', 'image height ÷ object height', true, false],
+  ]],
+  ['Magnetism and electromagnetism', [
+    ['F = B I l', 'force on a conductor (at right angles to a magnetic field) carrying a current = magnetic flux density × current × length', false, true],
+    ['Vₚ / Vₛ = nₚ / nₛ', 'p.d. across primary coil ÷ p.d. across secondary coil = turns in primary coil ÷ turns in secondary coil', true, true],
+    ['Vₚ Iₚ = Vₛ Iₛ', 'p.d. across primary coil × current in primary coil = p.d. across secondary coil × current in secondary coil', false, true],
+  ]],
 ];
 
 // Papers AQA has since taken off its website (the copies here are AQA's own PDFs from other sites).
